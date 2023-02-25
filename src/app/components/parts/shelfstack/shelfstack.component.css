@@ -1,13 +1,10 @@
 .shelfstack{
     display: flex;
     flex-direction: row;
-    /* size; */
     height: 100%;
-    /* width: 100%; */
     align-items: flex-end;
     padding: 10px;
     justify-content: flex-end;
-    /* background-color: green; */
 }
 .content-stack{
     /* background-color: blue; */

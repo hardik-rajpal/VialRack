@@ -1,27 +1,25 @@
 <div class="main">
-    <app-shelfstack [width]="getshelfstackwidth()">
+    <app-shelfstack #shelfstack [width]="autoOrgStackWidth">
         <app-shelf>
             <p style="color: aliceblue;">Hey There</p>
         </app-shelf>        
         <app-shelf></app-shelf>        
 
     </app-shelfstack>
-    <app-shelfstack [width]="getshelfstackwidth()">
+    <app-shelfstack #shelfstack [width]="autoOrgStackWidth">
         <app-shelf></app-shelf>
         <app-shelf></app-shelf>
         <app-shelf></app-shelf>
         <app-shelf></app-shelf>
         <app-shelf></app-shelf>
         <app-shelf></app-shelf>
-        <app-shelf></app-shelf>
-        <app-shelf></app-shelf>
-        <app-shelf></app-shelf>
-        <app-shelf></app-shelf>
-        <app-shelf></app-shelf>
-        <app-shelf></app-shelf>
-
     </app-shelfstack>
-    <app-shelfstack [width]="getshelfstackwidth()">
+    <app-shelf [absPos]="[200,100]">
+    </app-shelf>
+    <app-shelf [absPos]="[400,300]"></app-shelf>
+    <app-shelfstack #shelfstack [width]="autoOrgStackWidth" [absPos]="[200,300]">
+        <app-shelf></app-shelf>
+        <app-shelf></app-shelf>
         <app-shelf></app-shelf>
     </app-shelfstack>
 </div>
