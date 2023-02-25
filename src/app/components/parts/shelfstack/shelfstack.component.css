@@ -1,0 +1,26 @@
+.shelfstack{
+    display: flex;
+    flex-direction: row;
+    /* size; */
+    height: 100%;
+    /* width: 100%; */
+    align-items: flex-end;
+    padding: 10px;
+    justify-content: flex-end;
+    /* background-color: green; */
+}
+.content-stack{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.boundary{
+    width: 10px;
+    /* height: 100px; */
+    background-image: url('/assets/boundary.png');
+    background-repeat: repeat;
+    float: left;
+}
