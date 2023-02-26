@@ -7,6 +7,8 @@ import { Component, Input,OnInit,ViewChild,ElementRef } from '@angular/core';
 })
 export class ShelfComponent implements OnInit{
   @Input() absPos:number[]=[];
+  @Input() label:string = '';
+  @Input() plaqueType:number = 1;
   divRefStyle:{[kclass:string]:any} = {
     'display': 'flex',
   'flex-direction': 'column',

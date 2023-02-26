@@ -1,4 +1,11 @@
 <div class="shelf" [ngStyle]="divRefStyle">
     <ng-content></ng-content>
     <img width="100%" src="assets/shelf3.png">
+    <div class="plaqueparts" *ngIf="plaqueType===1&&label.length>0">
+        <img class="plaque" src="assets/plaques/plaque1beg.png">
+        <div class="plaque">
+            <p style="padding-bottom: 7px;font-family:'Century Gothic';">{{label}}</p>
+        </div>
+        <img class="plaque" src="assets/plaques/plaque1end.png">
+    </div>
 </div>
