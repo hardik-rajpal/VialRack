@@ -11,12 +11,19 @@ div.plaqueparts{
     flex-direction: row;
 
 }
-.plaque{
+.p1{
+    background-image: url('/assets/plaques/plaque1mid.png');
+    height: 50px;
+}
+.p2{
+    background-image: url('/assets/plaques/plaque2mid.png');
     height: 50px;
 }
 div.plaque{
-    background-image: url('/assets/plaques/plaque1mid.png');
-    background-size: contain;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

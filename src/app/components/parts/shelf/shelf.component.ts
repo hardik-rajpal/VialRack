@@ -23,5 +23,6 @@ export class ShelfComponent implements OnInit{
       this.divRefStyle['top'] = this.absPos[1].toString()+'px';
       this.divRefStyle['left'] = this.absPos[0].toString()+'px';
     }
+    console.log(this.plaqueType)
   }
 }
