@@ -1,9 +1,12 @@
 .shelfstack{
-    border: 5px #643c13 solid;
-    box-shadow: #967d64;
-    border-radius: 5px;
     margin: 10px;
     padding: 10px;
+    padding-inline: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: url('/assets/shelfborder.png') 25% round;
+    box-shadow: #967d64;
+    border-radius: 5px;
 
 }
 .content-stack{
@@ -13,6 +16,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    padding-inline: 0px;
 }
 .boundary{
     width: 10px;

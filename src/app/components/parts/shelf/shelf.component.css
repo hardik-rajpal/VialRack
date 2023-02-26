@@ -6,6 +6,9 @@
     justify-content: flex-end;
     margin-top: 10px;
 }
+/* .shelf>*{
+    position: sticky;
+} */
 div.plaqueparts{
     display: flex;
     flex-direction: row;
