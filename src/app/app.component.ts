@@ -1,5 +1,6 @@
 import { Component, OnInit,ViewChildren,QueryList } from '@angular/core';
 import { ShelfstackComponent } from './components/parts/shelfstack/shelfstack.component';
+import { GoogleService } from './services/google.service';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,11 @@ export class AppComponent implements OnInit{
   numstacks = 1;
   autoOrgStackWidth=100;
   @ViewChildren('shelfstack') shelves!: QueryList<ShelfstackComponent>;
+  constructor(private googleService:GoogleService){}
   ngOnInit(){
-    // let children:HTMLCollectionOf<Element> = document.querySelector('.main')?.children!;
+    this.googleService.getDocumentList().then((posts)=>{
+      console.log(posts)
+    })
   }
   ngAfterViewInit(){
     this.numstacks = (this.shelves.filter((item,index,[])=>item.absPos.length!==2)).length;
