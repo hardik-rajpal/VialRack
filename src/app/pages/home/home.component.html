@@ -1,0 +1,23 @@
+<div class="main">
+    <app-shelfstack>
+        <app-shelf>
+            <p style="color: aliceblue;margin: 0px;width: 300px;">
+                FYI this is still under construction. Approach it with a yellow helmet.
+            </p>
+        </app-shelf>
+    </app-shelfstack>
+    <app-shelfstack>
+        <app-shelf>
+        </app-shelf>
+        <app-shelf>
+            
+        </app-shelf>
+    </app-shelfstack>
+</div>
+<app-shelf [absPos]="[100,100]" [label]="'My Awesome Resumes'" [plaqueType]="2">
+    <app-imglink [src]="'assets/dossiers.png'" [link]="'https://drive.google.com/drive/folders/1aXa8OeyJdZtKsgvJAJaCou0EZM4E4M2P?usp=share_link'">
+    </app-imglink>
+</app-shelf>
+<app-shelf [absPos]="[400,300]" [label]="'Writeups'" [plaqueType]="1">
+    <app-imglink [src]="'assets/paperstack.png'" [link]="'blog'" ></app-imglink>
+</app-shelf>

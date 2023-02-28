@@ -9,5 +9,6 @@ export class ImglinkComponent {
   @Input() src:string = '';
   @Input() link:string = '';
   @Input() newTab:boolean = true;
+  @Input() external:boolean = false;
   
 }

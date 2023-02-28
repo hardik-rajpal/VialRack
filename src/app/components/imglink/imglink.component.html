@@ -1,3 +1,8 @@
-<a href="{{link}}" target="{{newTab?'_blank':'_self'}}">
+<a *ngIf="external" href="{{link}}" target="{{newTab?'_blank':'_self'}}">
     <img class="link" src="{{src}}"/>
+</a>
+
+<a *ngIf="!external" [routerLink]="[link]">
+    <img class="link" src="{{src}}"/>
+
 </a>

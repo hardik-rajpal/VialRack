@@ -1,0 +1,9 @@
+<div *ngIf="dataLoaded">
+    <div *ngFor="let post of links" class="post">
+        {{post.title}}
+        <iframe [src]="post.publishedLink | safe"></iframe>
+    </div>
+</div>
+<div *ngIf="!dataLoaded">
+ Loading...
+</div>

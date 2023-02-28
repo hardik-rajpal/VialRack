@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
-import {google} from 'googleapis';
-import {drive_v3} from 'googleapis/build/src/apis/drive/v3'
-// import {} from '@types/gapi'
+/// <reference types="gapi" />
+import { Injectable, NgZone } from '@angular/core';
+import {Subject} from 'rxjs';
+const apiKey = 'AIzaSyDZ5U_WSmySn1vy1tV8qWQao_4D-iAjTeY';
 export interface BlogPost{
   title:string;
   publishedLink:string;
@@ -18,46 +18,98 @@ const blogReaderDetails = {
 })
 
 export class GoogleService {
-  drive!:drive_v3.Drive;
-  authorize() {
-    
-    return new google.auth.JWT(
-      blogReaderDetails.email,
-      undefined,
-      blogReaderDetails.privateKey,
-      blogReaderDetails.scope
-    )
+  api:any
+  drive:any;
+  scripts:any={};
+  gapi:any = window.gapi;
+  public driveInitSrc = new Subject<boolean>();
+  public onDriveInitChange$ = this.driveInitSrc.asObservable();
+  public driveInit:boolean = false;
+  setDriveInit(val:boolean){
+    this.driveInitSrc.next(val);
+    this.driveInit = val;
   }
-  getPublishedLink(docid:string){
-    //future work, allow this to publish site maybe.
-    return `https://docs.google.com/document/d/${docid}/pub`;
+  load(scriptName: string, url: string): Promise<any> {
+    return new Promise((resolve, reject) => {
+      // Check if the script is already loaded
+      if (this.scripts[scriptName]) {
+        resolve({ scriptName: scriptName, loaded: true, status: 'Already Loaded' });
+      } else {
+        // Create the script tag
+        let script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        // Handle the onload event
+        script.onload = () => {
+          this.scripts[scriptName] = true;
+          this.gapi = window.gapi;
+          resolve({ scriptName: scriptName, loaded: true, status: 'Loaded',});
+        };
+        // Handle the onerror event
+        script.onerror = () => reject(`Failed to load script ${url}`);
+        // Append the script tag to the head of the document
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
+    });
   }
-  constructor() {
-    const authobj = this.authorize();
-    this.drive = google.drive({
-      auth:authobj,
-      version:'v3'
+  async init(res:Function){
+    await this.gapi.client.init({
+      apiKey:apiKey
     })
+    this.gapi.client.load('drive','v3',()=>res());
+  }
+  loadClient(){
+    this.zone.run(()=>{
+      this.gapi.load('client',{
+        callback:async()=>{
+          this.init(async()=>{
+            this.drive = this.gapi.client.drive
+            this.setDriveInit(true);
+          });
+        },
+        onerror:(err:any)=>{console.log(err)},
+        timeout:1000,
+        ontimeout:(err:any)=>{console.log(err)}
+      })
+    })
+  }
+  getPublishedLink(docid:string,embed=true){
+    //future work, allow this to publish site maybe.
+    return `https://docs.google.com/document/d/${docid}/pub`+(embed?'?embedded=true':'');
+  }
+  constructor(private zone:NgZone) {
+    this.setDriveInit(false);
+    this.load('gapi','https://apis.google.com/js/api.js').then((data)=>{
+      this.loadClient();
+    })
+    // this.drive = google.drive({
+    //   auth:authobj,
+    //   version:'v3'
+    // })
 
   }
   
   async getDocumentList(){
-    const postFiles = (await this.drive.files.list({
+    // console.log(gapi)
+    // console.log(global.gapi)
+    const response = (await       this.gapi.client.drive.files.list({
       q:`'${blogReaderDetails.blogFolderId}' in parents`,
       fields:'nextPageToken, files(id, name, createdTime, modifiedTime, mimeType, contentHints)',
-    })).data
-    
-    const posts:BlogPost[] =await Promise.all(postFiles.files!.map(async(file)=>{
+    }));
+    const postFiles = (response).result.files
+
+    const posts:BlogPost[] =await Promise.all(postFiles.map(async(file:any)=>{
       const post:BlogPost = {
         publishedLink:this.getPublishedLink(file.id!),
         title:file.name!
       };
       if(file.mimeType===blogReaderDetails.shortcutMimeType){
-        const shortcutDetails = (await this.drive.files.get({
+        const response = (await this.drive.files.get({
           fileId:file.id!,
           fields:'shortcutDetails',
           supportsAllDrives:true
-        })).data.shortcutDetails;
+        }))
+        const shortcutDetails = response.result.shortcutDetails;
         post.publishedLink = this.getPublishedLink(shortcutDetails?.targetId!);
       }
       return post;

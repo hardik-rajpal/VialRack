@@ -1,0 +1,7 @@
+.post{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
