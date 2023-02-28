@@ -1,14 +1,17 @@
 from subprocess import Popen, PIPE
 import subprocess
 deploybranch = 'gh-pages'
+p = Popen('git branch -D gh-pages'.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE)
+output,err = p.communicate()
+p = Popen('git checkout -b gh-pages'.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE)
+output,err = p.communicate()
 p = Popen(['git', 'branch', '--show-current'], stdin=PIPE, stdout=PIPE, stderr=PIPE)
 output, err = p.communicate(b"input data that is passed to subprocess' stdin")
 rc = p.returncode
 output = output.decode('utf-8').strip()
 if(output!=deploybranch):
-    print('Not in deployment branch: ',deploybranch, '. Exiting...')
+    print('ERROR! Not in deployment branch: ',deploybranch, '. Exiting...')
     exit()
-
 subprocess.call(['bash','deploy.sh'])
 with open('cssfiles.txt','r') as f:
     ctnt = f.read().splitlines()
@@ -24,9 +27,10 @@ for fpath in ctnt:
     file.close()
     file = open(path,'w')
     file.write(styles)
-Popen('ng deploy --base-href=/VialRack/ --no-silent'.split())
-output,err = p.communicate()
-print(output)
+# Popen('ng deploy --base-href=/VialRack/ --no-silent'.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE)
+# output,err = p.communicate()
+# p.wait()
+# print(output)
 
 # subprocess.call('bash final.sh'.split())
 
