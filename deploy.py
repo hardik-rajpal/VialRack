@@ -24,6 +24,9 @@ for fpath in ctnt:
     file.close()
     file = open(path,'w')
     file.write(styles)
-# Popen('ng deploy --base-href=/VialRack/ --no-silent'.split(),stderr=PIPE,stdout=PIPE)
+Popen('ng deploy --base-href=/VialRack/ --no-silent'.split())
+output,err = p.communicate()
+print(output)
+
 # subprocess.call('bash final.sh'.split())
 
