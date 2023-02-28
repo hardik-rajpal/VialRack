@@ -1,0 +1,8 @@
+./app/app.component.css
+./app/components/imglink/imglink.component.css
+./app/components/parts/plaque/plaque.component.css
+./app/components/parts/shelf/shelf.component.css
+./app/components/parts/shelfstack/shelfstack.component.css
+./app/pages/blog/blog.component.css
+./app/pages/home/home.component.css
+./styles.css

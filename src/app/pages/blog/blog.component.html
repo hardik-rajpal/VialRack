@@ -1,9 +1,22 @@
-<div *ngIf="dataLoaded">
-    <div *ngFor="let post of links" class="post">
-        {{post.title}}
-        <iframe [src]="post.publishedLink | safe"></iframe>
+<div class="main">
+    <div class="bloglist" *ngIf="postIndex==-1">
+        <div *ngIf="dataLoaded">
+            <div class="searchbar">
+                <input placeholder="Search through titles..." />
+                <button>
+                    Search
+                </button>
+            </div>
+            <div class="postbox">
+                <div *ngFor="let post of links" class="post">
+                    <app-plaque [label]="post.title" [plaqueType]="2"></app-plaque>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="!dataLoaded">
+            Loading...
+        </div>
     </div>
-</div>
-<div *ngIf="!dataLoaded">
- Loading...
+    <div *ngIf="postIndex!=-1" class="post">
+    </div>
 </div>

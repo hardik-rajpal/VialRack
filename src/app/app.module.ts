@@ -9,6 +9,7 @@ import { ImglinkComponent } from './components/imglink/imglink.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SafePipe } from './safe.pipe';
+import { PlaqueComponent } from './components/parts/plaque/plaque.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SafePipe } from './safe.pipe';
     ImglinkComponent,
     BlogComponent,
     HomeComponent,
-    SafePipe
+    SafePipe,
+    PlaqueComponent
   ],
   imports: [
     BrowserModule,

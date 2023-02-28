@@ -1,20 +1,5 @@
 <div class="shelf" [ngStyle]="divRefStyle">
     <ng-content></ng-content>
     <img width="100%" src="assets/shelf3.png">
-    <div *ngIf="label.length>0" [ngSwitch]="plaqueType">
-        <div class="plaqueparts" *ngSwitchCase="1">
-            <img class="plaque p1" src="assets/plaques/plaque1beg.png">
-            <div class="plaque p1">
-                <p style="padding-bottom: 7px;font-family:'Century Gothic';">{{label}}</p>
-            </div>
-            <img class="plaque p1" src="assets/plaques/plaque1end.png">
-        </div>
-        <div class="plaqueparts" *ngSwitchCase="2">
-            <img class="plaque p2" src="assets/plaques/plaque2beg.png">
-            <div class="plaque p2">
-                <p style="padding-bottom: 16px;font-family:'Rockwell';">{{label.toUpperCase()}}</p>
-            </div>
-            <img class="plaque p2" src="assets/plaques/plaque2end.png">
-        </div>
-    </div>
+    <app-plaque *ngIf="label.length>0" [plaqueType]="plaqueType" [label]="label"></app-plaque>
 </div>
