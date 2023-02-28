@@ -4,7 +4,7 @@
     padding-inline: 0px;
     border-width: 5px;
     border-style: solid;
-    border-image: url('/assets/shelfborder.png') 25% round;
+    border-image: url('/VialRack/assets/shelfborder.png') 25% round;
     box-shadow: #967d64;
     border-radius: 5px;
 
@@ -21,7 +21,7 @@
 .boundary{
     width: 10px;
     /* height: 100px; */
-    background-image: url('/assets/boundary.png');
+    background-image: url('/VialRack/assets/boundary.png');
     background-repeat: repeat;
     float: left;
 }
