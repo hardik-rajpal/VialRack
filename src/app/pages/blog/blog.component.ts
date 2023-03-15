@@ -8,6 +8,8 @@ import { HrubService } from 'src/app/services/hrub.service';
 })
 export class BlogComponent {
   constructor(private hrubService:HrubService){
-    
+    this.hrubService.getBlogs().subscribe((data)=>{
+      console.log(data)
+    })
   }
 }
