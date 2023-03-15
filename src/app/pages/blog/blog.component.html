@@ -1,1 +1,21 @@
-<p>blog works!</p>
+<div class="main">
+    <div *ngIf="!dataLoaded">
+        Loading...
+    </div>
+    <div *ngIf="dataLoaded">
+        <div class="bloglist" *ngIf="activePost==null">
+            <div class="searchbar">
+                <input placeholder="Search through titles..." />
+            <button>
+                Search
+            </button>
+            <div class="postbox">
+                <div *ngFor="let post of filteredBlogPosts" class="post">
+                    <app-plaque [label]="post.title" [plaqueType]="2"></app-plaque>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="activePost!=null" class="post">
+        </div>
+    </div>
+</div>
