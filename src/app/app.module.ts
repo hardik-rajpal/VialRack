@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ShelfstackComponent } from './components/parts/shelfstack/shelfstack.component';
 import { ShelfComponent } from './components/parts/shelf/shelf.component';
 import { ImglinkComponent } from './components/imglink/imglink.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShelfstackComponent,
     ShelfComponent,
-    ImglinkComponent
+    ImglinkComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
