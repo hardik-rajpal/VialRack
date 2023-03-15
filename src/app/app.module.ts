@@ -9,6 +9,7 @@ import { ImglinkComponent } from './components/imglink/imglink.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PlaqueComponent } from './components/parts/plaque/plaque.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     ShelfComponent,
     ImglinkComponent,
     BlogComponent,
-    HomeComponent
+    HomeComponent,
+    PlaqueComponent
   ],
   imports: [
     BrowserModule,
