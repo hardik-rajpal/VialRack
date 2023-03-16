@@ -1,1 +1,1 @@
-python deploy.py ; ng deploy --base-href=/VialRack/ --no-silent; bash final.sh; git push origin gh-pages --force
+bash deploy.sh ;python deploy.py ; ng deploy --base-href=/VialRack/ --no-silent; bash final.sh; git push origin gh-pages --force
