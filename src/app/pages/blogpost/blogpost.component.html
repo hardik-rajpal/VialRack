@@ -1,1 +1,3 @@
-<iframe src="{{embedLink}}"></iframe>
+<div>
+    <iframe *ngIf="dataLoaded" [src]="embedLink|safe:'resourceUrl'" ></iframe>
+</div>

@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PlaqueComponent } from './components/parts/plaque/plaque.component';
 import { BlogpostComponent } from './pages/blogpost/blogpost.component';
+import { SafePipe } from 'src/safe.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { BlogpostComponent } from './pages/blogpost/blogpost.component';
     BlogComponent,
     HomeComponent,
     PlaqueComponent,
-    BlogpostComponent
+    BlogpostComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
