@@ -10,6 +10,9 @@ export class HrubService {
     console.log(this.apiBase)
   }
   getBlogs(){
-    return this.http.get(this.apiBase+'/gapis/blogposts/')
+    return this.http.get(this.apiBase+'/gapis/blogposts')
+  }
+  getBlogDetails(id:string){
+    return this.http.get(this.apiBase+'/gapis/blogposts?id='+id)
   }
 }

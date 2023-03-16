@@ -10,7 +10,7 @@
                 Search
             </button>
             <div class="postbox">
-                <div *ngFor="let post of filteredBlogPosts" class="post">
+                <div *ngFor="let post of filteredBlogPosts" class="post" (click)="goToPost(post.docId)">
                     <app-plaque [label]="post.title" [plaqueType]="2"></app-plaque>
                 </div>
             </div>
