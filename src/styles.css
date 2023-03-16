@@ -9,3 +9,9 @@ body {
     background-size: 200px;
     background-repeat: repeat;
 }
+
+button{
+    background-image: url('/assets/bgtile2.jpg');
+    border-radius: 5;
+    padding: 10px;
+}

@@ -1,6 +1,6 @@
 <div class="main">
     <button (click)="goToPosts()">View other posts</button>
-    <app-plaque [label]="blogpost!.title"></app-plaque>
+    <app-plaque *ngIf="dataLoaded" [label]="blogpost!.title"></app-plaque>
     <iframe  *ngIf="dataLoaded" [src]="embedLink|safe:'resourceUrl'" frameborder="0">
     </iframe>
 </div>`
