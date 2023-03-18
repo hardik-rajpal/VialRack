@@ -4,8 +4,8 @@ import {HttpClient, HttpHeaders, HttpParams,HttpContext} from '@angular/common/h
   providedIn: 'root'
 })
 export class HrubService {
-  apiBase:string = 'http://localhost:3000';
-  // apiBase:string  = 'https://hrub.hardikrajpal.repl.co/gapis/blogposts/';
+  // apiBase:string = 'http://localhost:3000';
+  apiBase:string  = 'https://hrub.hardikrajpal.repl.co';
   constructor(private http:HttpClient) {
     console.log(this.apiBase)
   }
