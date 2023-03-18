@@ -13,6 +13,7 @@ if(output!=deploybranch):
     print('ERROR! Not in deployment branch: ',deploybranch, '. Exiting...')
     exit()
 subprocess.call(['bash','deploy.sh'])
+subprocess.call(['bash','cachecleaner.sh'])
 with open('cssfiles.txt','r') as f:
     ctnt = f.read().splitlines()
 for fpath in ctnt:
