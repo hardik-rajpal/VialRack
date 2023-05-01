@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-image: url('/assets/bgtile1.webp');
+    background-image: url('/assets/bgtile3.jpg');
     background-size: 200px;
     background-repeat: repeat;
 }
