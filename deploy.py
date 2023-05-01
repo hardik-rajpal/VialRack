@@ -1,17 +1,11 @@
 from subprocess import Popen, PIPE
-import subprocess
+import subprocess,time
 deploybranch = 'gh-pages'
 p = Popen('git branch -D gh-pages'.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE)
 output,err = p.communicate()
 p = Popen('git checkout -b gh-pages'.split(), stdin=PIPE, stdout=PIPE, stderr=PIPE)
 output,err = p.communicate()
-p = Popen(['git', 'branch', '--show-current'], stdin=PIPE, stdout=PIPE, stderr=PIPE)
-output, err = p.communicate(b"input data that is passed to subprocess' stdin")
-rc = p.returncode
-output = output.decode('utf-8').strip()
-if(output!=deploybranch):
-    print('ERROR! Not in deployment branch: ',deploybranch, '. Exiting...')
-    exit()
+time.sleep(1)
 subprocess.call(['bash','deploy.sh'])
 subprocess.call(['bash','cachecleaner.sh'])
 with open('cssfiles.txt','r') as f:
