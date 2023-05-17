@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { BlogpostComponent } from './pages/blogpost/blogpost.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ThoughtBoardComponent } from './pages/thought-board/thought-board.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,9 @@ const routes: Routes = [
         path:'',component:BlogComponent,},
         {path:':docid',component:BlogpostComponent}
     ]
+  },
+  {
+    path:'thoughts',component:ThoughtBoardComponent
   },
   {
     path:'',component:HomeComponent

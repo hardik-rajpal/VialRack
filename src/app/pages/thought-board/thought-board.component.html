@@ -1,0 +1,9 @@
+<p class="foreword">
+    Things I've said or thought that I find clever or amusing but have no outlet for and so decide to glorify
+    on my website.
+</p>
+<div class="thoughtbox">
+    <div *ngFor="let thought of thoughts" class="post">
+        <app-thought [thought]="thought"></app-thought>
+    </div>
+</div>

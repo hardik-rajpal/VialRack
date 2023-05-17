@@ -12,6 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PlaqueComponent } from './components/parts/plaque/plaque.component';
 import { BlogpostComponent } from './pages/blogpost/blogpost.component';
 import { SafePipe } from 'src/safe.pipe';
+import { ThoughtBoardComponent } from './pages/thought-board/thought-board.component';
+import { ThoughtComponent } from './comps/thought/thought.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { SafePipe } from 'src/safe.pipe';
     HomeComponent,
     PlaqueComponent,
     BlogpostComponent,
-    SafePipe
+    SafePipe,
+    ThoughtBoardComponent,
+    ThoughtComponent
   ],
   imports: [
     BrowserModule,
