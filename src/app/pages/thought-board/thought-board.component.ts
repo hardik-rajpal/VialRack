@@ -22,5 +22,8 @@ export class ThoughtBoardComponent {
     {
       thought:`If they don't feel like a great catch, maybe you're the one in the net.`
     },
+    {
+      thought:`And so we return, victorious from the battlefield, each to submit to our demons.`
+    }
   ]
 }
