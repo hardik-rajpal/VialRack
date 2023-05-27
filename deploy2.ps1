@@ -1,4 +1,4 @@
-ng build --base-href https://hardik-rajpal.github.io/ISID-EPU/;
+ng build --base-href https://hardik-rajpal.github.io/VialRack/;
 bash -c 'mv dist/vial-rack/* .';
 bash -c 'cp index.html 404.html; rm -rf assets; cp -r src/assets assets';
 git add -A;
