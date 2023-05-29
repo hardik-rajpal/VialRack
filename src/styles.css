@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-image: url('/VialRack/assets/bgtile3.jpg');
+    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/bgtile3.jpg');
     background-size: 200px;
     background-repeat: repeat;
 }
@@ -13,7 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 button{
-    background-image: url('/VialRack/assets/bgtile2.jpg');
+    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/bgtile2.jpg');
     border-radius: 5;
     padding: 10px;
 }

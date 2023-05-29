@@ -4,11 +4,11 @@ div.plaqueparts{
 
 }
 .p1{
-    background-image: url('/VialRack/assets/plaques/plaque1mid.png');
+    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/plaques/plaque1mid.png');
     height: 50px;
 }
 .p2{
-    background-image: url('/VialRack/assets/plaques/plaque2mid.png');
+    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/plaques/plaque2mid.png');
     height: 50px;
 }
 div.plaque{
