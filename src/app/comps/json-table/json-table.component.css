@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px;
+    background-color: white;
+}
+th{
+    background-color: #dddddd;
+}
+td,th{
+    border: 1px solid #537aa7;
+    text-align: left;
+    padding: 8px;
+}
+
+div.ol{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+}

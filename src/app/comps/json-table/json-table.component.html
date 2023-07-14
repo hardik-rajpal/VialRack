@@ -1,0 +1,44 @@
+<div class="ol" *ngIf="dataType==='list'">
+    <div>
+        List
+    </div>
+    <ol>
+        <li *ngFor="let element of listData.data">
+            <app-json-table *ngIf="listData.type==='recurse'" [json]="element"></app-json-table>
+            <div *ngIf="listData.type==='base'">
+                {{element}}
+            </div>
+        </li>
+        <div *ngIf="listData.data.length===0">
+            <strong>
+                Empty List
+            </strong>
+        </div>
+    </ol>
+</div>
+<div *ngIf="dataType==='table'">
+    <div *ngIf="tabularData.length===0">
+        <strong>
+            Empty Table
+        </strong>
+    </div>
+    <table *ngIf="tabularData.length>=0">
+        <tr>
+            <th>
+                Key
+            </th>
+            <th>
+                Value
+            </th>
+        </tr>
+        <tr *ngFor="let row of tabularData">
+            <td>
+                {{row.key}}
+            </td>
+            <td>
+                <app-json-table *ngIf="row.type==='recurse'" [json]="row.value"></app-json-table>
+                <div *ngIf="row.type==='base'">{{row.value}}</div>
+            </td>
+        </tr>
+    </table>    
+</div>

@@ -1,0 +1,27 @@
+<h2 class="title">JSON Visualizer</h2>
+<div class="prelude">
+    <div class="row modes">
+        Mode:
+        <span *ngFor="let mode of modes" class="modes">
+            <div  class="mode-option active" *ngIf="modes[modeIndex]===mode">{{mode}}</div>
+            <div  class="pointable mode-option" *ngIf="modes[modeIndex]!==mode" (click)="updateMode(mode)">{{mode}}</div>
+        </span>
+    </div>
+    <div>
+        Controls:
+        <ul>
+            <li>Use Tab to indent.</li>
+            <li>Use Ctrl + Enter to update the table on the right.</li>
+        </ul>
+    </div>
+</div>
+<div class="row main">
+    <div>
+        <textarea [(ngModel)]="jsonText" (change)="updateTable()" #textarea>
+        </textarea>
+    </div>
+    <div class="jsontable">
+        <div *ngIf="invalidJson">Invalid Json</div>
+        <app-json-table *ngIf="!invalidJson" [json]="json"></app-json-table>
+    </div>
+</div>
