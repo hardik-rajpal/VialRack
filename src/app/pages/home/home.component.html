@@ -5,25 +5,24 @@
                 FYI this is still under construction. Approach it with a yellow helmet.
             </p>
         </app-shelf>
+        <app-shelf [label]="'Thought Board'" [plaqueType]="1">
+            <app-imglink [src]="'assets/board.jpg'" [link]="'thoughts'" ></app-imglink>
+        </app-shelf>
+        <app-shelf [label]="'Quotes I love'" [plaqueType]="1">
+            <app-imglink [src]="'assets/quotemarks.jpg'" [link]="'https://pin.it/tR6kmR6'" ></app-imglink>
+        </app-shelf>
+        <app-shelf [label]="'JSON Viewer'" [plaqueType]="1">
+            <app-imglink [src]="'assets/jsonviewer.png'" [link]="'jsonVisualizer'" ></app-imglink>
+        </app-shelf>
+        
     </app-shelfstack>
     <app-shelfstack>
-        <app-shelf>
+        <app-shelf [label]="'My Awesome Resumes'" [plaqueType]="2">
+            <app-imglink [src]="'assets/dossiers.png'" [link]="'https://drive.google.com/drive/folders/1aXa8OeyJdZtKsgvJAJaCou0EZM4E4M2P?usp=share_link'">
+            </app-imglink>
         </app-shelf>
-        <app-shelf>
-            
-        </app-shelf>
+        <app-shelf [label]="'Writeups'" [plaqueType]="1">
+            <app-imglink [src]="'assets/paperstack.png'" [link]="'blog'" ></app-imglink>
+        </app-shelf>        
     </app-shelfstack>
 </div>
-<app-shelf [absPos]="[100,100]" [label]="'My Awesome Resumes'" [plaqueType]="2">
-    <app-imglink [src]="'assets/dossiers.png'" [link]="'https://drive.google.com/drive/folders/1aXa8OeyJdZtKsgvJAJaCou0EZM4E4M2P?usp=share_link'">
-    </app-imglink>
-</app-shelf>
-<app-shelf [absPos]="[400,300]" [label]="'Writeups'" [plaqueType]="1">
-    <app-imglink [src]="'assets/paperstack.png'" [link]="'blog'" ></app-imglink>
-</app-shelf>
-<app-shelf [absPos]="[100,400]" [label]="'Thought Board'" [plaqueType]="1">
-    <app-imglink [src]="'assets/board.jpg'" [link]="'thoughts'" ></app-imglink>
-</app-shelf>
-<app-shelf [absPos]="[400,500]" [label]="'Quotes I love'" [plaqueType]="1">
-    <app-imglink [src]="'assets/quotemarks.jpg'" [link]="'https://pin.it/tR6kmR6'" ></app-imglink>
-</app-shelf>

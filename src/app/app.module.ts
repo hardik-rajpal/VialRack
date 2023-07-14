@@ -14,6 +14,8 @@ import { BlogpostComponent } from './pages/blogpost/blogpost.component';
 import { SafePipe } from 'src/safe.pipe';
 import { ThoughtBoardComponent } from './pages/thought-board/thought-board.component';
 import { ThoughtComponent } from './comps/thought/thought.component';
+import { JsonVisualizerComponent } from './pages/json-visualizer/json-visualizer.component';
+import { JsonTableComponent } from './comps/json-table/json-table.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,9 @@ import { ThoughtComponent } from './comps/thought/thought.component';
     BlogpostComponent,
     SafePipe,
     ThoughtBoardComponent,
-    ThoughtComponent
+    ThoughtComponent,
+    JsonVisualizerComponent,
+    JsonTableComponent
   ],
   imports: [
     BrowserModule,
