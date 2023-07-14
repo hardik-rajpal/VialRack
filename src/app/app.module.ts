@@ -16,6 +16,7 @@ import { ThoughtBoardComponent } from './pages/thought-board/thought-board.compo
 import { ThoughtComponent } from './comps/thought/thought.component';
 import { JsonVisualizerComponent } from './pages/json-visualizer/json-visualizer.component';
 import { JsonTableComponent } from './comps/json-table/json-table.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +36,7 @@ import { JsonTableComponent } from './comps/json-table/json-table.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [],

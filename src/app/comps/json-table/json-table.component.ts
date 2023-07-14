@@ -42,6 +42,7 @@ export class JsonTableComponent implements OnInit{
   }
   
   populateTable(){
+    this.tabularData = [];
     let object:{[key:string]:any} = (this.json) as {[key:string]:any};
     for(let key of Object.keys(object)){
       let value = object[key];
@@ -73,6 +74,16 @@ export class JsonTableComponent implements OnInit{
       this.listData.type = 'base'
     }
     this.listData.data = array;
+  }
+  ngOnChanges(){
+    if(this.isArray(this.json)){
+      this.populateList();
+      this.dataType = 'list';
+    }
+    else if(this.isObject(this.json)){
+      this.populateTable();
+      this.dataType = 'table';
+    }
   }
   ngOnInit(){
     if(this.isArray(this.json)){

@@ -6,26 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./json-visualizer.component.css']
 })
 export class JsonVisualizerComponent {
-  json:any = [
-    {
-      title: `Launch of Digital Platforms & Women’s Economic Empowerment Project`,
-      dateTime: `9.30 am to 1.30 pm, May 8, 2023`,
-      venue: `Multipurpose Hall, India International Centre, New Delhi`,
-      description: [],
-      contact: `cecfee[at]isid.ac.in`
-    },
-    {
-        title: `17th Annual Conference on Economic Growth and Development`,
-        dateTime: `December 19-21, 2021`,
-        venue: `Indian Statistical Institute, New Delhi`,
-        description: [
-            {
-                text: `The Economics and Planning Unit at the Indian 
-                Statistical Institute, Delhi will organize its 17th Annual 
-                Conference on Economic Growth and Development.`
-            }
-        ],
-        contact: `acegd.isi [at] gmail.com (Tridip Ray)`
+  invalidJson:boolean = false;
+  jsonText:string = `
+    [{
+      "Name":"Hardik Rajpal"
+    }]
+  `;
+  json:any = []
+  ngOnInit(){
+    this.updateTable()
+  }
+  updateTable(){
+    console.log("updating")
+    let parsedJson:any = {};
+    try{
+      parsedJson = JSON.parse(this.jsonText);
+      this.invalidJson = false;
+      this.json = parsedJson;
+      console.log('parsed')
+      console.log(this.json)
     }
-  ]
+    catch(e){
+      console.log('invalid json')
+      this.invalidJson = true;
+    }
+  }
 }

@@ -12,3 +12,8 @@ td,th{
     text-align: left;
     padding: 8px;
 }
+
+div.ol{
+    background-color: white;
+    padding: 10px;
+}

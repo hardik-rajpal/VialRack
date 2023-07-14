@@ -1,11 +1,10 @@
-<div class="row">
-    <app-json-table [json]="json"></app-json-table>
-    <!-- <div>
-        <textarea>
-
+<div class="row main">
+    <div>
+        <div *ngIf="invalidJson">Invalid Json</div>
+        <textarea [(ngModel)]="jsonText" (change)="updateTable()">
         </textarea>
     </div>
     <div>
-
-    </div> -->
+        <app-json-table [json]="json"></app-json-table>
+    </div>
 </div>
