@@ -4,7 +4,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/bgtile3.jpg');
     background-size: 200px;
     background-repeat: repeat;
 }
@@ -49,6 +48,10 @@ a{
 }
 a:hover{
     color: var(--light);
+}
+img.logo{
+    width: 200px;
+    max-height: 200px;
 }
 a.button{
     border: 3px solid var(--secondary);
