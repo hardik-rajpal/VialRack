@@ -26,9 +26,15 @@ import { InPraiseOfMoviesPageComponent } from './comps/in-praise-of-movies-page/
 import { InPraiseOfSongsPageComponent } from './comps/in-praise-of-songs-page/in-praise-of-songs-page.component';
 import { InPraiseOfOthersPageComponent } from './comps/in-praise-of-others-page/in-praise-of-others-page.component';
 import { InPraiseOfShowsPageComponent } from './comps/in-praise-of-shows-page/in-praise-of-shows-page.component';
+import { FormsModule } from '@angular/forms';
+import { PlaqueComponent } from './components/parts/plaque/plaque.component';
+import { JsonVisualizerComponent } from './pages/json-visualizer/json-visualizer.component';
+import { BlogpostComponent } from './pages/blogpost/blogpost.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 @NgModule({
   declarations: [
+    SafePipe,
     AppComponent,
     ParaspecboxComponent,
     FlashboxComponent,
@@ -39,12 +45,15 @@ import { InPraiseOfShowsPageComponent } from './comps/in-praise-of-shows-page/in
     SiteheaderComponent,
     LinkboxComponent,
     NavbarComponent,
-    SafePipe,
+    PlaqueComponent,
+    BlogComponent,
     VersatilePageComponent,
     HomePageComponent,
+    JsonVisualizerComponent,
     HomeComponent,
     ThoughtBoardComponent,
     JsonTableComponent,
+    BlogpostComponent,
     ShelfComponent,
     ShelfstackComponent,
     ImglinkComponent,
@@ -52,11 +61,12 @@ import { InPraiseOfShowsPageComponent } from './comps/in-praise-of-shows-page/in
     InPraiseOfMoviesPageComponent,
     InPraiseOfSongsPageComponent,
     InPraiseOfOthersPageComponent,
-    InPraiseOfShowsPageComponent
+    InPraiseOfShowsPageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

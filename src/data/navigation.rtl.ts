@@ -7,6 +7,11 @@ import { InPraiseOfSongsPageComponent } from "src/app/comps/in-praise-of-songs-p
 import { InPraiseOfMoviesPageComponent } from "src/app/comps/in-praise-of-movies-page/in-praise-of-movies-page.component";
 import { InPraiseOfShowsPageComponent } from "src/app/comps/in-praise-of-shows-page/in-praise-of-shows-page.component";
 import { InPraiseOfOthersPageComponent } from "src/app/comps/in-praise-of-others-page/in-praise-of-others-page.component";
+import { BlogComponent } from "src/app/pages/blog/blog.component";
+import { BlogpostComponent } from "src/app/pages/blogpost/blogpost.component";
+import { ThoughtBoardComponent } from "src/app/pages/thought-board/thought-board.component";
+import { JsonVisualizerComponent } from "src/app/pages/json-visualizer/json-visualizer.component";
+import { HomeComponent } from "src/app/pages/home/home.component";
 
 export const NavBarRoutes: routeSpec[] = [
     {
@@ -69,14 +74,33 @@ export const NavBarRoutes: routeSpec[] = [
 export const footerRoutes:routeSpec[] = [
     
 ]
+export const HomePageRoutes = [
+    {
+      path:'blog',children:[
+        {
+          path:'',component:BlogComponent,},
+          {path:':docid',component:BlogpostComponent}
+      ]
+    },
+    {
+      path:'thoughts',component:ThoughtBoardComponent
+    },
+    {
+      path:`jsonVisualizer`,component:JsonVisualizerComponent
+    },
+    {
+      path:'',component:HomeComponent
+    }
+  ];;
 export function getAllRoutes():Routes{
     const routes = parseRoutes(NavBarRoutes)
     routes.push(...footerRoutes.map((routespec,index,[])=>parseRouteSpec(routespec)))
     routes.push(...objectToVals(otherRoutes).map((routespec,index,[])=>parseRouteSpec(routespec)))
     routes.push(...miscRoutes.map((routespec,index,[])=>parseRouteSpec(routespec)));
-    routes.push({
-        path:'**',
-        redirectTo:''
-    })
+    routes.push(...HomePageRoutes)
+    // routes.push({
+    //     path:'**',
+    //     redirectTo:''
+    // })
     return routes
 }
