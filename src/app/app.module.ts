@@ -31,6 +31,7 @@ import { PlaqueComponent } from './components/parts/plaque/plaque.component';
 import { JsonVisualizerComponent } from './pages/json-visualizer/json-visualizer.component';
 import { BlogpostComponent } from './pages/blogpost/blogpost.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { BlogComponent } from './pages/blog/blog.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
