@@ -1,1 +1,18 @@
-<p>in-praise-of-songs-page works!</p>
+<div>
+    <h2>Songs I love.</h2>
+    <div *ngIf="data">
+        <div *ngFor="let group of data.groups" class="groupdiv">
+            <h3>{{group.title}}</h3>
+            <p>{{group.text}}</p>
+            <div class="songs">
+                <app-songbox *ngFor="let songIndex of group.songs" [song]="data.songs[songIndex]"></app-songbox>
+            </div>
+        </div>
+        <div>
+            <h3>All songs</h3>
+            <div class="songs">
+                <app-songbox *ngFor="let song of data.songs" [song]="song"></app-songbox>
+            </div>
+        </div>
+    </div>
+</div>

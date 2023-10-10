@@ -104,6 +104,18 @@ input{
     width: 200px;
     height: 200px;
 }
+.shadow{
+    box-shadow: 3px 3px 5px 5px grey;
+}
+.bordered{
+    border: var(--darkgray) 2px solid;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
 hr.thick{
     border: 0;
     clear:both;

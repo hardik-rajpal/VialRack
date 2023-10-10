@@ -32,6 +32,7 @@ import { JsonVisualizerComponent } from './pages/json-visualizer/json-visualizer
 import { BlogpostComponent } from './pages/blogpost/blogpost.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SongboxComponent } from './comps/songbox/songbox.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { HttpClientModule } from '@angular/common/http';
     InPraiseOfSongsPageComponent,
     InPraiseOfOthersPageComponent,
     InPraiseOfShowsPageComponent,
+    SongboxComponent,
   ],
   imports: [
     BrowserModule,
