@@ -50,23 +50,23 @@ export const NavBarRoutes: routeSpec[] = [
         children:[
             {
                 label:`Songs`,
-                route:`inpraiseof/songs/`,
+                route:`inpraiseof/songs`,
                 component:InPraiseOfSongsPageComponent
             },
             {
                 label:`Movies`,
-                route:`inpraiseof/movies/`,
-                component:InPraiseOfMoviesPageComponent
+                route:`inpraiseof/movies`,
+                component:PlaceholderPageComponent
             },
             {
                 label:`Shows`,
-                route:`inpraiseof/shows/`,
-                component:InPraiseOfShowsPageComponent
+                route:`inpraiseof/shows`,
+                component:PlaceholderPageComponent
             },
             {
                 label:`Others`,
-                route:`inpraiseof/others/`,
-                component:InPraiseOfOthersPageComponent
+                route:`inpraiseof/others`,
+                component:PlaceholderPageComponent
             }
         ]
     }
@@ -102,5 +102,6 @@ export function getAllRoutes():Routes{
     //     path:'**',
     //     redirectTo:''
     // })
+    console.log(routes)
     return routes
 }

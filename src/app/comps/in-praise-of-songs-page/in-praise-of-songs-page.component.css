@@ -1,0 +1,11 @@
+.groupdiv{
+  margin-left: min(5%,50px);
+  border: 5px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+div.songs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
+}
