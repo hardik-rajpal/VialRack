@@ -50,8 +50,8 @@ a:hover{
     color: var(--light);
 }
 img.logo{
-    width: 200px;
-    max-height: 200px;
+    width: 150px;
+    max-height: 150px;
 }
 a.button{
     border: 3px solid var(--secondary);
@@ -68,6 +68,10 @@ input{
 .title{
     font-size: x-large;
     text-align: center;
+}
+.centercol{
+    align-items: center;
+    justify-items: center;
 }
 .col{
     display: flex;
