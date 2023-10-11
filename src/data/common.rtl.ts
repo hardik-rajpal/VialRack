@@ -16,7 +16,7 @@ export const headerData:headerSpec = {
 }
 
 export const footerData:footerSpec = {
-    text:'© Copyrights and site credits',
+    text:'© Copyrights Hardik Rajpal, I think that\'s how it works.',
     links:[
         {
             label:'Email Me',
