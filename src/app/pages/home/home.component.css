@@ -11,3 +11,16 @@
 app-shelfstack{
     width: 60%;
 }
+div.box{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid lightgrey;
+    width: min-content;
+}
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: masonry;
+}

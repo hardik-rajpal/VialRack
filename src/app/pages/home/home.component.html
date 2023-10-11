@@ -28,29 +28,30 @@
     </div>
 </div>
 <div class="mobile">
-    <div class="main">
-        <app-shelfstack>
-            <app-shelf>
-                <p style="margin: 0px;width: 300px;">
-                    FYI this is still under construction. Approach it with a yellow helmet.
-                </p>
-            </app-shelf>
-            <app-shelf [label]="'Thought Board'" [plaqueType]="1">
-                <app-imglink [src]="'assets/board.jpg'" [link]="'thoughts'" ></app-imglink>
-            </app-shelf>
-            <app-shelf [label]="'Quotes I love'" [plaqueType]="1">
-                <app-imglink [src]="'assets/quotemarks.jpg'" [link]="'https://pin.it/tR6kmR6'" ></app-imglink>
-            </app-shelf>
-            <app-shelf [label]="'JSON Viewer'" [plaqueType]="1">
-                <app-imglink [src]="'assets/jsonviewer.png'" [link]="'jsonVisualizer'" ></app-imglink>
-            </app-shelf>
-            <app-shelf [label]="'My Awesome Resumes'" [plaqueType]="2">
-                <app-imglink [src]="'assets/dossiers.png'" [link]="'https://drive.google.com/drive/folders/1aXa8OeyJdZtKsgvJAJaCou0EZM4E4M2P?usp=share_link'">
-                </app-imglink>
-            </app-shelf>
-            <app-shelf [label]="'Writeups'" [plaqueType]="1">
-                <app-imglink [src]="'assets/paperstack.png'" [link]="'blog'" ></app-imglink>
-            </app-shelf>        
-        </app-shelfstack>
+    <div class="grid">
+        <div class="box">
+            <app-imglink [src]="'assets/board.jpg'" [link]="'thoughts'" ></app-imglink>
+            <p>Thought Board</p>
+        </div>
+        <div class="box">
+            <app-imglink [src]="'assets/quotemarks.jpg'" [link]="'https://pin.it/tR6kmR6'" ></app-imglink>
+            <p>Quotes I love</p>
+        </div>
+        <div class="box">
+            <app-imglink [src]="'assets/jsonviewer.png'" [link]="'jsonVisualizer'" ></app-imglink>
+            <p>JSON Viewer</p>
+        </div>
+        <div class="box">
+            <app-imglink [src]="'assets/dossiers.png'" [link]="'https://drive.google.com/drive/folders/1aXa8OeyJdZtKsgvJAJaCou0EZM4E4M2P?usp=share_link'"></app-imglink>
+            <p>My Awesome Resumes</p>
+        </div>
+        <div class="box">
+            <app-imglink [src]="'assets/paperstack.png'" [link]="'blog'" ></app-imglink>
+            <p>Writeups</p>
+        </div>
     </div>
-</div>
+    <app-shelf>
+        <p style="margin: 0px;width: 300px;">
+            FYI this is still under construction. Approach it with a yellow helmet.
+        </p>
+    </app-shelf>
