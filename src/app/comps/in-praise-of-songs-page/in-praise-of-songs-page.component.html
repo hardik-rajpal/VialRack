@@ -11,7 +11,7 @@
             <div class="artisthead__meta">
                 <h1 class="artisthead__name">{{ artist.title }}</h1>
                 <p class="artisthead__blurb" *ngIf="artist.text">{{ artist.text }}</p>
-                <p class="artisthead__count">{{ artist.songs.length }} track{{ artist.songs.length === 1 ? '' : 's' }}</p>
+                <p class="artisthead__count" *ngIf="trackCount(artist)">{{ trackCount(artist) }} track{{ trackCount(artist) === 1 ? '' : 's' }}</p>
             </div>
         </header>
 
@@ -35,7 +35,7 @@
             <p class="collection__sub">A shelf of songs I keep coming back to.</p>
         </header>
 
-        <ng-container *ngIf="data; else loading">
+        <ng-container *ngIf="loaded; else loading">
             <!-- Top picks carousel -->
             <section class="picks" *ngIf="topPicks.length">
                 <div class="sectionhead">
@@ -55,24 +55,28 @@
                 </div>
             </section>
 
-            <!-- Artists -->
+            <!-- Artists: a crate of records -->
             <section class="artists-section">
                 <div class="sectionhead">
                     <h2 class="sectionhead__title">Artists</h2>
+                    <p class="crate__hint">flip through →</p>
                 </div>
-                <div class="artists">
-                    <a class="artist" *ngFor="let g of data.groups; index as i"
-                       [routerLink]="[]" [queryParams]="{ artist: i }"
-                       [attr.aria-label]="g.title + ' — ' + g.songs.length + ' tracks'">
-                        <span class="artist__art">
-                            <span class="artist__disc" aria-hidden="true"></span>
+                <div class="crate">
+                    <div class="crate__bin">
+                        <a class="artist" *ngFor="let g of artists; index as i"
+                           [routerLink]="[]" [queryParams]="{ artist: i }"
+                           [ngStyle]="{'--i': i}"
+                           [attr.aria-label]="g.title + ' — ' + trackCount(g) + ' tracks'">
                             <span class="artist__sleeve" [ngStyle]="{'--cover': coverFor(i)}">
-                                <span class="artist__initial">{{ g.title.charAt(0) }}</span>
+                                <span class="artist__initial" aria-hidden="true">{{ g.title.charAt(0) }}</span>
+                                <span class="artist__label">
+                                    <span class="artist__name">{{ g.title }}</span>
+                                    <span class="artist__count">{{ trackCount(g) }} track{{ trackCount(g) === 1 ? '' : 's' }}</span>
+                                </span>
                             </span>
-                        </span>
-                        <span class="artist__name">{{ g.title }}</span>
-                        <span class="artist__count">{{ g.songs.length }} track{{ g.songs.length === 1 ? '' : 's' }}</span>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="crate__front" aria-hidden="true"></div>
                 </div>
             </section>
         </ng-container>

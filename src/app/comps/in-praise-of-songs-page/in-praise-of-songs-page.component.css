@@ -73,76 +73,120 @@
     scroll-snap-align: start;
 }
 
-/* ---------- artists grid ---------- */
-.artists {
-    display: grid;
-    gap: 26px 22px;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 148px), 1fr));
+/* ---------- artists: a crate of records you flip through ---------- */
+.crate__hint {
+    margin: 0;
+    font-family: var(--font-note);
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+}
+
+.crate {
+    position: relative;
+    padding: 6px;
+    border-radius: 9px;
+    background:
+        repeating-linear-gradient(0deg, rgba(95, 64, 22, 0.16) 0 2px, transparent 2px 12px),
+        linear-gradient(180deg, var(--oak), var(--oak-dark) 60%, var(--oak-shadow));
+    box-shadow: 0 20px 40px -18px rgba(28, 20, 6, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* recessed interior the sleeves stand in; scrolls horizontally */
+.crate__bin {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 26px 16px 14px;
+    border-radius: 5px;
+    background:
+        radial-gradient(130% 80% at 50% 0%, rgba(255, 250, 230, 0.1), rgba(0, 0, 0, 0) 55%),
+        linear-gradient(180deg, #566350, var(--wall-deep));
+    box-shadow: inset 0 3px 14px rgba(0, 0, 0, 0.5);
+    scroll-snap-type: x proximity;
+    scrollbar-color: var(--oak-shadow) transparent;
+}
+
+/* the front board of the bin — sleeves rise out of it */
+.crate__front {
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    height: 16px;
+    z-index: 3;
+    border-radius: 0 0 5px 5px;
+    background:
+        repeating-linear-gradient(90deg, rgba(95, 64, 22, 0.18) 0 2px, transparent 2px 10px),
+        linear-gradient(180deg, var(--oak-light), var(--oak) 40%, var(--oak-dark));
+    box-shadow: 0 -6px 10px -4px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 .artist {
+    flex: 0 0 auto;
+    width: 142px;
+    text-decoration: none;
+    color: rgba(255, 252, 244, 0.96);
+    transform: translateY(6px) rotate(-1.3deg);
+    transition: transform 0.24s cubic-bezier(0.2, 0.7, 0.3, 1);
+    scroll-snap-align: center;
+}
+.artist:nth-child(even) { transform: translateY(6px) rotate(1.3deg); }
+.artist:hover,
+.artist:focus-visible { transform: translateY(-14px) rotate(0); outline: none; }
+
+.artist__sleeve {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    text-decoration: none;
-    color: var(--ink);
-}
-.artist__art {
-    position: relative;
+    justify-content: flex-end;
     width: 100%;
     aspect-ratio: 1 / 1;
-    margin-bottom: 6px;
-}
-
-/* the vinyl disc that peeks out from behind the sleeve */
-.artist__disc {
-    position: absolute;
-    top: 6%;
-    right: 0;
-    width: 88%;
-    height: 88%;
-    z-index: 0;
-    border-radius: 50%;
+    overflow: hidden;
+    border-radius: 3px;
     background:
-        radial-gradient(circle at 50% 50%, #161616 0 3.5%, transparent 3.6%),
-        radial-gradient(circle at 50% 50%, var(--brass-light) 0 6%, var(--brass) 6% 21%, transparent 21.5%),
-        repeating-radial-gradient(circle at 50% 50%, #242424 0 2px, #131313 2px 4px);
-    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.6);
-    transform: translateX(16%);
-    transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1);
-}
-.artist__sleeve {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    display: grid;
-    place-items: center;
-    border-radius: 4px;
-    background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.22)),
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.24)),
         var(--cover);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 0 11px 22px -12px rgba(28, 18, 6, 0.6);
-    transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1);
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-shadow: 0 12px 20px -10px rgba(0, 0, 0, 0.55);
+    animation: sleeve-rise 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+    animation-delay: calc(min(var(--i, 0), 14) * 70ms);
 }
-.artist__initial {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 2.4rem;
-    color: rgba(255, 252, 244, 0.92);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-}
-.artist:hover .artist__disc { transform: translateX(42%); }
-.artist:hover .artist__sleeve { transform: translateY(-3px); }
-.artist:focus-visible { outline: 3px solid var(--brass-light); outline-offset: 4px; border-radius: 6px; }
 
-.artist__name {
+/* sleeves pop up out of the crate on load */
+@keyframes sleeve-rise {
+    from { opacity: 0; transform: translateY(55px); }
+    to   { opacity: 1; transform: none; }
+}
+.artist:focus-visible .artist__sleeve { outline: 3px solid var(--brass-light); outline-offset: 2px; }
+
+.artist__initial {
+    position: absolute;
+    top: -8px;
+    right: 4px;
     font-family: var(--font-display);
     font-weight: 600;
-    font-size: 1.08rem;
-    line-height: 1.2;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.16);
 }
-.artist__count { font-size: 0.85rem; color: var(--ink-soft); }
+.artist__label {
+    position: relative;
+    padding: 18px 10px 10px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 60%);
+}
+.artist__name {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.15;
+}
+.artist__count {
+    display: block;
+    font-size: 0.74rem;
+    opacity: 0.85;
+}
 
 /* ---------- single artist view ---------- */
 .backlink {

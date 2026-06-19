@@ -20,8 +20,8 @@
     --ink-soft:    #4C443B;
     --paper:       #F4EEDF;   /* card / surface paper */
     --paper-dim:   #E7DCC4;
-    --accent:      #7A5A22;   /* links, deep oak */
-    --accent-warm: #A8693E;   /* hover warmth */
+    --accent:      #4A2A0C;   /* links — dark walnut, high contrast on sage & paper */
+    --accent-warm: #8A3A12;   /* hover warmth */
 
     /* legacy vars kept so untouched pages still resolve */
     --primary:   var(--accent);
@@ -78,8 +78,10 @@ h1, h2, h3, h4 {
 p { line-height: 1.6; }
 
 a {
-    text-decoration: none;
     color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
     transition: color 0.18s ease;
 }
 a:hover { color: var(--accent-warm); }

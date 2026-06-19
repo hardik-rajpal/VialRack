@@ -21,6 +21,14 @@ export interface songSpec {
   text: string;
 }
 
+/** An artist on the shelf: songs (from songs.json) and/or playlists (from ytm.json). */
+export interface ArtistEntry {
+  title: string;
+  songs: number[];          // indexes into data.songs (may be empty)
+  text?: string;
+  playlists: Playlist[];
+}
+
 @Component({
   selector: 'app-in-praise-of-songs-page',
   templateUrl: './in-praise-of-songs-page.component.html',
@@ -29,7 +37,9 @@ export interface songSpec {
 export class InPraiseOfSongsPageComponent implements OnDestroy {
   data: songDataSpec | null = null;
   topPicks: songSpec[] = [];
-  /** index into data.groups, or null for the collection overview */
+  /** every artist with songs and/or a playlist */
+  artists: ArtistEntry[] = [];
+  /** index into artists, or null for the collection overview */
   selectedArtist: number | null = null;
 
   /** album-sleeve colours, cycled by artist index */
@@ -41,6 +51,8 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
   private readonly autoDelayMs = 3500;
 
   allPlaylists: Playlist[] = [];
+  private songsLoaded = false;
+  private playlistsLoaded = false;
 
   @ViewChild('pickTrack') pickTrack?: ElementRef<HTMLElement>;
 
@@ -49,6 +61,10 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
     private route: ActivatedRoute,
     private playlistsSvc: PlaylistsService
   ) {}
+
+  get loaded(): boolean {
+    return this.songsLoaded && this.playlistsLoaded;
+  }
 
   base64ToText(base64: string): string {
     const binaryString = atob(base64);
@@ -63,24 +79,73 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
       this.selectedArtist = a !== undefined && a !== '' && !isNaN(+a) ? +a : null;
     });
 
-    this.playlistsSvc.getAll().subscribe((pls) => (this.allPlaylists = pls));
+    this.playlistsSvc.getAll().subscribe({
+      next: (pls) => {
+        this.allPlaylists = pls;
+        this.playlistsLoaded = true;
+        this.buildArtists();
+      },
+      error: () => {
+        this.playlistsLoaded = true;
+        this.buildArtists();
+      },
+    });
 
-    this.gitdb.getVialRackSongs().subscribe((data: any) => {
-      const jsondata = this.base64ToText(data['content']);
-      const tempData: songDataSpec = JSON.parse(jsondata);
-      for (const song of tempData.songs) {
-        const parts = song.link.split('/');
-        const identifier = parts[parts.length - 1];
-        song.link = `https://www.youtube.com/embed/${identifier}`;
-      }
-      this.data = tempData;
-      this.buildTopPicks();
-      this.startAutoScroll();
+    this.gitdb.getVialRackSongs().subscribe({
+      next: (data: any) => {
+        const jsondata = this.base64ToText(data['content']);
+        const tempData: songDataSpec = JSON.parse(jsondata);
+        for (const song of tempData.songs) {
+          const parts = song.link.split('/');
+          const identifier = parts[parts.length - 1];
+          song.link = `https://www.youtube.com/embed/${identifier}`;
+        }
+        this.data = tempData;
+        this.buildTopPicks();
+        this.songsLoaded = true;
+        this.buildArtists();
+        this.startAutoScroll();
+      },
+      error: () => {
+        this.songsLoaded = true;
+        this.buildArtists();
+      },
     });
   }
 
   ngOnDestroy() {
     this.stopAutoScroll();
+  }
+
+  /** Union of songs.json artists and ytm.json playlist artists, matched by name. */
+  private buildArtists() {
+    if (!this.loaded) return;
+    const byName = new Map<string, ArtistEntry>();
+    const order: ArtistEntry[] = [];
+    const key = (s: string) => s.trim().toLowerCase();
+
+    if (this.data) {
+      for (const g of this.data.groups) {
+        const entry: ArtistEntry = { title: g.title, songs: g.songs, text: g.text, playlists: [] };
+        byName.set(key(g.title), entry);
+        order.push(entry);
+      }
+    }
+
+    for (const p of this.allPlaylists) {
+      // attach to an existing artist if any credited name matches
+      let target = p.artists.map(key).map((k) => byName.get(k)).find(Boolean);
+      if (!target) {
+        const primary = p.artists[0] ?? p.playlist;
+        target = { title: primary, songs: [], playlists: [] };
+        order.push(target);
+        // register every credited spelling so later playlists merge here
+        for (const name of p.artists) byName.set(key(name), target);
+      }
+      target.playlists.push(p);
+    }
+
+    this.artists = order;
   }
 
   private prefersReducedMotion(): boolean {
@@ -125,30 +190,26 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
     this.topPicks = ids.map((i) => this.data!.songs[i]).filter(Boolean);
   }
 
-  get currentArtist(): groupSpec | null {
-    if (this.data && this.selectedArtist !== null) {
-      return this.data.groups[this.selectedArtist] ?? null;
-    }
-    return null;
+  get currentArtist(): ArtistEntry | null {
+    return this.selectedArtist !== null ? this.artists[this.selectedArtist] ?? null : null;
   }
 
-  artistSongs(group: groupSpec): songSpec[] {
+  artistSongs(artist: ArtistEntry): songSpec[] {
     if (!this.data) return [];
-    return group.songs.map((i) => this.data!.songs[i]).filter(Boolean);
+    return artist.songs.map((i) => this.data!.songs[i]).filter(Boolean);
+  }
+
+  /** tracks shown for an artist: songbox songs, or their playlist totals. */
+  trackCount(artist: ArtistEntry): number {
+    return artist.songs.length || artist.playlists.reduce((sum, p) => sum + p.trackCount, 0);
   }
 
   coverFor(index: number): string {
     return this.covers[index % this.covers.length];
   }
 
-  /** playlists collecting the currently-viewed artist */
   get artistPlaylists(): Playlist[] {
-    const artist = this.currentArtist;
-    if (!artist) return [];
-    const name = artist.title.trim().toLowerCase();
-    return this.allPlaylists.filter((p) =>
-      p.artists.some((a) => a.trim().toLowerCase() === name)
-    );
+    return this.currentArtist?.playlists ?? [];
   }
 
   ytmUrl(p: Playlist): string {

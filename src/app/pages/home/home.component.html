@@ -6,12 +6,14 @@
         <app-shelfstack>
             <app-shelf *ngFor="let shelf of shelves">
                 <app-imglink
-                    *ngFor="let item of shelf"
+                    *ngFor="let item of shelf; index as i"
                     [label]="item.label"
                     [link]="item.link"
                     [cover]="item.cover"
                     [note]="item.note || ''"
-                    [plaqueType]="item.plaqueType || 1">
+                    [plaqueType]="item.plaqueType || 1"
+                    [kind]="item.kind || 'book'"
+                    [index]="i">
                 </app-imglink>
             </app-shelf>
         </app-shelfstack>

@@ -40,4 +40,8 @@ export class GitdbService {
   getPlaylists(){
     return this.http.get('assets/playlists.json');
   }
+  // Hand-curated reading list at src/assets/literature.json
+  getLiterature(){
+    return this.http.get('assets/literature.json');
+  }
 }

@@ -16,6 +16,10 @@ export class ImglinkComponent {
   @Input() plaqueType: number = 1;
   /** optional handwritten margin note */
   @Input() note: string = '';
+  /** 'book' = clothbound cover, 'records' = a little crate of albums */
+  @Input() kind: 'book' | 'records' = 'book';
+  /** position on the shelf, for staggering the entrance animation */
+  @Input() index: number = 0;
   @Input() newTab: boolean = true;
 
   get initial(): string {

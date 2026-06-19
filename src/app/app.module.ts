@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { PlaceholderPageComponent } from './pages/placeholder-page/placeholder-page.component';
@@ -35,6 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SongboxComponent } from './comps/songbox/songbox.component';
 import { PlaylistboxComponent } from './comps/playlistbox/playlistbox.component';
 import { PlaylistsComponent } from './pages/playlists/playlists.component';
+import { LiteraryWorksComponent } from './pages/literary-works/literary-works.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +71,7 @@ import { PlaylistsComponent } from './pages/playlists/playlists.component';
     SongboxComponent,
     PlaylistboxComponent,
     PlaylistsComponent,
+    LiteraryWorksComponent,
   ],
   imports: [
     BrowserModule,

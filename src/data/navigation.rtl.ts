@@ -10,71 +10,15 @@ import { InPraiseOfOthersPageComponent } from "src/app/comps/in-praise-of-others
 import { BlogComponent } from "src/app/pages/blog/blog.component";
 import { BlogpostComponent } from "src/app/pages/blogpost/blogpost.component";
 import { ThoughtBoardComponent } from "src/app/pages/thought-board/thought-board.component";
-import { JsonVisualizerComponent } from "src/app/pages/json-visualizer/json-visualizer.component";
 import { HomeComponent } from "src/app/pages/home/home.component";
 import { PlaylistsComponent } from "src/app/pages/playlists/playlists.component";
+import { LiteraryWorksComponent } from "src/app/pages/literary-works/literary-works.component";
 
 export const NavBarRoutes: routeSpec[] = [
     {
         label:'Home',
         route:'',
         component:HomePageComponent
-    },
-    {
-        label:'Menu (A wood)',
-        children:[
-            {
-                label:'Path 1 (More Travelled By)',
-                route:'https://youtu.be/dQw4w9WgXcQ',
-            },
-            {
-                label:'Path 2 (Less Travelled By)',
-                route:'https://youtu.be/xvFZjo5PgG0'
-            }
-        ]
-    },
-    {
-        label:`Robert Frost Poems`,
-        children:[
-            {
-                label:`Stopping by...`,
-                route:`https://www.poetryfoundation.org/poems/42891/stopping-by-woods-on-a-snowy-evening`
-            },
-            {
-                label:`The road not taken`,
-                route:`https://www.poetrybooks.co.uk/blogs/news/poem-a-day-the-road-not-taken`
-            }
-        ]
-    },
-    {
-        label:`In Praise Of`,
-        children:[
-            {
-                label:`Records`,
-                route:`inpraiseof/songs`,
-                component:InPraiseOfSongsPageComponent
-            },
-            {
-                label:`Playlists`,
-                route:`inpraiseof/playlists`,
-                component:PlaylistsComponent
-            },
-            {
-                label:`Movies`,
-                route:`inpraiseof/movies`,
-                component:PlaceholderPageComponent
-            },
-            {
-                label:`Shows`,
-                route:`inpraiseof/shows`,
-                component:PlaceholderPageComponent
-            },
-            {
-                label:`Others`,
-                route:`inpraiseof/others`,
-                component:PlaceholderPageComponent
-            }
-        ]
     }
 ]
 export const footerRoutes:routeSpec[] = [
@@ -92,7 +36,13 @@ export const HomePageRoutes = [
       path:'thoughts',component:ThoughtBoardComponent
     },
     {
-      path:`jsonVisualizer`,component:JsonVisualizerComponent
+      path:'literature',component:LiteraryWorksComponent
+    },
+    {
+      path:'inpraiseof/songs',component:InPraiseOfSongsPageComponent
+    },
+    {
+      path:'inpraiseof/playlists',component:PlaylistsComponent
     },
     {
       path:'',component:HomeComponent
