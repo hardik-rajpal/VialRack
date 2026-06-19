@@ -1,11 +1,212 @@
-.groupdiv{
-  margin-left: min(2%,50px);
-  border: 5px solid lightgray;
-  padding: min(1%,10px);
-  border-radius: 5px;
+.collection {
+    padding: 24px clamp(14px, 4vw, 44px) 64px;
 }
-div.songs{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: masonry;
+
+/* ---------- heads ---------- */
+.collection__head { text-align: center; margin-bottom: 30px; }
+.collection__title {
+    font-family: var(--font-display);
+    font-size: var(--step-4);
+    margin: 0;
+}
+.collection__sub {
+    margin: 6px 0 0;
+    font-family: var(--font-note);
+    font-size: 1.35rem;
+    color: var(--ink-soft);
+}
+.collection__empty {
+    text-align: center;
+    font-family: var(--font-note);
+    font-size: 1.35rem;
+    color: var(--ink-soft);
+    margin-top: 40px;
+}
+
+.sectionhead {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0 0 16px;
+    border-bottom: 2px solid var(--oak-dark);
+    padding-bottom: 4px;
+}
+.sectionhead__title {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    margin: 0;
+}
+
+/* ---------- top picks carousel ---------- */
+.picks { margin-bottom: 42px; }
+
+.picks__nav { display: flex; gap: 8px; }
+.iconbtn {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--oak-dark);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.18s ease, transform 0.18s ease;
+}
+.iconbtn:hover { background: var(--paper-dim); }
+.iconbtn:active { transform: translateY(1px); }
+
+.picks__track {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 2px;
+    padding: 4px 2px 16px;
+    scrollbar-color: var(--oak-dark) transparent;
+}
+.picks__item {
+    flex: 0 0 clamp(258px, 80vw, 320px);
+    scroll-snap-align: start;
+}
+
+/* ---------- artists grid ---------- */
+.artists {
+    display: grid;
+    gap: 26px 22px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 148px), 1fr));
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+    color: var(--ink);
+}
+.artist__art {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 6px;
+}
+
+/* the vinyl disc that peeks out from behind the sleeve */
+.artist__disc {
+    position: absolute;
+    top: 6%;
+    right: 0;
+    width: 88%;
+    height: 88%;
+    z-index: 0;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 50% 50%, #161616 0 3.5%, transparent 3.6%),
+        radial-gradient(circle at 50% 50%, var(--brass-light) 0 6%, var(--brass) 6% 21%, transparent 21.5%),
+        repeating-radial-gradient(circle at 50% 50%, #242424 0 2px, #131313 2px 4px);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.6);
+    transform: translateX(16%);
+    transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.artist__sleeve {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    border-radius: 4px;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.22)),
+        var(--cover);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 11px 22px -12px rgba(28, 18, 6, 0.6);
+    transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.artist__initial {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: rgba(255, 252, 244, 0.92);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.artist:hover .artist__disc { transform: translateX(42%); }
+.artist:hover .artist__sleeve { transform: translateY(-3px); }
+.artist:focus-visible { outline: 3px solid var(--brass-light); outline-offset: 4px; border-radius: 6px; }
+
+.artist__name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.08rem;
+    line-height: 1.2;
+}
+.artist__count { font-size: 0.85rem; color: var(--ink-soft); }
+
+/* ---------- single artist view ---------- */
+.backlink {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.artisthead {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 28px;
+}
+.artisthead__sleeve {
+    flex: 0 0 auto;
+    width: 96px;
+    height: 96px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.22)),
+        var(--cover);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 11px 22px -12px rgba(28, 18, 6, 0.6);
+}
+.artisthead__initial {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgba(255, 252, 244, 0.92);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.artisthead__name {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin: 0;
+}
+.artisthead__blurb {
+    margin: 6px 0 0;
+    max-width: 60ch;
+    color: var(--ink-soft);
+    line-height: 1.55;
+}
+.artisthead__count {
+    margin: 6px 0 0;
+    font-family: var(--font-note);
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+}
+
+.grid {
+    display: grid;
+    gap: 22px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    align-items: start;
+}
+
+.artist-playlists { margin-top: 40px; }
+.ytmlink { font-weight: 500; font-size: 0.95rem; }
+
+@media (max-width: 620px) {
+    .picks__nav { display: none; }
+    .artisthead__sleeve { width: 72px; height: 72px; }
+    .artisthead__initial { font-size: 2.3rem; }
 }

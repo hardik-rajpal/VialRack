@@ -1,13 +1,62 @@
-.main{
+.study {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: flex-end;
-    align-items: flex-end;
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/bgtile3.jpg');
-    
-    /* height: 100%; */
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 16px 64px;
 }
-app-shelfstack{
-    width: 60%;
+
+.study__eyebrow {
+    margin: 2px 0 26px;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--step-2);
+    color: var(--ink-soft);
+    text-align: center;
+}
+
+.study__cabinet {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+}
+
+/* a paper note pinned to the cabinet's top corner */
+.tag {
+    position: absolute;
+    top: -18px;
+    right: -8px;
+    z-index: 3;
+    max-width: 190px;
+    padding: 11px 15px 13px;
+    font-family: var(--font-note);
+    font-size: 1.2rem;
+    line-height: 1.05;
+    text-align: center;
+    color: var(--ink);
+    background: var(--paper);
+    border-radius: 2px;
+    box-shadow: 0 7px 14px -5px rgba(28, 18, 6, 0.55);
+    transform: rotate(3deg);
+}
+.tag::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--brass-light), var(--brass-dark));
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 620px) {
+    .tag {
+        position: static;
+        display: block;
+        width: fit-content;
+        margin: 0 auto 16px;
+        transform: rotate(-2deg);
+    }
 }

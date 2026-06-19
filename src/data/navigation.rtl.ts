@@ -12,6 +12,7 @@ import { BlogpostComponent } from "src/app/pages/blogpost/blogpost.component";
 import { ThoughtBoardComponent } from "src/app/pages/thought-board/thought-board.component";
 import { JsonVisualizerComponent } from "src/app/pages/json-visualizer/json-visualizer.component";
 import { HomeComponent } from "src/app/pages/home/home.component";
+import { PlaylistsComponent } from "src/app/pages/playlists/playlists.component";
 
 export const NavBarRoutes: routeSpec[] = [
     {
@@ -49,9 +50,14 @@ export const NavBarRoutes: routeSpec[] = [
         label:`In Praise Of`,
         children:[
             {
-                label:`Songs`,
+                label:`Records`,
                 route:`inpraiseof/songs`,
                 component:InPraiseOfSongsPageComponent
+            },
+            {
+                label:`Playlists`,
+                route:`inpraiseof/playlists`,
+                component:PlaylistsComponent
             },
             {
                 label:`Movies`,

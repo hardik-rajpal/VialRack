@@ -33,6 +33,8 @@ import { BlogpostComponent } from './pages/blogpost/blogpost.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SongboxComponent } from './comps/songbox/songbox.component';
+import { PlaylistboxComponent } from './comps/playlistbox/playlistbox.component';
+import { PlaylistsComponent } from './pages/playlists/playlists.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +67,8 @@ import { SongboxComponent } from './comps/songbox/songbox.component';
     InPraiseOfOthersPageComponent,
     InPraiseOfShowsPageComponent,
     SongboxComponent,
+    PlaylistboxComponent,
+    PlaylistsComponent,
   ],
   imports: [
     BrowserModule,

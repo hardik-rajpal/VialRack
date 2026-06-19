@@ -11,8 +11,8 @@ export interface footerSpec{
 }
 export const headerData:headerSpec = {
     logo:'assets/top.jpg',
-    title:'MyVialRack',
-    subtitle:'No subtitle necessary'
+    title:'Marginalia',
+    subtitle:'notes in the margins of things I make & love'
 }
 
 export const footerData:footerSpec = {

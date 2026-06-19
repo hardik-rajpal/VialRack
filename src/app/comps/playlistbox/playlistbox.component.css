@@ -1,0 +1,96 @@
+:host { display: block; }
+
+.pbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* inline player */
+.pbox__frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 12px 26px -12px rgba(28, 18, 6, 0.55);
+}
+.pbox__frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.pbox__now {
+    margin: 10px 0 0;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+}
+.pbox__now span {
+    font-family: var(--font-note);
+    font-size: 1.15rem;
+    color: var(--accent-warm);
+    margin-right: 6px;
+}
+
+/* track list */
+.pbox__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--oak-dark);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--paper);
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-top: 1px solid rgba(95, 64, 22, 0.18);
+    transition: background 0.15s ease;
+}
+.track:first-child { border-top: 0; }
+.track:hover { background: var(--paper-dim); }
+.track:focus-visible { outline: 2px solid var(--brass-light); outline-offset: -2px; }
+.track.is-playing { background: rgba(185, 138, 52, 0.16); }
+
+.track__num {
+    flex: 0 0 1.6rem;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+}
+.track.is-playing .track__num { color: var(--accent-warm); }
+
+.track__meta {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+.track__title {
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.track__artist {
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.track__dur {
+    flex: 0 0 auto;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+}

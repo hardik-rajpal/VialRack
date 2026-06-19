@@ -1,37 +1,46 @@
-.shelf{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: flex-end;
-    justify-content: flex-end;
-    margin-top: 10px;
-}
-/* .shelf>*{
-    position: sticky;
-} */
-div.plaqueparts{
-    display: flex;
-    flex-direction: row;
+/* One shelf = a row of objects resting on a honey-oak plank (all CSS). */
+:host { display: block; width: 100%; }
 
-}
-.p1{
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/plaques/plaque1mid.png');
-    height: 50px;
-}
-.p2{
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/plaques/plaque2mid.png');
-    height: 50px;
-}
-div.plaque{
-    -moz-background-size:100% 100%;
-    -webkit-background-size:100% 100%;
-    background-size:100% 100%;
-    background-repeat: no-repeat;
+.shelf__row {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* background-color: blue; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 14px 30px;
+    padding: 0 16px;
+    min-height: 132px;
 }
-div.plaque>p{
-    margin: 0;
+
+.shelf__plank {
+    position: relative;
+    height: 20px;
+    border-radius: 2px;
+    background:
+        repeating-linear-gradient(90deg, rgba(95, 64, 22, 0.14) 0 2px, transparent 2px 11px),
+        linear-gradient(180deg, var(--oak-light), var(--oak) 32%, var(--oak-dark));
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.45),
+        inset 0 -3px 4px rgba(70, 48, 8, 0.4),
+        0 9px 11px -5px rgba(35, 24, 6, 0.5);
+}
+
+/* the front lip gives the plank real thickness */
+.shelf__plank::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 7px;
+    background: linear-gradient(180deg, var(--oak-dark), var(--oak-shadow));
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 4px 7px -3px rgba(30, 20, 6, 0.5);
+}
+
+@media (max-width: 560px) {
+    .shelf__row {
+        gap: 12px 18px;
+        padding: 0 8px;
+        min-height: 120px;
+    }
 }

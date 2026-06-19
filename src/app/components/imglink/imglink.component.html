@@ -1,3 +1,23 @@
-<a href="{{link}}" target="{{newTab?'_blank':'_self'}}">
-    <img class="link" src="{{src}}"/>
-</a>
+<div class="object">
+    <a *ngIf="isExternal" class="card" href="{{link}}" [target]="newTab ? '_blank' : '_self'"
+       rel="noopener noreferrer" [attr.aria-label]="label" [ngStyle]="{'--cover': cover}">
+        <span class="card__cover">
+            <span class="card__band"></span>
+            <span class="card__initial">{{ initial }}</span>
+            <span class="card__band"></span>
+        </span>
+        <app-plaque class="card__plaque" [label]="label" [plaqueType]="plaqueType"></app-plaque>
+    </a>
+
+    <a *ngIf="!isExternal" class="card" [routerLink]="[link]"
+       [attr.aria-label]="label" [ngStyle]="{'--cover': cover}">
+        <span class="card__cover">
+            <span class="card__band"></span>
+            <span class="card__initial">{{ initial }}</span>
+            <span class="card__band"></span>
+        </span>
+        <app-plaque class="card__plaque" [label]="label" [plaqueType]="plaqueType"></app-plaque>
+    </a>
+
+    <span class="object__note" *ngIf="note">{{ note }}</span>
+</div>

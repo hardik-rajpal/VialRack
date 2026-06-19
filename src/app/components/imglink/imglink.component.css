@@ -1,8 +1,88 @@
-.link:hover{
-    position: relative;
-    bottom: 25px;
-    height: 125px;
+/* A clothbound book stood face-out on the shelf — pure CSS, no image. */
+.object {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: clamp(112px, 27vw, 150px);
 }
-.link{
-    height: 100px;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+    text-decoration: none;
+    transition: transform 0.22s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.card__cover {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 3px 6px 6px 3px;
+    color: rgba(255, 252, 244, 0.9);
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.18)),
+        repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0 1px, transparent 1px 3px),
+        var(--cover);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow:
+        inset 7px 0 6px -5px rgba(0, 0, 0, 0.55),   /* spine groove (left) */
+        inset -2px 0 0 rgba(0, 0, 0, 0.18),
+        3px 0 0 var(--paper-dim),                    /* page block at right */
+        5px 0 1px rgba(0, 0, 0, 0.12),
+        7px 12px 16px -7px rgba(28, 18, 6, 0.55);    /* contact shadow on plank */
+    transition: box-shadow 0.22s ease;
+}
+
+.card__initial {
+    font-family: var(--font-display);
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 -1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.card__band {
+    width: 56%;
+    height: 2px;
+    background: rgba(255, 252, 244, 0.55);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card__plaque { max-width: 100%; }
+
+.card:hover { transform: translateY(-12px); }
+.card:hover .card__cover {
+    box-shadow:
+        inset 7px 0 6px -5px rgba(0, 0, 0, 0.55),
+        inset -2px 0 0 rgba(0, 0, 0, 0.18),
+        3px 0 0 var(--paper-dim),
+        5px 0 1px rgba(0, 0, 0, 0.12),
+        9px 22px 24px -8px rgba(28, 18, 6, 0.6);
+}
+
+.card:focus-visible {
+    outline: 3px solid var(--brass-light);
+    outline-offset: 5px;
+    border-radius: 5px;
+}
+
+/* the marginalia: a handwritten note scribbled beside the object */
+.object__note {
+    margin-top: 9px;
+    max-width: 15ch;
+    font-family: var(--font-note);
+    font-size: 1.15rem;
+    line-height: 1.05;
+    text-align: center;
+    color: var(--ink-soft);
+    transform: rotate(-3deg);
+    opacity: 0.92;
 }

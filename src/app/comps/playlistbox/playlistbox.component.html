@@ -1,0 +1,22 @@
+<div class="pbox">
+    <div class="pbox__player" *ngIf="current as track">
+        <div class="pbox__frame">
+            <iframe [src]="embedUrl() | safe:'resourceUrl'" [title]="track.title" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <p class="pbox__now"><span>Now playing</span> {{ track.title }} · {{ track.artists }}</p>
+    </div>
+
+    <ol class="pbox__list">
+        <li *ngFor="let t of playlist.tracks; index as i" class="track" [class.is-playing]="i === selected"
+            (click)="select(i)" (keydown.enter)="select(i)" tabindex="0">
+            <span class="track__num" aria-hidden="true">{{ i === selected ? '♪' : i + 1 }}</span>
+            <span class="track__meta">
+                <span class="track__title">{{ t.title }}</span>
+                <span class="track__artist" *ngIf="t.artists">{{ t.artists }}</span>
+            </span>
+            <span class="track__dur">{{ t.duration }}</span>
+        </li>
+    </ol>
+</div>

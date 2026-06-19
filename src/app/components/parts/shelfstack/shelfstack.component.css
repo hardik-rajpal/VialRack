@@ -1,27 +1,33 @@
-.shelfstack{
-    margin: 10px;
-    padding: 10px;
-    padding-inline: 0px;
-    border-width: 5px;
-    border-style: solid;
-    border-image: url('/assets/shelfborder.png') 25% round;
-    box-shadow: #967d64;
-    border-radius: 5px;
+/* The cabinet: an oak frame around a recessed sage back panel. CSS only. */
+:host { display: block; }
 
+.cabinet {
+    position: relative;
+    padding: 16px;
+    border-radius: 10px;
+    background:
+        repeating-linear-gradient(0deg, rgba(95, 64, 22, 0.18) 0 2px, transparent 2px 12px),
+        linear-gradient(180deg, var(--oak), var(--oak-dark) 60%, var(--oak-shadow));
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.35),
+        0 22px 46px -18px rgba(28, 20, 6, 0.65);
 }
-.content-stack{
-    /* background-color: blue; */
+
+.cabinet__back {
     display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding-inline: 0px;
+    flex-direction: column;
+    gap: 34px;
+    padding: 26px 16px 30px;
+    border-radius: 4px;
+    background:
+        radial-gradient(130% 90% at 50% -10%, rgba(255, 250, 230, 0.12), rgba(0, 0, 0, 0) 55%),
+        linear-gradient(180deg, #56644f, var(--wall-deep));
+    box-shadow:
+        inset 0 3px 16px rgba(0, 0, 0, 0.5),
+        inset 0 -2px 10px rgba(0, 0, 0, 0.3);
 }
-.boundary{
-    width: 10px;
-    /* height: 100px; */
-    background-image: url('/assets/boundary.png');
-    background-repeat: repeat;
-    float: left;
+
+@media (max-width: 560px) {
+    .cabinet { padding: 10px; }
+    .cabinet__back { padding: 20px 8px 22px; gap: 26px; }
 }
