@@ -35,6 +35,44 @@
     margin-right: 6px;
 }
 
+/* search over the track list */
+.pbox__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.pbox__search-icon {
+    position: absolute;
+    left: 12px;
+    font-size: 1.2rem;
+    color: var(--ink-soft);
+    pointer-events: none;
+}
+.pbox__search-input {
+    width: 100%;
+    height: 40px;
+    padding: 5px 12px 5px 34px;
+    border: 1px solid var(--oak-dark);
+    border-radius: 10px;
+    background: var(--paper);
+    font-size: 0.95rem;
+}
+.pbox__search-input:focus-visible {
+    outline: 2px solid var(--brass-light);
+    outline-offset: 1px;
+}
+
+.pbox__empty {
+    margin: 0;
+    padding: 16px 14px;
+    border: 1px dashed var(--oak-dark);
+    border-radius: 10px;
+    font-family: var(--font-note);
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+    text-align: center;
+}
+
 /* track list */
 .pbox__list {
     list-style: none;

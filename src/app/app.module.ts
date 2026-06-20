@@ -22,10 +22,7 @@ import { ShelfComponent } from './components/parts/shelf/shelf.component';
 import { ShelfstackComponent } from './components/parts/shelfstack/shelfstack.component';
 import { ImglinkComponent } from './components/imglink/imglink.component';
 import { ThoughtComponent } from './comps/thought/thought.component';
-import { InPraiseOfMoviesPageComponent } from './comps/in-praise-of-movies-page/in-praise-of-movies-page.component';
-import { InPraiseOfSongsPageComponent } from './comps/in-praise-of-songs-page/in-praise-of-songs-page.component';
-import { InPraiseOfOthersPageComponent } from './comps/in-praise-of-others-page/in-praise-of-others-page.component';
-import { InPraiseOfShowsPageComponent } from './comps/in-praise-of-shows-page/in-praise-of-shows-page.component';
+import { RecordsPageComponent } from './comps/records-page/records-page.component';
 import { FormsModule } from '@angular/forms';
 import { PlaqueComponent } from './components/parts/plaque/plaque.component';
 import { JsonVisualizerComponent } from './pages/json-visualizer/json-visualizer.component';
@@ -63,10 +60,7 @@ import { LiteraryWorksComponent } from './pages/literary-works/literary-works.co
     ShelfstackComponent,
     ImglinkComponent,
     ThoughtComponent,
-    InPraiseOfMoviesPageComponent,
-    InPraiseOfSongsPageComponent,
-    InPraiseOfOthersPageComponent,
-    InPraiseOfShowsPageComponent,
+    RecordsPageComponent,
     SongboxComponent,
     PlaylistboxComponent,
     PlaylistsComponent,

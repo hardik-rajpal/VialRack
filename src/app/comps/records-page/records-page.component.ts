@@ -30,11 +30,11 @@ export interface ArtistEntry {
 }
 
 @Component({
-  selector: 'app-in-praise-of-songs-page',
-  templateUrl: './in-praise-of-songs-page.component.html',
-  styleUrls: ['./in-praise-of-songs-page.component.css']
+  selector: 'app-records-page',
+  templateUrl: './records-page.component.html',
+  styleUrls: ['./records-page.component.css']
 })
-export class InPraiseOfSongsPageComponent implements OnDestroy {
+export class RecordsPageComponent implements OnDestroy {
   data: songDataSpec | null = null;
   topPicks: songSpec[] = [];
   /** every artist with songs and/or a playlist */
@@ -145,7 +145,8 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
       target.playlists.push(p);
     }
 
-    this.artists = order;
+    // most-stocked records first
+    this.artists = order.sort((a, b) => this.trackCount(b) - this.trackCount(a));
   }
 
   private prefersReducedMotion(): boolean {

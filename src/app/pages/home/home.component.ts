@@ -25,7 +25,7 @@ export class HomeComponent {
     ],
     [
       { label: 'Writeups', link: 'blog', cover: '#43403A', note: 'longer thoughts' },
-      { label: 'Records', link: 'inpraiseof/songs', cover: '#B08A3C', note: 'give it a spin', kind: 'records' },
+      { label: 'Records', link: 'records', cover: '#B08A3C', note: 'give it a spin', kind: 'records' },
     ],
   ];
 

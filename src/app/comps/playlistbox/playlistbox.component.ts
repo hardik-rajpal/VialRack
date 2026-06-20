@@ -11,9 +11,22 @@ export class PlaylistboxComponent {
   /** captions keyed by videoId — rendered as sticky notes on matching tracks */
   @Input() captions: { [videoId: string]: string } = {};
   selected: number | null = null;
+  /** live filter over track titles and artist names */
+  query = '';
 
   select(index: number) {
     this.selected = index;
+  }
+
+  /** tracks matching the search, paired with their original index */
+  get visibleTracks(): { track: PlaylistTrack; index: number }[] {
+    const all = this.playlist.tracks.map((track, index) => ({ track, index }));
+    const q = this.query.trim().toLowerCase();
+    if (!q) return all;
+    return all.filter(({ track }) =>
+      track.title.toLowerCase().includes(q) ||
+      (track.artists || '').toLowerCase().includes(q)
+    );
   }
 
   get current(): PlaylistTrack | null {

@@ -8,16 +8,25 @@
         <p class="pbox__now"><span>Now playing</span> {{ track.title }} · {{ track.artists }}</p>
     </div>
 
-    <ol class="pbox__list">
-        <li *ngFor="let t of playlist.tracks; index as i" class="track" [class.is-playing]="i === selected"
-            (click)="select(i)" (keydown.enter)="select(i)" tabindex="0">
-            <span class="track__num" aria-hidden="true">{{ i === selected ? '♪' : i + 1 }}</span>
+    <div class="pbox__search">
+        <span class="pbox__search-icon" aria-hidden="true">⌕</span>
+        <input type="search" class="pbox__search-input" [(ngModel)]="query"
+            placeholder="Search songs and artists…" aria-label="Search songs and artists" />
+    </div>
+
+    <ol class="pbox__list" *ngIf="visibleTracks.length; else noMatch">
+        <li *ngFor="let row of visibleTracks" class="track" [class.is-playing]="row.index === selected"
+            (click)="select(row.index)" (keydown.enter)="select(row.index)" tabindex="0">
+            <span class="track__num" aria-hidden="true">{{ row.index === selected ? '♪' : row.index + 1 }}</span>
             <span class="track__meta">
-                <span class="track__title">{{ t.title }}</span>
-                <span class="track__artist" *ngIf="t.artists">{{ t.artists }}</span>
+                <span class="track__title">{{ row.track.title }}</span>
+                <span class="track__artist" *ngIf="row.track.artists">{{ row.track.artists }}</span>
             </span>
-            <span class="track__note" *ngIf="captions[t.videoId]">{{ captions[t.videoId] }}</span>
-            <span class="track__dur">{{ t.duration }}</span>
+            <span class="track__note" *ngIf="captions[row.track.videoId]">{{ captions[row.track.videoId] }}</span>
+            <span class="track__dur">{{ row.track.duration }}</span>
         </li>
     </ol>
+    <ng-template #noMatch>
+        <p class="pbox__empty">Nothing matches “{{ query }}”.</p>
+    </ng-template>
 </div>

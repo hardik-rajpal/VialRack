@@ -3,10 +3,7 @@ import { miscRoutes, otherRoutes } from "./miscroutes.rtl";
 import { objectToVals, parseRouteSpec, parseRoutes, routeSpec } from "./utils.rtl";
 import { PlaceholderPageComponent } from "src/app/pages/placeholder-page/placeholder-page.component";
 import { HomePageComponent } from "src/app/comps/home-page/home-page.component";
-import { InPraiseOfSongsPageComponent } from "src/app/comps/in-praise-of-songs-page/in-praise-of-songs-page.component";
-import { InPraiseOfMoviesPageComponent } from "src/app/comps/in-praise-of-movies-page/in-praise-of-movies-page.component";
-import { InPraiseOfShowsPageComponent } from "src/app/comps/in-praise-of-shows-page/in-praise-of-shows-page.component";
-import { InPraiseOfOthersPageComponent } from "src/app/comps/in-praise-of-others-page/in-praise-of-others-page.component";
+import { RecordsPageComponent } from "src/app/comps/records-page/records-page.component";
 import { BlogComponent } from "src/app/pages/blog/blog.component";
 import { BlogpostComponent } from "src/app/pages/blogpost/blogpost.component";
 import { ThoughtBoardComponent } from "src/app/pages/thought-board/thought-board.component";
@@ -39,10 +36,10 @@ export const HomePageRoutes = [
       path:'literature',component:LiteraryWorksComponent
     },
     {
-      path:'inpraiseof/songs',component:InPraiseOfSongsPageComponent
+      path:'records',component:RecordsPageComponent
     },
     {
-      path:'inpraiseof/playlists',component:PlaylistsComponent
+      path:'playlists',component:PlaylistsComponent
     },
     {
       path:'',component:HomeComponent
