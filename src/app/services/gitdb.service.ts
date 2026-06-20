@@ -34,6 +34,7 @@ export class GitdbService {
   }
 
   private songs$?: Observable<any>;
+  private literature$?: Observable<any>;
 
   constructor(private http:HttpClient) { }
   getVialRackSongs(){
@@ -49,6 +50,9 @@ export class GitdbService {
   }
   // Hand-curated reading list at src/assets/literature.json
   getLiterature(){
-    return this.http.get('assets/literature.json');
+    if (!this.literature$) {
+      this.literature$ = this.http.get('assets/literature.json').pipe(shareReplay(1));
+    }
+    return this.literature$;
   }
 }

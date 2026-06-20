@@ -18,7 +18,7 @@
         <ng-container *ngIf="artistPlaylists.length; else songsOnly">
             <section class="artist-playlists" *ngFor="let p of artistPlaylists">
                 <div class="sectionhead">
-                    <h2 class="sectionhead__title">{{ p.playlist }}</h2>
+                    <h2 class="sectionhead__title">{{ p.name || p.playlist }}</h2>
                     <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
                 </div>
                 <app-playlistbox [playlist]="p" [captions]="artistCaptions(artist)"></app-playlistbox>

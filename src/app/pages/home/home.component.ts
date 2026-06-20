@@ -21,7 +21,7 @@ export class HomeComponent {
   shelves: ShelfItem[][] = [
     [
       { label: 'Quotes I Love', link: 'https://pin.it/tR6kmR6', cover: '#A8693E', note: 'borrowed, lovingly' },
-      { label: 'Literary Works', link: 'literature', cover: '#5E7385', note: 'poems & such' },
+      { label: 'Collected Literary Works', link: 'literature', cover: '#5E7385', note: 'poems & such' },
     ],
     [
       { label: 'Writeups', link: 'blog', cover: '#43403A', note: 'longer thoughts' },
@@ -39,5 +39,6 @@ export class HomeComponent {
     this.medium.getFeed().subscribe({ error: () => {} });
     this.gitdb.getVialRackSongs().subscribe({ error: () => {} });
     this.playlists.getAll().subscribe({ error: () => {} });
+    this.gitdb.getLiterature().subscribe({ error: () => {} });
   }
 }

@@ -134,6 +134,10 @@ export class ImglinkComponent {
     const vw = window.innerWidth;
     const vh = window.innerHeight;
 
+    // hide the destination tiles from their very first paint (CSS, so there's
+    // no flash of the finished shelf before the records tumble in)
+    document.body.classList.add('records-arriving');
+
     const overlay = document.createElement('div');
     overlay.className = 'book-open-overlay';
 
@@ -146,6 +150,10 @@ export class ImglinkComponent {
     });
     overlay.appendChild(boxClone);
     document.body.appendChild(overlay);
+
+    // the box is a fixed clone, so scrolling the page up underneath it doesn't
+    // move it — but it brings the (top-of-page) records into view to land on
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
     // Phase A — the box travels up to the top-left, then tilts to pour
     const stageX = Math.max(vw * 0.08, 48);
@@ -165,9 +173,13 @@ export class ImglinkComponent {
     const mouthX = stageX + boxRect.width * 0.55;
     const mouthY = stageY + boxRect.height * 0.30;
 
-    const cleanup = () => overlay.remove();
+    const cleanup = () => {
+      document.body.classList.remove('records-arriving');
+      overlay.remove();
+    };
 
     this.router.navigate([this.link]).then(async () => {
+      window.scrollTo(0, 0);   // records crate sits at the top — land them there
       const tiles = await this.waitForArtistTiles(1600);
       const visible = tiles.filter((t) => {
         const r = t.getBoundingClientRect();
@@ -179,9 +191,8 @@ export class ImglinkComponent {
         return;
       }
 
-      // hide the real tiles (keeps layout) and remember their rects
+      // tiles are already hidden by the body class; just remember their rects
       const targets = visible.map((tile) => ({ tile, rect: tile.getBoundingClientRect() }));
-      targets.forEach(({ tile }) => (tile.style.visibility = 'hidden'));
 
       await boxTravel.finished.catch(() => {});
 
@@ -189,9 +200,8 @@ export class ImglinkComponent {
       const recStagger = 85;
       targets.forEach(({ tile, rect }, i) => {
         const clone = tile.cloneNode(true) as HTMLElement;
-        clone.style.visibility = 'visible';
         Object.assign(clone.style, {
-          position: 'fixed', margin: '0', zIndex: String(20 + i),
+          position: 'fixed', margin: '0', visibility: 'visible', zIndex: String(20 + i),
           left: rect.left + 'px', top: rect.top + 'px',
           width: rect.width + 'px', height: rect.height + 'px',
         });
@@ -207,9 +217,9 @@ export class ImglinkComponent {
             { transform: `translate(${sx * 0.34}px, ${sy * 0.4 - 46}px) scale(0.72) rotate(${spin * 0.6}deg)`, offset: 0.45, easing: 'cubic-bezier(0.5, 0, 0.6, 0.5)' },
             { transform: 'translate(0,0) scale(1) rotate(0deg)', offset: 1 },
           ],
-          { duration: recDuration, delay: i * recStagger, easing: 'linear', fill: 'forwards' }
+          { duration: recDuration, delay: i * recStagger, easing: 'linear', fill: 'both' }
         ).onfinish = () => {
-          tile.style.visibility = '';   // reveal the real tile underneath
+          tile.style.visibility = 'visible';   // reveal the real tile (overrides the body-class rule)
           clone.remove();
         };
       });

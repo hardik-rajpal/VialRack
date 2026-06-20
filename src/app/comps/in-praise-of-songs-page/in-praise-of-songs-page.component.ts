@@ -136,7 +136,7 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
       // attach to an existing artist if any credited name matches
       let target = p.artists.map(key).map((k) => byName.get(k)).find(Boolean);
       if (!target) {
-        const primary = p.artists[0] ?? p.playlist;
+        const primary = p.name || p.artists[0] || p.playlist;
         target = { title: primary, songs: [], playlists: [] };
         order.push(target);
         // register every credited spelling so later playlists merge here

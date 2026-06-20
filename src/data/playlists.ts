@@ -9,6 +9,7 @@ export interface PlaylistTrack {
 
 export interface Playlist {
   playlist: string;       // playlist title on YT Music
+  name?: string;          // friendly display name (overrides the artist label)
   artists: string[];      // artist names this playlist collects
   playlistId: string;
   trackCount: number;

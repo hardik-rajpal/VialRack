@@ -37,6 +37,10 @@ export class PlaylistsComponent {
     return this.covers[index % this.covers.length];
   }
 
+  label(p: Playlist): string {
+    return p.name || p.playlist;
+  }
+
   artistLabel(p: Playlist): string {
     return p.artists.join(', ');
   }

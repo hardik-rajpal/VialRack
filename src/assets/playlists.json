@@ -2,11 +2,12 @@
   "playlists": [
     {
       "playlist": "ABuffettOfTunes",
+      "name": "",
       "artists": [
         "Jimmy Buffett"
       ],
       "playlistId": "PLb1Pj_tMZHbnsosZnB6zSsCnHEZ6HihCc",
-      "trackCount": 39,
+      "trackCount": 45,
       "thumbnail": "https://yt3.googleusercontent.com/cxF5EqCYYSPcgQqOVLEt8oR4wnulQ6_ltub7HYAwIVuwweXaP1UkZaXaUOihATF79OUoyyD6v5E=s1200",
       "tracks": [
         {
@@ -320,17 +321,66 @@
           "album": "Volcano",
           "duration": "2:41",
           "thumbnail": "https://yt3.googleusercontent.com/vnd5zYkWz458b_qzqooVN_n4Tb_wxt_gWG2ewN97SKqPwPpvwbA6LlMeyz-9PTdBSIbhAG52JuUBZAE=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "HI2E2zjLAUE",
+          "title": "Bank Of Bad Habits",
+          "artists": "Jimmy Buffett",
+          "album": "Barometer Soup",
+          "duration": "3:54",
+          "thumbnail": "https://yt3.googleusercontent.com/cX8_1O00cy9cxYODzDKCRrZQBR46fWw6-9LK8OCVza0_oMecv8XXYUQgYG5lXQ98RnLPoz2ctnk1SVLF=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "InPms7KNYtQ",
+          "title": "Lone Palm",
+          "artists": "Jimmy Buffett",
+          "album": "Fruitcakes",
+          "duration": "4:28",
+          "thumbnail": "https://yt3.googleusercontent.com/6BP7fqmrWX8iEss3zEqf6rNg5Ky_SVD8aivpNEIOlx2NuxS_3GtLboxRGgGIUZ7xdDLxp_bhLUTQ6i_O=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "JfnaCElZL4g",
+          "title": "That's What Living Is To Me",
+          "artists": "Jimmy Buffett",
+          "album": "Hot Water",
+          "duration": "4:37",
+          "thumbnail": "https://yt3.googleusercontent.com/r5VljnNE2pz6Esuoj2sAPkAAZx5x7UOAdE_7V4-RGMhGuItgr5OXp0Z7Otbi7oGSuLt_0H8LLwWAdP-f=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "hSkZWVPWPKw",
+          "title": "License to Chill (feat. Kenny Chesney)",
+          "artists": "Jimmy Buffett",
+          "album": "License to Chill",
+          "duration": "3:57",
+          "thumbnail": "https://yt3.googleusercontent.com/AzJDwHW-TOBXZ1UZd0_Z6ChjKyJX54Kpa1vuWxDW78dUekATT4LTTOPEbKIQeWF0ZZvfJkmbbwT_yqg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "BS3lvH9I7Kg",
+          "title": "Pacing The Cage",
+          "artists": "Jimmy Buffett",
+          "album": "Beach House On The Moon",
+          "duration": "4:44",
+          "thumbnail": "https://yt3.googleusercontent.com/uBhloFtMd2d1KppV_UTF2J_Oczesix8Ud2IpL994x_NZeHHd7RrFe5fR-d_G0EPlnz05kBXGNkNSqjzdow=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "umkixNb1Q1k",
+          "title": "It's Five O'Clock Somewhere",
+          "artists": "Alan Jackson, Jimmy Buffett",
+          "album": "Greatest Hits Volume II",
+          "duration": "3:50",
+          "thumbnail": "https://yt3.googleusercontent.com/rynju-WXW1vUZ7F1BLF1zq3Fq1mZbEIHiM5dN6nlZPmissYsPIOiFn3AVwkqioGKRPc6vSj8J_eBTQfN=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "BossFavs",
+      "name": "",
       "artists": [
         "Bruce Springsteen",
         "Bruce Springsteen & The E Street Band"
       ],
       "playlistId": "PLb1Pj_tMZHblgJngWLoISvvpafdU9gK2k",
-      "trackCount": 87,
+      "trackCount": 148,
       "thumbnail": "https://yt3.googleusercontent.com/RC8q7X2l4PcbvwIgo05ahPCiYgd6wdQG7_x2J0QLpYn1mQk7A5VIDaKh0qCkItjbG7pA-ssVT9A=s1200",
       "tracks": [
         {
@@ -1028,16 +1078,505 @@
           "album": "Nebraska '82: Expanded Edition",
           "duration": "3:18",
           "thumbnail": "https://yt3.googleusercontent.com/2obqbDWqvpxYCaOFIwBZc1TW3gCP9iUUOP_FBu2gNcKucc2iwqDhXBpNKo1BySRR0bX05-9mtwUt-071=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "487gIbI4Z4I",
+          "title": "You'll Be Comin' Down",
+          "artists": "Bruce Springsteen",
+          "album": "Magic",
+          "duration": "3:46",
+          "thumbnail": "https://yt3.googleusercontent.com/H5-iElknoJqL4cy68j80LaqZhRdl_ojtWlAFl0i_3KQ6kZgeu7nJ5aZKhSnqlFJpdIO5DTuR0xOaUf51Kg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "nzDBIcH2X74",
+          "title": "Losin' Kind (Nebraska Outtakes)",
+          "artists": "Bruce Springsteen",
+          "album": "Nebraska '82: Expanded Edition",
+          "duration": "5:01",
+          "thumbnail": "https://yt3.googleusercontent.com/2obqbDWqvpxYCaOFIwBZc1TW3gCP9iUUOP_FBu2gNcKucc2iwqDhXBpNKo1BySRR0bX05-9mtwUt-071=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NJ3SbxZ3EdQ",
+          "title": "Chimes of Freedom (Live in Manchester, May 14, 2025)",
+          "artists": "Bruce Springsteen",
+          "album": "Land Of Hope & Dreams",
+          "duration": "5:27",
+          "thumbnail": "https://yt3.googleusercontent.com/XA7DnEnUNCvKRqEEzMWmzyeczZfm6ulwSHdWpgY4EMnJ63kwLynCgCBmwd8Fd2Ikr6a0_gFp9Nr7_1Rb5g=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Z-AvSY1Nw0I",
+          "title": "Streets of Minneapolis (Radio Mix)",
+          "artists": "Bruce Springsteen",
+          "album": "Streets of Minneapolis (Radio Mix)",
+          "duration": "4:31",
+          "thumbnail": "https://yt3.googleusercontent.com/ddKB3goE0Yuex1j7RL3crPYvyZ58_l3hZJog-hpyPRnWzwSiHGG8uTUgDSLLncJV2skMV2TX6kZtUBSu2A=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "9GggK3Sn258",
+          "title": "Independence Day",
+          "artists": "Bruce Springsteen",
+          "album": "The River",
+          "duration": "4:46",
+          "thumbnail": "https://yt3.googleusercontent.com/Col_DpCrr_hkkUItJUWhafNZfqkOWMDCA0PCvpgCgodyn7cs0KtHw_ROtgMlYIEYP29DmGU7fTr6Zo8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "LnPEMAOqQkI",
+          "title": "She Don't Love Me Now",
+          "artists": "Jesse Malin, Bruce Springsteen",
+          "album": "She Don't Love Me Now",
+          "duration": "3:28",
+          "thumbnail": "https://yt3.googleusercontent.com/8azW8QLbj3-6xRIghn7JHfuMBHtOAP2WcouwQ9IsE1_VqCcyLccBQzsmn9-zmlYoCGN39h3I43yzxijPTw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "o7v1YwubWw8",
+          "title": "Highway Patrolman",
+          "artists": "Bruce Springsteen",
+          "album": "Nebraska",
+          "duration": "5:37",
+          "thumbnail": "https://yt3.googleusercontent.com/9wiiXBQXLKOIgtMhmfP9zFTnFYAor1ArdW9dIxDtPPqhnJTebb53dTWmexa8CaL5rsEunJ4gLt_KI02u=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "uCyOyw008Nw",
+          "title": "Hollow Man",
+          "artists": "Bon Jovi, Bruce Springsteen",
+          "album": "Red, White and Jersey / Hollow Man (with Bruce Springsteen)",
+          "duration": "4:54",
+          "thumbnail": "https://yt3.googleusercontent.com/yAF7izuzPhxk4czv826aEEGgLcLOI-XgMIkyejor92BcgUliVgwpsT-0SgYlZq6zmLqIyqTziX38fCA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kKIPdOVWTjU",
+          "title": "Janey Don't You Lose Heart (Single B-Side - 1985)",
+          "artists": "Bruce Springsteen",
+          "album": "Tracks",
+          "duration": "3:24",
+          "thumbnail": "https://yt3.googleusercontent.com/s62TSxBnkL6Esi5qLu8M9kLW5qRcfwcNV9JLSN429vGU3S0TtvtS3f8UY7CaulhfDlU1RgRYGZPPPX3uLg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "n7TAD5OhahE",
+          "title": "Working On a Dream",
+          "artists": "Bruce Springsteen",
+          "album": "Working On A Dream",
+          "duration": "3:29",
+          "thumbnail": "https://yt3.googleusercontent.com/LztVnI3DrfMZeG5vMHrdbhOkFglOdVqtcZPKPplyKWriHKCLichNQkC0QmRR1sLky7v9YbMifOGukBk=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "okrvOAUg-yY",
+          "title": "Prove It All Night (Phoenix, 78) (from Thrill Hill Vault 1976-1978)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "",
+          "duration": "7:33",
+          "thumbnail": "https://i.ytimg.com/vi/okrvOAUg-yY/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kHC4QDHosyF0C1F0hVtP5vpNTSIw"
+        },
+        {
+          "videoId": "e2u8AarmUP4",
+          "title": "Land of Hope and Dreams (Live in Manchester, May 14, 2025)",
+          "artists": "Bruce Springsteen",
+          "album": "Land Of Hope & Dreams",
+          "duration": "7:28",
+          "thumbnail": "https://yt3.googleusercontent.com/XA7DnEnUNCvKRqEEzMWmzyeczZfm6ulwSHdWpgY4EMnJ63kwLynCgCBmwd8Fd2Ikr6a0_gFp9Nr7_1Rb5g=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "duBPsSDh0Vc",
+          "title": "Another You",
+          "artists": "Bruce Springsteen",
+          "album": "Tracks II: The Lost Albums",
+          "duration": "5:20",
+          "thumbnail": "https://yt3.googleusercontent.com/pM1tOkIsTOQHKHjlaqlujTaG8EAQP2tVkXnIm1Np4WiFe3BciR8oYuXTJDGT8rz2K8lMHajyMiqzRV4h=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "BNwpbW0wCAI",
+          "title": "Badlands (Phoenix, 78) (from Thrill Hill Vault 1976-1978)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "",
+          "duration": "4:47",
+          "thumbnail": "https://i.ytimg.com/vi/BNwpbW0wCAI/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lMTSds0uI6802ArUnP5mLSDOb7nA"
+        },
+        {
+          "videoId": "jEKquOrJiAI",
+          "title": "Fire",
+          "artists": "Bruce Springsteen",
+          "album": "The Promise",
+          "duration": "4:09",
+          "thumbnail": "https://yt3.googleusercontent.com/JEW_P8O0654KoQo_smX2nveqR959zl6hIz8ah-SDKaC7J2rkVYt19yUn6Cjrt1R75_l0adPI7dVg9TNR=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "BEhmiGQvjOY",
+          "title": "Ramrod",
+          "artists": "Bruce Springsteen",
+          "album": "The River",
+          "duration": "4:05",
+          "thumbnail": "https://yt3.googleusercontent.com/Col_DpCrr_hkkUItJUWhafNZfqkOWMDCA0PCvpgCgodyn7cs0KtHw_ROtgMlYIEYP29DmGU7fTr6Zo8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "4gRRE0Rk-SQ",
+          "title": "Repo Man",
+          "artists": "Bruce Springsteen",
+          "album": "Repo Man",
+          "duration": "2:56",
+          "thumbnail": "https://yt3.googleusercontent.com/N577ARxOwnOPoL1O6Pju7u9dvN9Rczg48OLiDgiUPpnRMUT4rLYWeYE_GlcbkcCycgX8JJ_ZSmIonvAvWQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "zf-7J6ke62Q",
+          "title": "Jesse James (Just Ask)",
+          "artists": "Bruce Springsteen",
+          "album": "We Shall Overcome: The Seeger Sessions (American Land Edition)",
+          "duration": "3:46",
+          "thumbnail": "https://yt3.googleusercontent.com/r3ENVhjTbKaXcexPpe67gcDcCWgxNNru2t_Qv05i8Ak1filwW4E9YhneQm6V6otr-fFh3S9J897SSrTJvQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "dthkGZiL1gA",
+          "title": "Brothers Under The Bridges ('83) (Studio Outtake - 1983)",
+          "artists": "Bruce Springsteen",
+          "album": "Tracks",
+          "duration": "5:06",
+          "thumbnail": "https://yt3.googleusercontent.com/s62TSxBnkL6Esi5qLu8M9kLW5qRcfwcNV9JLSN429vGU3S0TtvtS3f8UY7CaulhfDlU1RgRYGZPPPX3uLg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "nkeIYv50maE",
+          "title": "O Mary Don't You Weep",
+          "artists": "Bruce Springsteen",
+          "album": "We Shall Overcome: The Seeger Sessions (American Land Edition)",
+          "duration": "6:05",
+          "thumbnail": "https://yt3.googleusercontent.com/r3ENVhjTbKaXcexPpe67gcDcCWgxNNru2t_Qv05i8Ak1filwW4E9YhneQm6V6otr-fFh3S9J897SSrTJvQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "eu5sSFAC5-U",
+          "title": "Rockaway The Days (Studio Outtake - 1984)",
+          "artists": "Bruce Springsteen",
+          "album": "Tracks",
+          "duration": "4:41",
+          "thumbnail": "https://yt3.googleusercontent.com/s62TSxBnkL6Esi5qLu8M9kLW5qRcfwcNV9JLSN429vGU3S0TtvtS3f8UY7CaulhfDlU1RgRYGZPPPX3uLg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "cm9UuM3UXdc",
+          "title": "Racing in the Street",
+          "artists": "Bruce Springsteen",
+          "album": "Darkness On the Edge of Town",
+          "duration": "6:53",
+          "thumbnail": "https://yt3.googleusercontent.com/beOSgSYFaytNzLWrW_p7fHPbR8apn8VDuNyQ3Jhia9bAFQH38umkw26Ds5PRw1xlqvsqMwsfghE5Kq2X=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "IH6pqGb_3jc",
+          "title": "Atlantic City (Live at Madison Square Garden, New York, NY - June/July 2000)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "Live in New York City",
+          "duration": "6:37",
+          "thumbnail": "https://yt3.googleusercontent.com/oToxWwG9cdOxluqTdoHI9T_ReSSK5nUKLBzp94upWoUTZbMRjAEVxlcn0qJc3eTBebi_T0fWgxugEMFxjw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "TSq34PgSl-Q",
+          "title": "My Beautiful Reward",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "3:56",
+          "thumbnail": "https://yt3.googleusercontent.com/dN1Ek0FdyYjMAAxuwpt1qA-IJ6jzfBMpNT2l1vFP4j8MHilPcpulsj0Zit-JIaD3vAcS4VmP15G-LWe6=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "58GKdqkKF8A",
+          "title": "The Promise (Studio Outtake - 1999)",
+          "artists": "Bruce Springsteen",
+          "album": "Tracks",
+          "duration": "4:51",
+          "thumbnail": "https://yt3.googleusercontent.com/s62TSxBnkL6Esi5qLu8M9kLW5qRcfwcNV9JLSN429vGU3S0TtvtS3f8UY7CaulhfDlU1RgRYGZPPPX3uLg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "l_I85xbmS40",
+          "title": "If I Should Fall Behind (Live at Warner Hollywood Studios, Los Angeles, CA - September 1992)",
+          "artists": "Bruce Springsteen",
+          "album": "In Concert/MTV Plugged (Live)",
+          "duration": "4:45",
+          "thumbnail": "https://yt3.googleusercontent.com/PDukB0h87igbG80wQQ1kSCcQxoLCr-kX9oNlOQPyb-qLA_3R8SFqRdsxARTxukQEUpQkg0icOV_4JuEVfw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "jssnRkHODE0",
+          "title": "Sad Eyes (Studio Outtake - 1990)",
+          "artists": "Bruce Springsteen",
+          "album": "Tracks",
+          "duration": "3:48",
+          "thumbnail": "https://yt3.googleusercontent.com/s62TSxBnkL6Esi5qLu8M9kLW5qRcfwcNV9JLSN429vGU3S0TtvtS3f8UY7CaulhfDlU1RgRYGZPPPX3uLg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "awYVzaY_e1k",
+          "title": "Dream Baby Dream",
+          "artists": "Bruce Springsteen",
+          "album": "High Hopes",
+          "duration": "5:03",
+          "thumbnail": "https://yt3.googleusercontent.com/5FatMhKJquIxEDJcuvLo3DatwSJyiJ2EkSTKXEGf0ulyPF5Cb2LTqcvAAoNLnvvdLAG5k-73jxRGNJPt=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "a7PhILCrtqs",
+          "title": "The Promise",
+          "artists": "Bruce Springsteen",
+          "album": "The Promise",
+          "duration": "5:52",
+          "thumbnail": "https://yt3.googleusercontent.com/JEW_P8O0654KoQo_smX2nveqR959zl6hIz8ah-SDKaC7J2rkVYt19yUn6Cjrt1R75_l0adPI7dVg9TNR=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "AD-C22noboo",
+          "title": "Jackson Cage (Live at Wembley Arena, London, UK - 6/4/1981)",
+          "artists": "Bruce Springsteen",
+          "album": "The Live Series: Songs of Introspection",
+          "duration": "3:38",
+          "thumbnail": "https://yt3.googleusercontent.com/ZL_6G9yCkFyxBmlbXrVFN8ZLYCUXrGw4wKn348pX9y7_6EL5faj2a4Hkz_dwJsc3AvpTqMPZ-FKgWHVC=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "rdP3y4k2KKU",
+          "title": "For You",
+          "artists": "Bruce Springsteen",
+          "album": "Greetings from Asbury Park, N.J.",
+          "duration": "4:40",
+          "thumbnail": "https://yt3.googleusercontent.com/izDJgMq8gNQqwC0E4cGqQV39GpzxsnbcuCeE8Yzfci-w3-zrFQyZB0HpKT-Ym3_2YrHISL4D2JKv4wLwBw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "BaTNvGQ6tKA",
+          "title": "Two Hearts",
+          "artists": "Bruce Springsteen",
+          "album": "The River",
+          "duration": "2:43",
+          "thumbnail": "https://yt3.googleusercontent.com/Col_DpCrr_hkkUItJUWhafNZfqkOWMDCA0PCvpgCgodyn7cs0KtHw_ROtgMlYIEYP29DmGU7fTr6Zo8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "f08ZRJYSQ4o",
+          "title": "Born In The U.S.A. Explainer",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "3:20",
+          "thumbnail": "https://i.ytimg.com/vi/f08ZRJYSQ4o/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kaH4-SKi-xM8cvFmQ-K2cUmtg9KQ"
+        },
+        {
+          "videoId": "VmwJQ62Cs_o",
+          "title": "Better Days",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "4:51",
+          "thumbnail": "https://i.ytimg.com/vi/VmwJQ62Cs_o/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mTLjoVXVa5q9SJdYvSla2TBBiY0A"
+        },
+        {
+          "videoId": "d71n-5Tuns8",
+          "title": "Born in the USA (Live)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "Get Up! Stand Up! (Highlights from the Human Rights Concerts 1986-1998) [Live]",
+          "duration": "5:57",
+          "thumbnail": "https://yt3.googleusercontent.com/J-yFhYM5K2XoHGt3_FHaVsTuDxSM73ws_PgPDDuhlRzRINDhfi5OWUuUf1-lS9_nVcGuorvew71DUGCq=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "DsnuuedDNIw",
+          "title": "Because The Night (Live)",
+          "artists": "Bruce Springsteen",
+          "album": "The Ties That Bind (Live)",
+          "duration": "8:37",
+          "thumbnail": "https://yt3.googleusercontent.com/HhuD9dOT0WDUBbRQzd282br6luANlbiLH1xZkrlPistz8U9AI2o_-uFksWgEISoz-gV7h0tatMYrzvnB=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ni7oQq0ouUo",
+          "title": "Living Proof",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:45",
+          "thumbnail": "https://yt3.googleusercontent.com/dN1Ek0FdyYjMAAxuwpt1qA-IJ6jzfBMpNT2l1vFP4j8MHilPcpulsj0Zit-JIaD3vAcS4VmP15G-LWe6=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "SAMkFVJ-ews",
+          "title": "Lonesome Day",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "4:37",
+          "thumbnail": "https://i.ytimg.com/vi/SAMkFVJ-ews/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kMuyc4aM0loI-fj3Ng4Z1k3q5dSQ"
+        },
+        {
+          "videoId": "idnJnjV_8rg",
+          "title": "Brilliant Disguise (Official Video)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "4:15",
+          "thumbnail": "https://i.ytimg.com/vi/idnJnjV_8rg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lXT1Z4ZzCJC7MmQj_SvLa660ZHuQ"
+        },
+        {
+          "videoId": "eFIh-5SYwK0",
+          "title": "Roll of the Dice (from In Concert/MTV Plugged)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "11:06",
+          "thumbnail": "https://i.ytimg.com/vi/eFIh-5SYwK0/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kFfef3NH9zf43VpxENcgj1IEjsCw"
+        },
+        {
+          "videoId": "pSdAWfKiuYY",
+          "title": "Wasted Days",
+          "artists": "John Mellencamp, Bruce Springsteen",
+          "album": "Strictly A One-Eyed Jack",
+          "duration": "4:32",
+          "thumbnail": "https://yt3.googleusercontent.com/HUbaXiUMpTuEn0wrtvyp8sWtyxvD1NX_UZt5671l6VYKqOs17hYuFpkXDH0VBotJhI4P-bDG9phkdwfI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "gG1fMRmuomQ",
+          "title": "Easy Money",
+          "artists": "Bruce Springsteen",
+          "album": "Wrecking Ball",
+          "duration": "3:36",
+          "thumbnail": "https://yt3.googleusercontent.com/oVZdA2fwIxjHpGlS-invgm2aD6a8WvYTXMXAQQYaiU9GduSMnpfCmx2pxmtXfgZFMcxWMtIq5qYKGD2H=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "8xpR_k2e3co",
+          "title": "I Wish It Would Rain",
+          "artists": "Bruce Springsteen",
+          "album": "Only the Strong Survive",
+          "duration": "3:25",
+          "thumbnail": "https://yt3.googleusercontent.com/Rz7GS4NEH8bbZNwcCJ_bnM-UYlaM7h4dPwDyPTox-glyZrMmsvVqVUx4uq2swspIsNwR8L22jy19V7NV=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "tDHiNsGYDwU",
+          "title": "Turn Back the Hands of Time",
+          "artists": "Bruce Springsteen",
+          "album": "Only the Strong Survive",
+          "duration": "3:08",
+          "thumbnail": "https://yt3.googleusercontent.com/Rz7GS4NEH8bbZNwcCJ_bnM-UYlaM7h4dPwDyPTox-glyZrMmsvVqVUx4uq2swspIsNwR8L22jy19V7NV=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "3orShFvQTRI",
+          "title": "For You",
+          "artists": "Bruce Springsteen",
+          "album": "Greetings from Asbury Park, N.J.",
+          "duration": "4:40",
+          "thumbnail": "https://yt3.googleusercontent.com/iAyrkluxD8xz-XNVQ8Gplt0cN8cjB0scw99zWB4lEu4b9Q3qXl4haofnFIP8RhW43bgNasvSLo5ZqKHK=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "_6-ItUwDYmw",
+          "title": "Backstreets (Live at Sovereign Bank Arena , Trenton, NJ - 11/22/2005)",
+          "artists": "Bruce Springsteen",
+          "album": "The Live Series: Songs on Keys",
+          "duration": "6:02",
+          "thumbnail": "https://yt3.googleusercontent.com/EdKy_lUAAMQwSKsbqS3XP7WX09MtpEw6Mf2bwmpTECw5kkXdPBIVyc_n0DDrzKuYX99g0cEBaEVjzjMA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "4dG3jc6fzPY",
+          "title": "Cadillac Ranch (The River Tour, Tempe 1980)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "5:03",
+          "thumbnail": "https://i.ytimg.com/vi/4dG3jc6fzPY/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kxg8LOLH3PR5kcKe51bCOKfmOhZg"
+        },
+        {
+          "videoId": "ZsADQpw-dD8",
+          "title": "Hungry Heart (The River Tour, Tempe 1980)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "4:33",
+          "thumbnail": "https://i.ytimg.com/vi/ZsADQpw-dD8/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3nCwGIll5LiUKzfV-87W42xkHrJSw"
+        },
+        {
+          "videoId": "77gKSp8WoRg",
+          "title": "My Hometown (Official Video)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "5:11",
+          "thumbnail": "https://i.ytimg.com/vi/77gKSp8WoRg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kGWp6qF6WyH-lT6th8suY6jOTWgw"
+        },
+        {
+          "videoId": "kHyCXuk9hmc",
+          "title": "Tougher Than The Rest (Live at LA Memorial Sports Arena, Los Angeles, CA - April 1988)",
+          "artists": "Bruce Springsteen",
+          "album": "Chimes of Freedom (Live) - EP",
+          "duration": "6:37",
+          "thumbnail": "https://yt3.googleusercontent.com/pSclNIekLSeqaT1JtDjPRzcoIpeQLTbCxbzrn2U8b9cN549NnfxRBGJ9gkZLTYCLR4J4FnJWtCvRl2oLBg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "KHMIIKK8oMM",
+          "title": "Bruce Springsteen - The Ties That Bind (Live on SNL)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "3:46",
+          "thumbnail": "https://i.ytimg.com/vi/KHMIIKK8oMM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kHCJftzqolS7Hbwuhrf1V6YokB3A"
+        },
+        {
+          "videoId": "sAUtCPtDQ4Y",
+          "title": "The Price You Pay",
+          "artists": "Bruce Springsteen",
+          "album": "The River",
+          "duration": "5:27",
+          "thumbnail": "https://yt3.googleusercontent.com/Col_DpCrr_hkkUItJUWhafNZfqkOWMDCA0PCvpgCgodyn7cs0KtHw_ROtgMlYIEYP29DmGU7fTr6Zo8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "LzsAPhGpMkA",
+          "title": "Badlands (The Legendary 1979 No Nukes Concerts)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "4:21",
+          "thumbnail": "https://i.ytimg.com/vi/LzsAPhGpMkA/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mMLNcY63zBJVMXiDaUr9KwPe1O6Q"
+        },
+        {
+          "videoId": "P8HXvt-v5v0",
+          "title": "Darkness On the Edge of Town (Live in Houston, 1978)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "",
+          "duration": "4:25",
+          "thumbnail": "https://i.ytimg.com/vi/P8HXvt-v5v0/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mBrUc-WeSpnS5lZspK68IX6kRS3Q"
+        },
+        {
+          "videoId": "qBk3cDAepbg",
+          "title": "Darkness on the Edge of Town (Live In Barcelona)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "",
+          "duration": "5:12",
+          "thumbnail": "https://i.ytimg.com/vi/qBk3cDAepbg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3n3NiHQIMLcGWgP40p8K3nWnFvAsA"
+        },
+        {
+          "videoId": "6PC60gY6LRQ",
+          "title": "Darkness on the Edge of Town (Live at The Paramount Theatre 2009)",
+          "artists": "Bruce Springsteen & The E Street Band",
+          "album": "",
+          "duration": "4:36",
+          "thumbnail": "https://i.ytimg.com/vi/6PC60gY6LRQ/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lUYy0iEqq0mpzuwZ7A2BX7PXXtRQ"
+        },
+        {
+          "videoId": "pExlowejNpQ",
+          "title": "Born to Run",
+          "artists": "Bruce Springsteen",
+          "album": "The Essential Bruce Springsteen",
+          "duration": "4:31",
+          "thumbnail": "https://yt3.googleusercontent.com/DTltMvqgGvSqk0gjMOLcUpmARlZZFXmbw0MZ8YjEsJRpe-Bml71sNdNqxzWdJVz9WoI2yy2EJUljOyhr=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "KDz62awS6qU",
+          "title": "Badlands (The River Tour, Tempe 1980)",
+          "artists": "Bruce Springsteen",
+          "album": "",
+          "duration": "5:10",
+          "thumbnail": "https://i.ytimg.com/vi/KDz62awS6qU/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lTjcJJNm5T1Fo52bKyr95mSTFyJQ"
+        },
+        {
+          "videoId": "l6IwxpL-ZDk",
+          "title": "Jungleland",
+          "artists": "Bruce Springsteen",
+          "album": "Born To Run",
+          "duration": "9:36",
+          "thumbnail": "https://yt3.googleusercontent.com/8aK3INgtq69MvZFQ8wO9sFsMFkKFpFT1BJSbgBhUTYdfRuGbo57e2mNMVl_vue3BTS-TSlDn7IhTQa8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "aQcxrt9-6ZI",
+          "title": "Point Blank",
+          "artists": "Bruce Springsteen",
+          "album": "The River",
+          "duration": "6:07",
+          "thumbnail": "https://yt3.googleusercontent.com/Col_DpCrr_hkkUItJUWhafNZfqkOWMDCA0PCvpgCgodyn7cs0KtHw_ROtgMlYIEYP29DmGU7fTr6Zo8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "rVSWvjwO60w",
+          "title": "Born To Run (Live at Giants Stadium, E. Rutherford, NJ - August 1985)",
+          "artists": "Bruce Springsteen",
+          "album": "Bruce Springsteen & The E Street Band Live 1975-85",
+          "duration": "5:03",
+          "thumbnail": "https://yt3.googleusercontent.com/EyIyqoO-xCoWoTsg4YZ5tkhV1lItuwrKTczK3ap7mjoeoeIrC3gWSeE1rbQtBGFJ0qSJKCWog1fLc4s=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "ZeeDubs",
+      "name": "",
       "artists": [
         "Warren Zevon"
       ],
       "playlistId": "PLb1Pj_tMZHbkrpX_XulHS-AsjSdKKuOL6",
-      "trackCount": 46,
+      "trackCount": 60,
       "thumbnail": "https://yt3.googleusercontent.com/IIu9aSLCnPJtLidkmWJ_rNSTzae-nupkplsgjCYR4aVTJJgON1xpn4c8eaoWxn_8KlH1_2pDk-w=s1200",
       "tracks": [
         {
@@ -1407,16 +1946,129 @@
           "album": "Mutineer",
           "duration": "4:06",
           "thumbnail": "https://yt3.googleusercontent.com/IQGYRUSNpBTDwwbwQvLu7jEMqTw1NTRMATZ3NTBkn3UF-xP2zReTovEsP_yfObSWuK4yrU1MDndBiZRo=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "GpHm1Hy9jb8",
+          "title": "Carmelita",
+          "artists": "Warren Zevon, Jackson Browne",
+          "album": "",
+          "duration": "4:38",
+          "thumbnail": "https://i.ytimg.com/vi/GpHm1Hy9jb8/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AMzJL3lNo4CRAp0PH79iIVFAxt1pIy5sRQ"
+        },
+        {
+          "videoId": "j3HUFh8gTF8",
+          "title": "My Ride's Here",
+          "artists": "Warren Zevon",
+          "album": "My Ride's Here",
+          "duration": "3:42",
+          "thumbnail": "https://yt3.googleusercontent.com/8vf9D7OIQSC_dINx3gsS83fGClvXeYiy133YCIKOQKsj-DTH07-GDc9TKNmZX74P3EfwE-xD8TP6oFZx=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Rz50g7U-Aak",
+          "title": "Searching For A Heart (Live Cleveland '92)",
+          "artists": "Warren Zevon",
+          "album": "Moving Through The Station",
+          "duration": "3:51",
+          "thumbnail": "https://yt3.googleusercontent.com/3E1EOjKTefBl76IR8mhPjQ5WbdzOQrKjM8mzTwkvy8jeyCB6OvdBPpcRRqPy2-RIDFljLg9prqjh3HI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "8cUfFrynatM",
+          "title": "Renegade (2008 Remaster)",
+          "artists": "Warren Zevon",
+          "album": "Mr. Bad Example (2008 Remaster)",
+          "duration": "4:51",
+          "thumbnail": "https://yt3.googleusercontent.com/2YClsX9Wq0djZFnkkToYPrPknV2c_3oCXM9nIXJPl_K0ixSUbVGWgLCEMn0gJsHspehPfZlDOEEbGY2P=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "gyhWYF1iOoI",
+          "title": "Stop Rainin' Lord",
+          "artists": "Warren Zevon",
+          "album": "Preludes: Rare & Unreleased Recordings",
+          "duration": "2:12",
+          "thumbnail": "https://yt3.googleusercontent.com/tFTZsyRl2IAJJkJtwaxEBFp6ycjp_TWeOgqOjoHomxANgGPdqxOVQ-N97vFm_tmF8FHnmquSQO9Gev0J=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "P0siymrwS70",
+          "title": "Numb as a Statue",
+          "artists": "Warren Zevon",
+          "album": "The Wind",
+          "duration": "4:09",
+          "thumbnail": "https://yt3.googleusercontent.com/kLK-1okRTb1sQVaAj51CHF1KaoAM2v-n2YIs6pwh1CNkr3JGGQQd4V8p7BfXZ4gBYhviUPwiv27LtdA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "RUojao4njnU",
+          "title": "Hit Somebody! (The Hockey Song)",
+          "artists": "Warren Zevon",
+          "album": "My Ride's Here",
+          "duration": "5:27",
+          "thumbnail": "https://yt3.googleusercontent.com/R7kx2X4rqyekgn9ZIswWVb8z0FP99vjUGzL2iFtTbZso2G6XoC49deM9AKgMTKus7gWm26IOzpbNIK0C=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "ABxbuI5Zufo",
+          "title": "Seminole Bingo (2008 Remaster)",
+          "artists": "Warren Zevon",
+          "album": "Mutineer",
+          "duration": "3:12",
+          "thumbnail": "https://yt3.googleusercontent.com/IQGYRUSNpBTDwwbwQvLu7jEMqTw1NTRMATZ3NTBkn3UF-xP2zReTovEsP_yfObSWuK4yrU1MDndBiZRo=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "3Ry0yLkEzWM",
+          "title": "Poor, Poor Pitiful Me (Live)",
+          "artists": "Warren Zevon",
+          "album": "Fever In My Veins (Live New Jersey '82)",
+          "duration": "4:48",
+          "thumbnail": "https://yt3.googleusercontent.com/pnviwI4kg1FmAgVGnlZaRJAqIkmm3VYDy57x0WVBo5m_zEPIuAbWKtIF_7ETU6s8Z8iw4eNDJ7WEbMPp=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NIMHaWCpLCQ",
+          "title": "Ourselves to Know",
+          "artists": "Warren Zevon",
+          "album": "Life'll Kill Ya",
+          "duration": "3:18",
+          "thumbnail": "https://yt3.googleusercontent.com/zZfn7mRKoJCD3_gg9Esxkk0-KhF7-e932aN1mdISUOEXhx4uJ0CUj46MV7PdOvX_HZ0fWJLVPxxx10k=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "aOh0iRgkQMM",
+          "title": "Accidentally Like a Martyr",
+          "artists": "Warren Zevon",
+          "album": "A Quiet Normal Life: The Best of Warren Zevon",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/0XDuE3aWZ24WwFHv2P3oQWDcjKjx2ouiduD9JLvP5nlzoD4fg8drcILJ8hWG78mC0Tftc89aP3cHzTk=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "P-dvW8Sg6-4",
+          "title": "Poor, Poor Pitiful Me (2007 Remaster) [Live] (2007 Remaster; Live)",
+          "artists": "Warren Zevon",
+          "album": "Stand in the Fire",
+          "duration": "4:19",
+          "thumbnail": "https://yt3.googleusercontent.com/Gv4hDPBZ48vJCKlCRBng6bI2JCdvST2az2oOfBqEVWls8rk9n2dbxgyAsFngRuZ5AxPWL1vXPKqUrFq0=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "6xyuQG0IyGs",
+          "title": "Carmelita (2008 Remaster)",
+          "artists": "Warren Zevon",
+          "album": "Warren Zevon",
+          "duration": "3:36",
+          "thumbnail": "https://yt3.googleusercontent.com/A1kHWBTt9AVR-RKrp0GwzPuIioZu_sibveOlhuHFUsj_hoZrhgGJTRxV5amF_lTtcGMYdZKdKnqvljrj=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "CabhSnOrE_c",
+          "title": "For My Next Trick, I'll Need A Volunteer",
+          "artists": "Warren Zevon",
+          "album": "Life'll Kill Ya",
+          "duration": "3:14",
+          "thumbnail": "https://yt3.googleusercontent.com/zZfn7mRKoJCD3_gg9Esxkk0-KhF7-e932aN1mdISUOEXhx4uJ0CUj46MV7PdOvX_HZ0fWJLVPxxx10k=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "BrowneBeats",
+      "name": "",
       "artists": [
         "Jackson Browne"
       ],
       "playlistId": "PLb1Pj_tMZHblGsNRF6EYsqrswXI4QlOdd",
-      "trackCount": 49,
+      "trackCount": 87,
       "thumbnail": "https://yt3.googleusercontent.com/PTwks6rwrNovmBqZ5kIbufpREAATouDjplo2CPQr_TMmtkPqoBAA8S9boiX0BtiIz7sykKsNdaE=s1200",
       "tracks": [
         {
@@ -1810,16 +2462,1277 @@
           "album": "Running on Empty(Remastered)",
           "duration": "3:30",
           "thumbnail": "https://yt3.googleusercontent.com/bxRgKglPORyPq4IRhctkwYJKJEuJP_PUm9O50qfyAAZeuVqx0aZ4Oi3-jM99c6yrJnOaCU8DPSt-sple=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "8zz1lOXT0uQ",
+          "title": "Your Bright Baby Blues (Live)",
+          "artists": "Jackson Browne",
+          "album": "Solo Acoustic, Vol. 1",
+          "duration": "6:12",
+          "thumbnail": "https://yt3.googleusercontent.com/9wgHB7dv83Q-2lwzsLOj_pio4GcngwLXl5cxnkRWSoPJI2zUZrq9GU3pPsb8ovci5fo0EwOrACa6cb2W=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "pyBwvXBcznc",
+          "title": "Hold on Hold Out",
+          "artists": "Jackson Browne",
+          "album": "Hold Out",
+          "duration": "8:08",
+          "thumbnail": "https://yt3.googleusercontent.com/s2Az6csWbmL6jkUYJI2zhOd7Alr8wrj7rjOiKCCjlhjoeV3vH09NCWfvyvY-DznU1_m_bkMq8osdnmapTg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "eSWy1-wk0OI",
+          "title": "The Load Out / Stay (Live 1982 FM Broadcast Remastered)",
+          "artists": "Jackson Browne",
+          "album": "Legendary FM Broadcasts - Festival De Jazz, Montreux Switzerland 18th July 1982",
+          "duration": "8:12",
+          "thumbnail": "https://yt3.googleusercontent.com/pktm7fFMA3FFu2kOalkknOxsjsI5p7peFIjOeji0v4nhsDIL_XaeyBQwNMyuVpOcypbEQ3LA9XYxlt-z0w=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "c5NrRPbsGew",
+          "title": "A Little Soon To Say",
+          "artists": "Jackson Browne",
+          "album": "Downhill From Everywhere",
+          "duration": "6:26",
+          "thumbnail": "https://yt3.googleusercontent.com/tXO3qRbVIlbDri95Mem9SuyOlSf_L4MYdLrgeNS-WwF09QIaVzyrp6RibviJ_bhd7B9d_B0BAC9I3Gfx=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "txWmtTm1PIc",
+          "title": "Time the Conqueror",
+          "artists": "Jackson Browne",
+          "album": "Time the Conqueror",
+          "duration": "5:27",
+          "thumbnail": "https://yt3.googleusercontent.com/7-N1NrslmVJ8168jFbL_ctffUP8RdU5o5BDqTlc2RBZNBUZ-LGOpr4IT6Dlrh9gInuFCxP1YlBwD8A-c=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "8niggURImqw",
+          "title": "The Only Child",
+          "artists": "Jackson Browne",
+          "album": "The Pretender",
+          "duration": "3:42",
+          "thumbnail": "https://yt3.googleusercontent.com/zRxIC81CIgZ7RmFFMJuOSmnmGMru0UGIV38hmHr9z8ATQ4BlFvjTEHBJcsnrrl1_aKhCOSmPg435OAb9=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "aao8ph11QIU",
+          "title": "Take It Easy (Live)",
+          "artists": "Jackson Browne",
+          "album": "Solo Acoustic, Vol. 1",
+          "duration": "4:09",
+          "thumbnail": "https://yt3.googleusercontent.com/9wgHB7dv83Q-2lwzsLOj_pio4GcngwLXl5cxnkRWSoPJI2zUZrq9GU3pPsb8ovci5fo0EwOrACa6cb2W=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "oSLRDEZZjV4",
+          "title": "Daddy's Tune",
+          "artists": "Jackson Browne",
+          "album": "The Pretender",
+          "duration": "3:36",
+          "thumbnail": "https://yt3.googleusercontent.com/zRxIC81CIgZ7RmFFMJuOSmnmGMru0UGIV38hmHr9z8ATQ4BlFvjTEHBJcsnrrl1_aKhCOSmPg435OAb9=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Ym7aq70t540",
+          "title": "Running on Empty",
+          "artists": "Jackson Browne",
+          "album": "Running on Empty(Remastered)",
+          "duration": "5:31",
+          "thumbnail": "https://yt3.googleusercontent.com/bxRgKglPORyPq4IRhctkwYJKJEuJP_PUm9O50qfyAAZeuVqx0aZ4Oi3-jM99c6yrJnOaCU8DPSt-sple=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "gtlqZOT2fOo",
+          "title": "Doctor My Eyes",
+          "artists": "Jackson Browne",
+          "album": "Jackson Browne",
+          "duration": "3:18",
+          "thumbnail": "https://yt3.googleusercontent.com/cG0Wg7c4FhxH1IGvhsIHZLU-3OvnL3j4SCfU0mZlSnf2NBfFbFlliC3qLWJgsuPxVOQTXVun8FJvHjeAWg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "GpHm1Hy9jb8",
+          "title": "Carmelita",
+          "artists": "Warren Zevon, Jackson Browne",
+          "album": "",
+          "duration": "4:38",
+          "thumbnail": "https://i.ytimg.com/vi/GpHm1Hy9jb8/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AMzJL3lNo4CRAp0PH79iIVFAxt1pIy5sRQ"
+        },
+        {
+          "videoId": "2O17VZNhVEo",
+          "title": "The Barricades Of Heaven",
+          "artists": "Jackson Browne",
+          "album": "The Road East - Live In Japan",
+          "duration": "10:35",
+          "thumbnail": "https://yt3.googleusercontent.com/EcbKq7SJHovHTfnpTLiNk8ePdx_SqDm4K22arqpwIPRvoPLR_FweNyiZN0w6J-tT49MlF625Rm8CGIRv=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "A2GMr1GtzNo",
+          "title": "The Long Way Around",
+          "artists": "Jackson Browne",
+          "album": "Standing In The Breach",
+          "duration": "6:25",
+          "thumbnail": "https://yt3.googleusercontent.com/HC1Fss5QQ7mtCrqjbNeTRoElozYnxBf2HQ7UfWr9irUc_KV3JgrxhS8VnHaqydAx2X43aQes66A3YYP7=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "88BqDixjfZw",
+          "title": "Still Looking For Something",
+          "artists": "Jackson Browne",
+          "album": "Downhill From Everywhere",
+          "duration": "3:11",
+          "thumbnail": "https://yt3.googleusercontent.com/tXO3qRbVIlbDri95Mem9SuyOlSf_L4MYdLrgeNS-WwF09QIaVzyrp6RibviJ_bhd7B9d_B0BAC9I3Gfx=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "OZHC9BGYJ1E",
+          "title": "Sky Blue and Black",
+          "artists": "Jackson Browne",
+          "album": "Solo Acoustic Volume 2",
+          "duration": "5:38",
+          "thumbnail": "https://yt3.googleusercontent.com/GYTO_yaxMW2LB5KnIOkuTIhOrp3mIb76yV3NekxMTCoB0K5fgwAbT6QXH885nm6cH5Q_hh-5ugcsboye=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "l0S1acZg6-8",
+          "title": "These Days (Live)",
+          "artists": "Jackson Browne, Gregg Allman",
+          "album": "All My Friends: Celebrating The Songs & Voice Of Gregg Allman",
+          "duration": "4:56",
+          "thumbnail": "https://yt3.googleusercontent.com/vZojc8KCbtE9zziSuIyE_IPdL2XbAkyU73Rbg-Hw3aaPa5elgWkyQQU75JdgA4kwA_PqpNdM8qE0Dfo2=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7QYxF2Scjpo",
+          "title": "Something Fine",
+          "artists": "Jackson Browne",
+          "album": "Jackson Browne",
+          "duration": "3:49",
+          "thumbnail": "https://yt3.googleusercontent.com/cG0Wg7c4FhxH1IGvhsIHZLU-3OvnL3j4SCfU0mZlSnf2NBfFbFlliC3qLWJgsuPxVOQTXVun8FJvHjeAWg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-vuaNsBRDkI",
+          "title": "The Load Out",
+          "artists": "Jackson Browne",
+          "album": "The Very Best Of Jackson Browne (US & International Release)",
+          "duration": "5:36",
+          "thumbnail": "https://yt3.googleusercontent.com/eymRdqmPSUfad_OLX9qTZCgeceq9mbhwKuYKDhXLzUe70Ph7-es0hxUQJahU5kcbBds7gZW_k0jsZD67=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "qKlEh9Pw9KU",
+          "title": "I Am A Patriot",
+          "artists": "Jackson Browne",
+          "album": "The Road East - Live In Japan",
+          "duration": "5:20",
+          "thumbnail": "https://yt3.googleusercontent.com/EcbKq7SJHovHTfnpTLiNk8ePdx_SqDm4K22arqpwIPRvoPLR_FweNyiZN0w6J-tT49MlF625Rm8CGIRv=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "VrvrCVl4wI0",
+          "title": "Shaky Town",
+          "artists": "Jackson Browne",
+          "album": "Running on Empty(Remastered)",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/bxRgKglPORyPq4IRhctkwYJKJEuJP_PUm9O50qfyAAZeuVqx0aZ4Oi3-jM99c6yrJnOaCU8DPSt-sple=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "qeeO8yS4VDQ",
+          "title": "For a Dancer (Single Version)",
+          "artists": "Jackson Browne",
+          "album": "The Very Best Of Jackson Browne",
+          "duration": "4:49",
+          "thumbnail": "https://yt3.googleusercontent.com/hpOIdvRxcb0whhosyBpgvW9Lia7v5y7XoB_MLNT-X7ap1x2xJqM-lM8KyzVZFZxoiXdFGpB84lYrp4OSSA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "BrCLkeYKuEw",
+          "title": "Doctor My Eyes (1997 Remaster)",
+          "artists": "Jackson Browne",
+          "album": "The Next Voice You Hear - The Best Of Jackson Browne",
+          "duration": "3:21",
+          "thumbnail": "https://yt3.googleusercontent.com/BL23JAU3GHq2g3Z-7POfafaU8Q7Kgs5L_lEQ3W4MkL7hBwo20FjYuDsy043GwGg7eISdKb7dtHZyOJ0=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "8-werjFZumQ",
+          "title": "My Stunning Mystery Companion",
+          "artists": "Jackson Browne",
+          "album": "The Naked Ride Home",
+          "duration": "4:52",
+          "thumbnail": "https://yt3.googleusercontent.com/sJR9RNt2mUKQufyRu8znnkxjPVwPOW0fFOtcK0BDKoH4CnTXOqTTmXK19EgAlmYDwQ3m_nHkyNMIbQs=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "igjVimURZkY",
+          "title": "About My Imagination",
+          "artists": "Jackson Browne",
+          "album": "The Naked Ride Home",
+          "duration": "6:10",
+          "thumbnail": "https://yt3.googleusercontent.com/sJR9RNt2mUKQufyRu8znnkxjPVwPOW0fFOtcK0BDKoH4CnTXOqTTmXK19EgAlmYDwQ3m_nHkyNMIbQs=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "8gqQJ7vUBRI",
+          "title": "The Birds Of St. Marks",
+          "artists": "Jackson Browne",
+          "album": "Standing In The Breach",
+          "duration": "4:23",
+          "thumbnail": "https://yt3.googleusercontent.com/HC1Fss5QQ7mtCrqjbNeTRoElozYnxBf2HQ7UfWr9irUc_KV3JgrxhS8VnHaqydAx2X43aQes66A3YYP7=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "wf0_jNNw6mw",
+          "title": "Tender Is The Night (Live 1982 FM Broadcast Remastered)",
+          "artists": "Jackson Browne",
+          "album": "Legendary FM Broadcasts - Festival De Jazz, Montreux Switzerland 18th July 1982",
+          "duration": "4:19",
+          "thumbnail": "https://yt3.googleusercontent.com/pktm7fFMA3FFu2kOalkknOxsjsI5p7peFIjOeji0v4nhsDIL_XaeyBQwNMyuVpOcypbEQ3LA9XYxlt-z0w=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "AEHycU9n41Q",
+          "title": "The Naked Ride Home",
+          "artists": "Jackson Browne",
+          "album": "The Naked Ride Home",
+          "duration": "5:59",
+          "thumbnail": "https://yt3.googleusercontent.com/sJR9RNt2mUKQufyRu8znnkxjPVwPOW0fFOtcK0BDKoH4CnTXOqTTmXK19EgAlmYDwQ3m_nHkyNMIbQs=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "0CuAQOagYeY",
+          "title": "Black and White",
+          "artists": "Jackson Browne",
+          "album": "Lives in the Balance",
+          "duration": "5:12",
+          "thumbnail": "https://yt3.googleusercontent.com/HfKHf_6nLIVIjM-To0ruk9xCmQ6tcbrdhMgb63R-BKM4qj1iuZ7o7k5H6mu7PoCTOiFpGAWw7dzXNdU=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "mKRQwD163Xs",
+          "title": "Looking Into You",
+          "artists": "Jackson Browne",
+          "album": "Jackson Browne",
+          "duration": "4:20",
+          "thumbnail": "https://yt3.googleusercontent.com/cG0Wg7c4FhxH1IGvhsIHZLU-3OvnL3j4SCfU0mZlSnf2NBfFbFlliC3qLWJgsuPxVOQTXVun8FJvHjeAWg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "vAwhD9rKxog",
+          "title": "Before The Deluge",
+          "artists": "Jackson Browne",
+          "album": "",
+          "duration": "7:15",
+          "thumbnail": "https://i.ytimg.com/vi/vAwhD9rKxog/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3nBRMB1ICvhEs88XxlTHiLbeDd5aA"
+        },
+        {
+          "videoId": "3gYeeiGpTtE",
+          "title": "A Child in These Hills",
+          "artists": "Jackson Browne",
+          "album": "Jackson Browne",
+          "duration": "4:00",
+          "thumbnail": "https://yt3.googleusercontent.com/cG0Wg7c4FhxH1IGvhsIHZLU-3OvnL3j4SCfU0mZlSnf2NBfFbFlliC3qLWJgsuPxVOQTXVun8FJvHjeAWg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "KMeQ3LxA30k",
+          "title": "Somebody's Baby",
+          "artists": "Jackson Browne",
+          "album": "The Next Voice You Hear - The Best Of Jackson Browne",
+          "duration": "4:23",
+          "thumbnail": "https://yt3.googleusercontent.com/BL23JAU3GHq2g3Z-7POfafaU8Q7Kgs5L_lEQ3W4MkL7hBwo20FjYuDsy043GwGg7eISdKb7dtHZyOJ0=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "H39r91naIXM",
+          "title": "My Cleveland Heart",
+          "artists": "Jackson Browne",
+          "album": "Downhill From Everywhere",
+          "duration": "3:21",
+          "thumbnail": "https://yt3.googleusercontent.com/tXO3qRbVIlbDri95Mem9SuyOlSf_L4MYdLrgeNS-WwF09QIaVzyrp6RibviJ_bhd7B9d_B0BAC9I3Gfx=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7rQDQMC2FGw",
+          "title": "Your Bright Baby Blues",
+          "artists": "Jackson Browne & David Lindley",
+          "album": "Love Is Strange",
+          "duration": "6:41",
+          "thumbnail": "https://yt3.googleusercontent.com/Y0TRA7qTMSCKkUtHKYEXM9Ywv24CXdfvZATgtrTkT9VyDyzWhjrjW87uRC9zM2vE1j1Czh1LsrtqweQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "3t8s4BpZTkE",
+          "title": "You Love the Thunder",
+          "artists": "Jackson Browne",
+          "album": "The Very Best Of Jackson Browne",
+          "duration": "3:55",
+          "thumbnail": "https://yt3.googleusercontent.com/hpOIdvRxcb0whhosyBpgvW9Lia7v5y7XoB_MLNT-X7ap1x2xJqM-lM8KyzVZFZxoiXdFGpB84lYrp4OSSA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "vzyQsoAldpw",
+          "title": "The Barricades of Heaven",
+          "artists": "Jackson Browne",
+          "album": "Looking East",
+          "duration": "5:41",
+          "thumbnail": "https://yt3.googleusercontent.com/vPcx66DeGJX4oRifiHNp0S-C7_WoeO3KYMVjTzPuj77RhutqlCbUU9s8eElK3j-Bx91-U-FKMyYWjUmd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "hWknK_GziiU",
+          "title": "Everywhere I Look",
+          "artists": "Jackson Browne",
+          "album": "Everywhere I Look",
+          "duration": "4:21",
+          "thumbnail": "https://yt3.googleusercontent.com/bYXPZFTpB_PqLFXlc-2fHownZy-JVs207aakPFykqZfMhjge9qIg8uNgEvlxfpqGSPdu1tBFfHqSk-Qe_A=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Qj74CwUtCX0",
+          "title": "Boulevard",
+          "artists": "Jackson Browne",
+          "album": "Hold Out",
+          "duration": "3:21",
+          "thumbnail": "https://yt3.googleusercontent.com/s2Az6csWbmL6jkUYJI2zhOd7Alr8wrj7rjOiKCCjlhjoeV3vH09NCWfvyvY-DznU1_m_bkMq8osdnmapTg=w120-h120-l90-rj"
+        }
+      ]
+    },
+    {
+      "playlist": "SwiftSongs",
+      "name": "",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "playlistId": "PLb1Pj_tMZHbmwMpoN5HBziBLiiR8sd4ky",
+      "trackCount": 118,
+      "thumbnail": "https://yt3.googleusercontent.com/VKvYX1gIjzilr5GSHRQ46owSM-e67_0-S7yRCkT3PmmDgrIYO2k8bMQAQcpw0nFq5lQCVZNzWQ=s1200",
+      "tracks": [
+        {
+          "videoId": "8-pgY8_l-7U",
+          "title": "right where you left me (bonus track)",
+          "artists": "Taylor Swift",
+          "album": "evermore (deluxe version)",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "R_eQOYSHDi8",
+          "title": "Long Live (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Speak Now (Taylor's Version)",
+          "duration": "5:18",
+          "thumbnail": "https://yt3.googleusercontent.com/PzdFvhZwBo2kxfifFF82vShEUh8xEQfvoUTRIUBvZjs3ibCmTqMQZ6ZL03tPz1iwjP4UH6xB0CAGPwqj=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "HfRwdGzS1m0",
+          "title": "State Of Grace",
+          "artists": "Taylor Swift",
+          "album": "Red",
+          "duration": "4:56",
+          "thumbnail": "https://yt3.googleusercontent.com/_HJASc9B_QXn2yoUBn4ZLkn6ka8o_CYX4hNT3HQSeIRcqStiJU15VVtOwlaoFV4KqhJK3d-0W0sw3yQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "92jy750yv00",
+          "title": "august",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "4:22",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "KNp1yY9s5dc",
+          "title": "Death By A Thousand Cuts",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "3:19",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "eXrmLd5mer4",
+          "title": "Fortnight (feat. Post Malone)",
+          "artists": "Taylor Swift",
+          "album": "THE TORTURED POETS DEPARTMENT",
+          "duration": "3:49",
+          "thumbnail": "https://yt3.googleusercontent.com/ynkpsIdsYe1fVEOpJeAO_SzQHJF3rsujhQ4EsmuIdVKavbNm5uDvDTBShK6bPj4I7Sj9Yd6Zvpni2Ktu7g=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NA90OVe2ixo",
+          "title": "Holy Ground (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "3:23",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "UupJ9yX3_Bg",
+          "title": "mirrorball",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "3:29",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "F42wDv5uUPo",
+          "title": "I Can See You (Taylor’s Version) (From The Vault)",
+          "artists": "Taylor Swift",
+          "album": "Speak Now (Taylor's Version)",
+          "duration": "4:34",
+          "thumbnail": "https://yt3.googleusercontent.com/PzdFvhZwBo2kxfifFF82vShEUh8xEQfvoUTRIUBvZjs3ibCmTqMQZ6ZL03tPz1iwjP4UH6xB0CAGPwqj=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "GwNPBeWpI-0",
+          "title": "Lavender Haze",
+          "artists": "Taylor Swift",
+          "album": "Midnights",
+          "duration": "3:23",
+          "thumbnail": "https://yt3.googleusercontent.com/omCs21jqwK4Ss_VZxPFKwQP5z0UY0vi_8gXu4XNxHKDgE-GHYHWkIw80XR1uzFgdyhM3PvVUZeZ8iAfF=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "663K25hyYG0",
+          "title": "Bad Blood",
+          "artists": "Taylor Swift",
+          "album": "1989",
+          "duration": "3:32",
+          "thumbnail": "https://yt3.googleusercontent.com/-jaWr9K7U0bJoqMv50tihlvf1QXe_y-dmvw_z_40gA9bPj4PhfRPobOdQndQIoCxsFDWRyEoP0Rben8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ywUqTGWU7ec",
+          "title": "Bejeweled",
+          "artists": "Taylor Swift",
+          "album": "Midnights",
+          "duration": "3:15",
+          "thumbnail": "https://yt3.googleusercontent.com/omCs21jqwK4Ss_VZxPFKwQP5z0UY0vi_8gXu4XNxHKDgE-GHYHWkIw80XR1uzFgdyhM3PvVUZeZ8iAfF=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "3YgtjHZyCIQ",
+          "title": "Anti-Hero",
+          "artists": "Taylor Swift",
+          "album": "Midnights (3am Edition)",
+          "duration": "3:21",
+          "thumbnail": "https://yt3.googleusercontent.com/YT8q7RwmbNVf7EcjSii-T5vm7FZI7_mSb_KYvhfKqvKRWdCTB-mzr2jLZCPwYqER3wHFXhuEQKTKmUCJ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "y2-erDjl4HU",
+          "title": "Everything Has Changed (feat. Ed Sheeran)",
+          "artists": "Taylor Swift",
+          "album": "Red",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/_HJASc9B_QXn2yoUBn4ZLkn6ka8o_CYX4hNT3HQSeIRcqStiJU15VVtOwlaoFV4KqhJK3d-0W0sw3yQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "M_lVZIpgnjU",
+          "title": "cardigan",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "4:00",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Wo93B0s7QcY",
+          "title": "All You Had To Do Was Stay",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:14",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "hN7pTiPFftY",
+          "title": "betty (Live from the 2020 Academy of Country Music Awards)",
+          "artists": "Taylor Swift",
+          "album": "betty (Live from the 2020 Academy of Country Music Awards)",
+          "duration": "5:13",
+          "thumbnail": "https://yt3.googleusercontent.com/mpwfaudYwWC0-wwHuWScyKltcOjX5yLncFLFpwiOo_Ek44WvkgsJQ8EQillYjN_ZS9mZCzgYC7nSFeWj=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "mFCNdWPop-Y",
+          "title": "it’s time to go (bonus track)",
+          "artists": "Taylor Swift",
+          "album": "evermore (deluxe version)",
+          "duration": "4:15",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "rKSrjaQZOgg",
+          "title": "cowboy like me",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "4:36",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "zGTRceZ1kZw",
+          "title": "I Knew You Were Trouble (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "3:40",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "PeIj_88gu2U",
+          "title": "Mean",
+          "artists": "Taylor Swift",
+          "album": "Speak Now",
+          "duration": "3:58",
+          "thumbnail": "https://yt3.googleusercontent.com/OICG5zzUkk6OK-ro622nIOGOqkwpuXXV1jp_KhWRDOpjYUJnXYOq3jaoQfk1boZF2fJvdchnTvjdp3MA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "VwCQAP-XPA8",
+          "title": "Better Man (Taylor's Version) [From The Vault]",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "4:58",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "iKTSubwwq8Y",
+          "title": "Sad Beautiful Tragic (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "4:45",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "5UU4s0L0lCQ",
+          "title": "Tim McGraw",
+          "artists": "Taylor Swift",
+          "album": "Taylor Swift",
+          "duration": "3:53",
+          "thumbnail": "https://yt3.googleusercontent.com/5Tj1v0xVOL0f2Bn-mxicTppxaFnGxFsHbO5h4FgMEPmIOGXb2UXzFfRZMWxuPx6i_rTVmBPkfW95bGJ0=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "q4AxDgBl_RE",
+          "title": "epiphany",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "4:50",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "DxhK0ydFaVg",
+          "title": "State Of Grace (Acoustic Version) [Taylor's Version]",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "5:22",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Aifi_CiXDeM",
+          "title": "I Bet You Think About Me (Taylor's Version) [From The Vault] (feat. Chris Stapleton)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "4:46",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "fFMPxt-XNIk",
+          "title": "Message In A Bottle (Taylor's Version) [From The Vault]",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "3:46",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "TIrqlXANqZw",
+          "title": "Untouchable (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "5:13",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NVbdhwUgwmQ",
+          "title": "marjorie",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "4:18",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "4MXlqrZSfHY",
+          "title": "Message In A Bottle (Fat Max G Remix) (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Message In A Bottle (Fat Max G Remix) [Taylor’s Version]",
+          "duration": "3:45",
+          "thumbnail": "https://yt3.googleusercontent.com/Cxu3IFj2kTpI-IduqpMn3YN7WQU0SoHcWurgnoi5mS1rQMMivFfEP96LyQexLmjgmasC9-hZNG09Zpvn9g=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7SqC7_f_-0M",
+          "title": "All Too Well (10 Minute Version) [Taylor's Version] [From The Vault]",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "10:13",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "fnVkklL4138",
+          "title": "I Know Places",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:16",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "MOc2VuNqAQc",
+          "title": "The Lucky One (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "4:01",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "KC0AG8HfAi4",
+          "title": "All Too Well (Sad Girl Autumn Version) [Recorded at Long Pond Studios]",
+          "artists": "Taylor Swift",
+          "album": "All Too Well (Sad Girl Autumn Version) [Recorded at Long Pond Studios]",
+          "duration": "9:59",
+          "thumbnail": "https://yt3.googleusercontent.com/xpSuD6PRpO-kknLhIwgERS2TY11mr96zmRAx11nPMlilOyISGP9ZfY8POHegg0MGLiecET4CHBMLDP_Yew=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "dcNG2Ua0YSs",
+          "title": "Ronan (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "4:25",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "CQ8L-PaDfyc",
+          "title": "The Last Time (Taylor's Version) (feat. Gary Lightbody)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "5:00",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "DA5IFd2TFjQ",
+          "title": "We Are Never Ever Getting Back Together (Taylor's Version)",
+          "artists": "Taylor Swift",
+          "album": "Red (Taylor's Version)",
+          "duration": "3:14",
+          "thumbnail": "https://yt3.googleusercontent.com/d_T3L3Ed5ynZLMVs0Ely4aqTfBZ-y9P9azzlLuKvT2re1QQuxqTxRPoSv082zBOBWmXZZRZKqIFbR7YI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "sWMk8dwljFU",
+          "title": "Shake It Off",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:40",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "XtrUoXy0j7g",
+          "title": "coney island (feat. The National)",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "4:36",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "5gRUbsDEuWg",
+          "title": "dorothea",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "3:46",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "bYgz0BHHeyM",
+          "title": "long story short",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "3:36",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "vio0RidOMUM",
+          "title": "Back To December Live On Letterman: Taylor Swift",
+          "artists": "Taylor Swift",
+          "album": "",
+          "duration": "5:03",
+          "thumbnail": "https://i.ytimg.com/vi/vio0RidOMUM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kFwXXmnUSey4xsGukcoh-VSKP5Aw"
+        },
+        {
+          "videoId": "KuYcnsrfhAE",
+          "title": "Lover",
+          "artists": "Taylor Swift",
+          "album": "Pumpkin Spice",
+          "duration": "3:42",
+          "thumbnail": "https://yt3.googleusercontent.com/MChrMSBGX_NWUSZ4ctIDPGVIizC02aIAhiyueZ0Lbg6vmaCAfpajfHD5KDTD2E2z-yCRGbid9RTRZLY=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "jsIev8-TeiE",
+          "title": "Lover",
+          "artists": "Taylor Swift",
+          "album": "Sweater Weather",
+          "duration": "3:42",
+          "thumbnail": "https://yt3.googleusercontent.com/85dMYUlqutyLqDooVOkBxGjT6hwyUnOjf55QQFXxCCWihpLWuu-ZpFrhaWvKKOX_wrENS3_zECqon-Twww=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-BIUaR9ve0I",
+          "title": "Fifteen",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Platinum Edition)",
+          "duration": "4:55",
+          "thumbnail": "https://yt3.googleusercontent.com/YEcmx-25aRBMaKNTvCx17QboP0KCJq2jqKdjpjLImqA60wWE2AZV_ZdQa417ZEmAkK7ipsEt1m0DEI-Z9A=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "CsiVvkzCdSI",
+          "title": "my tears ricochet",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "4:16",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "i4opYYbyTKA",
+          "title": "Sparks Fly",
+          "artists": "Taylor Swift",
+          "album": "Speak Now",
+          "duration": "4:21",
+          "thumbnail": "https://yt3.googleusercontent.com/OICG5zzUkk6OK-ro622nIOGOqkwpuXXV1jp_KhWRDOpjYUJnXYOq3jaoQfk1boZF2fJvdchnTvjdp3MA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "GL-HyvAjbFw",
+          "title": "Clean",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "4:31",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "hnK6CoUZZFc",
+          "title": "All Too Well",
+          "artists": "Taylor Swift",
+          "album": "Red (Deluxe Edition)",
+          "duration": "5:30",
+          "thumbnail": "https://yt3.googleusercontent.com/4DDgDnCVMgPB8TBvd26Yt4gEvBN8zymEdEBnfRzjleANB6PdEe8ZcNWn_-sXMyAJ5_2egN8wYXOHf4F-=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "nzQKL8XJOx8",
+          "title": "Back To December",
+          "artists": "Taylor Swift",
+          "album": "Speak Now",
+          "duration": "4:54",
+          "thumbnail": "https://yt3.googleusercontent.com/OICG5zzUkk6OK-ro622nIOGOqkwpuXXV1jp_KhWRDOpjYUJnXYOq3jaoQfk1boZF2fJvdchnTvjdp3MA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "cS4ygXEDbA8",
+          "title": "White Horse (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "3:55",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "_yHn-954iVQ",
+          "title": "the 1",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "3:31",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "CQ_dWZG5RJU",
+          "title": "invisible string",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "4:13",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "whkUDOFLiKM",
+          "title": "Jump Then Fall (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "3:58",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "a3FVEgsi5ag",
+          "title": "Paper Rings",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "3:43",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "IJnjYpgSfjQ",
+          "title": "Delicate",
+          "artists": "Taylor Swift",
+          "album": "reputation (Big Machine Radio Release Special)",
+          "duration": "3:53",
+          "thumbnail": "https://yt3.googleusercontent.com/fx6kz_AXXbWVglzvmChcvFRTwV_nFmSAjuyYUO2XTqO_Es9hv4Fe6scz1pTfNWw6hSWob6gtpsft3vZm=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "iMk_6hOXqlU",
+          "title": "Safe & Sound (from The Hunger Games Soundtrack) (feat. The Civil Wars)",
+          "artists": "Taylor Swift",
+          "album": "The Hunger Games: Songs From District 12 And Beyond",
+          "duration": "4:01",
+          "thumbnail": "https://yt3.googleusercontent.com/zcF9oZIQ0x2FAQJ0ygHgsVjJ2cZhocfDtkUKAa2KhG_Pi3hurjtF8sKV0VABLCGJm5wISQBLA0O-uTUCUA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "l9d6Ih2rzog",
+          "title": "Wildest Dreams",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "wKOvh1Oh8W4",
+          "title": "Delicate (Seeb Remix)",
+          "artists": "Taylor Swift, Seeb",
+          "album": "Delicate (Seeb Remix)",
+          "duration": "2:54",
+          "thumbnail": "https://yt3.googleusercontent.com/9jG23TU_M75Fga_iMxk6UOIJ6C_tTMBJyOirTRFHBfTlQK3G1lp6XWNBFSvrAstpEV3gQ3EaV9uH_7tx=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "G93lBTda_tI",
+          "title": "The Story Of Us",
+          "artists": "Taylor Swift",
+          "album": "Speak Now",
+          "duration": "4:26",
+          "thumbnail": "https://yt3.googleusercontent.com/OICG5zzUkk6OK-ro622nIOGOqkwpuXXV1jp_KhWRDOpjYUJnXYOq3jaoQfk1boZF2fJvdchnTvjdp3MA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "T-Hna3gqfbY",
+          "title": "A Place in this World",
+          "artists": "Taylor Swift",
+          "album": "Taylor Swift",
+          "duration": "3:20",
+          "thumbnail": "https://yt3.googleusercontent.com/5Tj1v0xVOL0f2Bn-mxicTppxaFnGxFsHbO5h4FgMEPmIOGXb2UXzFfRZMWxuPx6i_rTVmBPkfW95bGJ0=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "FXj6yqKjTog",
+          "title": "Out Of The Woods",
+          "artists": "Taylor Swift",
+          "album": "1989",
+          "duration": "3:56",
+          "thumbnail": "https://yt3.googleusercontent.com/-jaWr9K7U0bJoqMv50tihlvf1QXe_y-dmvw_z_40gA9bPj4PhfRPobOdQndQIoCxsFDWRyEoP0Rben8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "QQXZyf0OJpI",
+          "title": "22",
+          "artists": "Taylor Swift",
+          "album": "Red",
+          "duration": "3:53",
+          "thumbnail": "https://yt3.googleusercontent.com/_HJASc9B_QXn2yoUBn4ZLkn6ka8o_CYX4hNT3HQSeIRcqStiJU15VVtOwlaoFV4KqhJK3d-0W0sw3yQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "65Q7EdWnjqM",
+          "title": "We Are Never Ever Getting Back Together",
+          "artists": "Taylor Swift",
+          "album": "Red",
+          "duration": "3:14",
+          "thumbnail": "https://yt3.googleusercontent.com/_HJASc9B_QXn2yoUBn4ZLkn6ka8o_CYX4hNT3HQSeIRcqStiJU15VVtOwlaoFV4KqhJK3d-0W0sw3yQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ew4RcXVpsYU",
+          "title": "willow (90's trend remix)",
+          "artists": "Taylor Swift",
+          "album": "willow (90's trend remix)",
+          "duration": "3:46",
+          "thumbnail": "https://yt3.googleusercontent.com/jUzqIVEh_oat2nZmBK_ifU8-zZYivSxJS-OZ-QuZ0kp1Bi3Eevdcy30UugWI9BDtxd2P4Xr62bzl1_1D=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ttaQr__waKI",
+          "title": "Change",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Big Machine Radio Release Special)",
+          "duration": "4:41",
+          "thumbnail": "https://yt3.googleusercontent.com/MYq1SyxNxMq-NW8PeGFAus-jIoxK-SZCqSqmEpKAnKZk-EFQQC5w24o2Fm8sosKdF8rW3xK9qRiUrQQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-CAOjryBjPc",
+          "title": "The Way I Loved You",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Big Machine Radio Release Special)",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/MYq1SyxNxMq-NW8PeGFAus-jIoxK-SZCqSqmEpKAnKZk-EFQQC5w24o2Fm8sosKdF8rW3xK9qRiUrQQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "sinxDbkU0Nk",
+          "title": "Mr. Perfectly Fine (Taylor’s Version) (From The Vault)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version): The Halfway Out The Door Chapter",
+          "duration": "4:38",
+          "thumbnail": "https://yt3.googleusercontent.com/m_v54PbrEHUM2-vk8PjxCj9BM1Uq338qPzCGi4kgso2_kMyttgrO6gWsgQ-11T5s8GLZKJaG-Y-OMuHR=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "rpemDBaFK0c",
+          "title": "New Romantics",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:51",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "sEPXrepgujY",
+          "title": "Style",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:51",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "uD8d1KrDQcY",
+          "title": "You Belong With Me (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "3:52",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "eVNNfmr_vWI",
+          "title": "Fearless (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "4:02",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "e7yg0A-PCTI",
+          "title": "Love Story (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Love Story (Taylor’s Version)",
+          "duration": "3:56",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "YfPfgZjhH1w",
+          "title": "Britain's Got Talent performance: Everything Has Changed",
+          "artists": "Taylor Swift",
+          "album": "",
+          "duration": "6:11",
+          "thumbnail": "https://i.ytimg.com/vi/YfPfgZjhH1w/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mA9cZhNwJ9JRd5IyR2Q2NrbbEkCw"
+        },
+        {
+          "videoId": "1wgr1Bjxs7E",
+          "title": "You Need To Calm Down",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "2:52",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "oGhtCWchT-U",
+          "title": "That’s When (Taylor’s Version) (From The Vault) (feat. Keith Urban)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "3:10",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "5CbWqM0K2v8",
+          "title": "The Way I Loved You (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "4:04",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "mW566NQ413w",
+          "title": "We Were Happy (Taylor’s Version) (From The Vault)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "4:05",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "j9-feN2hI0o",
+          "title": "The Best Day (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FJcJhTy4svc",
+          "title": "Fifteen (Taylor’s Version)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "4:55",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FVFWJSTRdRw",
+          "title": "Mr. Perfectly Fine (Taylor’s Version) (From The Vault)",
+          "artists": "Taylor Swift",
+          "album": "Mr. Perfectly Fine (Taylor’s Version) [From The Vault]",
+          "duration": "4:38",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ZdUCW6mis7Y",
+          "title": "Sad Beautiful Tragic",
+          "artists": "Taylor Swift",
+          "album": "Red",
+          "duration": "4:45",
+          "thumbnail": "https://yt3.googleusercontent.com/_HJASc9B_QXn2yoUBn4ZLkn6ka8o_CYX4hNT3HQSeIRcqStiJU15VVtOwlaoFV4KqhJK3d-0W0sw3yQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ytGqUs3UIPk",
+          "title": "Sweeter Than Fiction (From \"One Chance\" Soundtrack)",
+          "artists": "Taylor Swift",
+          "album": "Sweeter Than Fiction (Original Motion Picture Soundtrack)",
+          "duration": "3:58",
+          "thumbnail": "https://yt3.googleusercontent.com/tIO8_Mn8KGhtrddI6lLzElIkioL0JcotoHHiLDPz4j_Fd3PuooElCxBKeInAdVH18p0MjZVBmXuWyt4=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FhPLQVlUiNQ",
+          "title": "Getaway Car",
+          "artists": "Taylor Swift",
+          "album": "reputation",
+          "duration": "3:54",
+          "thumbnail": "https://yt3.googleusercontent.com/RuKPkn6LLmXNOUcyRqh0zQbMWTpZDhHnkxHEZHrv6J8AbxLwemm9F0xaPpHX51WB_Xlj00My9vpZ_zRh=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "3lB7Oh076-8",
+          "title": "champagne problems",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "4:04",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "oG9zfPIuwYo",
+          "title": "Wonderland",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "0o0WbQV6OZQ",
+          "title": "London Boy",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "3:11",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "0TVTUeaE1pc",
+          "title": "Only The Young (Featured in Miss Americana)",
+          "artists": "Taylor Swift",
+          "album": "Only The Young (Featured in Miss Americana)",
+          "duration": "2:38",
+          "thumbnail": "https://yt3.googleusercontent.com/5wRGjQyzi9MrZbYcsnrWyQLcUdeZ68hr0X52fJ3Ls_D8E7TZv9Xzvsqanu5nej0Ffxjyy5vQ_qHx4jo=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "1uKi3ZD75RE",
+          "title": "You All Over Me (Taylor’s Version) (From The Vault) (feat. Maren Morris)",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Taylor's Version)",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/huIYugJjpimikk-tSDJyDU09Jr8vDVJuLOh5uGG6T45c5MEtYvFW_9NlqkHHSaLl231kLBgAS8rtDfQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FTA4kzsTmxc",
+          "title": "Taylor Swift and Jennifer Lopez: Jenny from the Block",
+          "artists": "Taylor Swift",
+          "album": "",
+          "duration": "5:56",
+          "thumbnail": "https://i.ytimg.com/vi/FTA4kzsTmxc/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3n3hROsAZbxwx-hMG9CncpR5BYluQ"
+        },
+        {
+          "videoId": "ppqxBjkziqo",
+          "title": "Daylight",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "4:54",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "aC9HkZW2hZk",
+          "title": "Cruel Summer",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "2:59",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "neV-A_f_iJc",
+          "title": "Ours",
+          "artists": "Taylor Swift",
+          "album": "Speak Now (Deluxe Package)",
+          "duration": "3:59",
+          "thumbnail": "https://yt3.googleusercontent.com/DdvvNnkqTNkNeUbiyOvQQTZVGGNuDzkfz5XirG_WAI7ZICLL8RnUxb_oQ6-xKcSgm2qGjzu0GWQEquaN=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "uLL2xTK35Qc",
+          "title": "Lover",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "3:42",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Uzii44SDYFA",
+          "title": "willow",
+          "artists": "Taylor Swift",
+          "album": "",
+          "duration": "5:25",
+          "thumbnail": "https://i.ytimg.com/vi/Uzii44SDYFA/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mM_4R43sMiNEN__BaZtP7_AVJ8sg"
+        },
+        {
+          "videoId": "aZ1hziFhj1o",
+          "title": "Love Story",
+          "artists": "Taylor Swift",
+          "album": "Fearless (Platinum Edition)",
+          "duration": "3:56",
+          "thumbnail": "https://yt3.googleusercontent.com/YEcmx-25aRBMaKNTvCx17QboP0KCJq2jqKdjpjLImqA60wWE2AZV_ZdQa417ZEmAkK7ipsEt1m0DEI-Z9A=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "6TAPqXkZW_I",
+          "title": "betty",
+          "artists": "Taylor Swift",
+          "album": "",
+          "duration": "4:56",
+          "thumbnail": "https://i.ytimg.com/vi/6TAPqXkZW_I/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lss9i3MifYnIFDDFtct0aeZ5oc2w"
+        },
+        {
+          "videoId": "3mm8e4Fy4Ck",
+          "title": "illicit affairs",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "3:11",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "cOWp6UVzBGs",
+          "title": "tolerate it",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "qxrMpCMdYwk",
+          "title": "willow",
+          "artists": "Taylor Swift",
+          "album": "evermore",
+          "duration": "3:35",
+          "thumbnail": "https://yt3.googleusercontent.com/bwzsAqLcL50V9soJS0kIXARXFqK-0XnKF9uiBtk566D03JNGUsS6l2qu2bhsAbjAp4IHOvaSyWLSJ_Y=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FBCtWS6_Gw8",
+          "title": "You Need To Calm Down (Clean Bandit Remix)",
+          "artists": "Taylor Swift",
+          "album": "You Need To Calm Down (Clean Bandit Remix)",
+          "duration": "2:33",
+          "thumbnail": "https://yt3.googleusercontent.com/a80cubZV0vu3VHBra5mpdlteygVsbBYhZqQ2RwQOZ7rMIEMbTMmuGmbRI3xBDp0Qv-wh7RJ7uYH0aUg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7mzd8S78x34",
+          "title": "...Ready For It? (BloodPop® Remix)",
+          "artists": "Taylor Swift, BloodPop®",
+          "album": "...Ready For It? (BloodPop® Remix)",
+          "duration": "3:10",
+          "thumbnail": "https://yt3.googleusercontent.com/jRZ7vinpFL5pXXuagwrjQpqnHxgonDu-4hpYDHew1a10wQJqLKd1vEUmgQq2ktNGX7rBqXHm0X_aPEu9=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Is75wMxSo28",
+          "title": "...Ready For It?",
+          "artists": "Taylor Swift",
+          "album": "reputation (Big Machine Radio Release Special)",
+          "duration": "3:29",
+          "thumbnail": "https://yt3.googleusercontent.com/fx6kz_AXXbWVglzvmChcvFRTwV_nFmSAjuyYUO2XTqO_Es9hv4Fe6scz1pTfNWw6hSWob6gtpsft3vZm=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "1PhnJheyk_w",
+          "title": "betty",
+          "artists": "Taylor Swift",
+          "album": "folklore: the long pond studio sessions (from the Disney+ special) [deluxe edition]",
+          "duration": "4:55",
+          "thumbnail": "https://yt3.googleusercontent.com/XS6ZRQDpSRmb6QP3Tit9_36oZZghnaf6oqe8DAFxt5QhggxtWzCqHi6MJD8H_whUaY-nOBuNd_8nZ7Ns=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "RvBrsX4xMJg",
+          "title": "End Game (feat. Ed Sheeran & Future)",
+          "artists": "Taylor Swift",
+          "album": "reputation (Big Machine Radio Release Special)",
+          "duration": "4:05",
+          "thumbnail": "https://yt3.googleusercontent.com/fx6kz_AXXbWVglzvmChcvFRTwV_nFmSAjuyYUO2XTqO_Es9hv4Fe6scz1pTfNWw6hSWob6gtpsft3vZm=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "xYLxUJ9v6KU",
+          "title": "I Did Something Bad",
+          "artists": "Taylor Swift",
+          "album": "reputation",
+          "duration": "3:59",
+          "thumbnail": "https://yt3.googleusercontent.com/RuKPkn6LLmXNOUcyRqh0zQbMWTpZDhHnkxHEZHrv6J8AbxLwemm9F0xaPpHX51WB_Xlj00My9vpZ_zRh=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "0OsRXc0R4Bo",
+          "title": "The Story Of Us",
+          "artists": "Taylor Swift",
+          "album": "Speak Now (Big Machine Radio Release Special)",
+          "duration": "4:28",
+          "thumbnail": "https://yt3.googleusercontent.com/yvW54PjxwBoKwvakIv7IhNQv9sAPD8K-xi9AjuNjcJQhHewuSpJNMHM_EW0Br8g_hyY4xDwXIuCtZeED=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "gLLE3B75UJw",
+          "title": "I Forgot That You Existed",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "2:51",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "J1oCCGSt6XA",
+          "title": "Call It What You Want",
+          "artists": "Taylor Swift",
+          "album": "reputation",
+          "duration": "3:24",
+          "thumbnail": "https://yt3.googleusercontent.com/RuKPkn6LLmXNOUcyRqh0zQbMWTpZDhHnkxHEZHrv6J8AbxLwemm9F0xaPpHX51WB_Xlj00My9vpZ_zRh=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NNLCn8Oicbc",
+          "title": "hoax",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Nm08yUg38tE",
+          "title": "exile (feat. Bon Iver)",
+          "artists": "Taylor Swift",
+          "album": "folklore",
+          "duration": "4:46",
+          "thumbnail": "https://yt3.googleusercontent.com/q7JVahTldHxztLXfCJfgjf5DHr9mi18m2HKpS_IJqBqvvzfAJKPCh_rg-9v-aoGqp-Cc6PHW3ceFMlIQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "hK-N297-aOI",
+          "title": "Call It What You Want",
+          "artists": "Taylor Swift",
+          "album": "reputation (Big Machine Radio Release Special)",
+          "duration": "3:24",
+          "thumbnail": "https://yt3.googleusercontent.com/fx6kz_AXXbWVglzvmChcvFRTwV_nFmSAjuyYUO2XTqO_Es9hv4Fe6scz1pTfNWw6hSWob6gtpsft3vZm=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "bqJ9I-3MG1g",
+          "title": "Cornelia Street",
+          "artists": "Taylor Swift",
+          "album": "Lover",
+          "duration": "4:48",
+          "thumbnail": "https://yt3.googleusercontent.com/OhxDTHQOQzSrcdgH9hzqzp1v22GYDE-QKnkryvCeq4ddx-3K3_c8oDXN0E6NvHlMn1q4XV59aHr0oL4f=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "VVfWrqQjVCM",
+          "title": "Wildest Dreams (R3hab Remix)",
+          "artists": "Taylor Swift",
+          "album": "Wildest Dreams (R3hab Remix)",
+          "duration": "3:19",
+          "thumbnail": "https://yt3.googleusercontent.com/Sen00f6KSGAMF6Tq5R-18UWorG2-Ewu8_qaSx8-Gf-EVYz6YtAfyZtuTG5ohfEqAjGdi4Mtq4acg2u9t=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "u9x7FHMsgps",
+          "title": "Out Of The Woods",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:56",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "4HbI4SJvn7o",
+          "title": "Cornelia Street (Live From Paris)",
+          "artists": "Taylor Swift",
+          "album": "Cornelia Street (Live From Paris)",
+          "duration": "4:57",
+          "thumbnail": "https://yt3.googleusercontent.com/dLYiT8MI8NT_21-kuxFQR6UFVNPkBQmhnrlSbTmQlxlYBirDCTEQGdNJjyn3KgkM9xgn6IyXVWo3Vvag=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "dC9QIUKviJU",
+          "title": "Blank Space",
+          "artists": "Taylor Swift",
+          "album": "1989 (Deluxe)",
+          "duration": "3:52",
+          "thumbnail": "https://yt3.googleusercontent.com/GcrDhHXqrPm4BjS-4L1c0OHC9iz0ZxmFeRur2A6Aqo9Vm7OfFCBOSVbRzp1M1D1s_3rsvKaC7w6kku0=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "abbafavs",
+      "name": "",
       "artists": [
         "ABBA"
       ],
       "playlistId": "PLb1Pj_tMZHbmngbFZFQN2Wa0WEvOYA84G",
-      "trackCount": 17,
+      "trackCount": 27,
       "thumbnail": "https://yt3.googleusercontent.com/SxIiPhAmfnzlRInvBOP0UpjsLtNyOgI2BUPY30GxwTLSyMSUZfVMhbs0LHonMAtjmFYReYRFohud=s1200",
       "tracks": [
         {
@@ -1957,16 +3870,253 @@
           "album": "ABBA Gold",
           "duration": "4:07",
           "thumbnail": "https://yt3.googleusercontent.com/v8Pq8wLlDsciCXdzsuP5i5U-SHzKFzT9c9kEqpRl_8xJLEdvox7pBMWGhQZaUURefwgIPKDFLZBOIF0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "bXep0aHynAQ",
+          "title": "I Do, I Do, I Do, I Do, I Do",
+          "artists": "ABBA",
+          "album": "Abba",
+          "duration": "3:16",
+          "thumbnail": "https://yt3.googleusercontent.com/KlE9rs3iNFujO-5LAgd0fhegylZtqU4SWPuBj_G8dZzy2wxT5ZiXuBhPRhmvIM3YA_M8Jyb1edl7lx4=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "CS-30pO94lo",
+          "title": "Andante, Andante",
+          "artists": "ABBA",
+          "album": "Super Trouper",
+          "duration": "4:39",
+          "thumbnail": "https://yt3.googleusercontent.com/GCBJgckq-Rvmw35jlceyndTt4g5Bb6pFI-n4Jxu9JkyLbT5heyH1JEqUKsF2jRzC3LJYYe2_-yaGw0w=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "xm3s1sANRDE",
+          "title": "Our Last Summer",
+          "artists": "ABBA",
+          "album": "Super Trouper",
+          "duration": "4:20",
+          "thumbnail": "https://yt3.googleusercontent.com/GCBJgckq-Rvmw35jlceyndTt4g5Bb6pFI-n4Jxu9JkyLbT5heyH1JEqUKsF2jRzC3LJYYe2_-yaGw0w=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "28u54Opf-TI",
+          "title": "Head Over Heels",
+          "artists": "ABBA",
+          "album": "The Visitors (Deluxe Edition)",
+          "duration": "3:49",
+          "thumbnail": "https://yt3.googleusercontent.com/lRoz8AKdAD6HK17uBBilk-9MBSrnmDCexGzggfz5ewFa7AUJpyRN9Ccm-NzNmUBVC4_gUs5ueTFNLkro=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "1LPNuFkteI8",
+          "title": "Money, Money, Money",
+          "artists": "ABBA",
+          "album": "Arrival",
+          "duration": "3:07",
+          "thumbnail": "https://yt3.googleusercontent.com/uwZJDAz4hZnM_CYZS3Lgcibm1UFShAVDQqqCN4wZytyZAbFPqk-bB4MvIahp4Egszu0ulGncj459bB0b=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "MjKUy_dw0Tk",
+          "title": "Thank You For The Music",
+          "artists": "ABBA",
+          "album": "The Album",
+          "duration": "3:50",
+          "thumbnail": "https://yt3.googleusercontent.com/S7OuNif-HRy5tqEl4XJXv9Nt5kvE0fRfKnF9WNOPjLsliZhrpAOoJFYKzCXpq63TbNyVwTnGB1foafkwDA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Uh07JBdb_gc",
+          "title": "The Day Before You Came",
+          "artists": "ABBA",
+          "album": "The Visitors",
+          "duration": "5:54",
+          "thumbnail": "https://yt3.googleusercontent.com/o8oDrht3k07wuS8m28wSfVJFS8d10uUmJiq2WP47sTbV8ekvYzCBHp7gjsR_1Y_oXVDytKmX_2ZEuRk=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "DkkQ8dCPiwA",
+          "title": "Take A Chance On Me",
+          "artists": "ABBA",
+          "album": "The Album",
+          "duration": "4:04",
+          "thumbnail": "https://yt3.googleusercontent.com/S7OuNif-HRy5tqEl4XJXv9Nt5kvE0fRfKnF9WNOPjLsliZhrpAOoJFYKzCXpq63TbNyVwTnGB1foafkwDA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "a64hi1cGqLw",
+          "title": "Don't Shut Me Down",
+          "artists": "ABBA",
+          "album": "Voyage",
+          "duration": "3:57",
+          "thumbnail": "https://yt3.googleusercontent.com/AXx9uCk8DdDuXwqNembHGiQT8FjnFJ_RrHNqQVwS9n6WEoOCTt6T-fWN9kNTE3mH2cOJ66-oxeUvf1Eb=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "pa2j0Bh83ms",
+          "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+          "artists": "ABBA",
+          "album": "Voulez-Vous",
+          "duration": "4:53",
+          "thumbnail": "https://yt3.googleusercontent.com/Eih1DoP_1c1YySuw56IxlUWtEO_SBT59tEmavaPKnvf0cDNJobcb6oggOSPO1zMvFp4QvqOEIYZrsYr8=w120-h120-l90-rj"
+        }
+      ]
+    },
+    {
+      "playlist": "VanTheMan",
+      "name": "",
+      "artists": [
+        "Van Morrison"
+      ],
+      "playlistId": "PLb1Pj_tMZHbkznr3SOVKYjus2C8hj00bG",
+      "trackCount": 18,
+      "thumbnail": "https://yt3.googleusercontent.com/OS4cRQQ78sjNPtK4o5SX3aeQrgMicfrWUhiR4pAwH8P9-MzQ_Pc3M8jw3FuloxeV0ss-F466F3I=s1200",
+      "tracks": [
+        {
+          "videoId": "fr6kOBPDftU",
+          "title": "Remembering Now",
+          "artists": "Van Morrison",
+          "album": "Remembering Now",
+          "duration": "5:20",
+          "thumbnail": "https://yt3.googleusercontent.com/li8cU0_pDlMUY4R8GCOw9Yd49L-h6sj5qfwTPyWAFhiACjZlnahI_VNK0EgZKzbgMDrCf2W4fjfiW-OUrw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "3qSdHkASHqg",
+          "title": "Carrickfergus",
+          "artists": "Van Morrison & The Chieftans",
+          "album": "Irish Heartbeat",
+          "duration": "4:26",
+          "thumbnail": "https://yt3.googleusercontent.com/vjzMHUT-1KMO2XkS6pbYhJF_M5HVD8aW4eAOS3uQX5DmQv5glMOgc0H2O98f015ssgB_fb_3kDEKc_5c=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "crdHLaJGSJs",
+          "title": "Down To Joy",
+          "artists": "Van Morrison",
+          "album": "Remembering Now",
+          "duration": "3:39",
+          "thumbnail": "https://yt3.googleusercontent.com/li8cU0_pDlMUY4R8GCOw9Yd49L-h6sj5qfwTPyWAFhiACjZlnahI_VNK0EgZKzbgMDrCf2W4fjfiW-OUrw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "4Yvdx1lIAv8",
+          "title": "Into the Mystic (Take 17)",
+          "artists": "Van Morrison",
+          "album": "Moondance (Deluxe Edition)",
+          "duration": "3:33",
+          "thumbnail": "https://yt3.googleusercontent.com/Zzi7p_lYqoeMkAsq8gcPSDGDyLD4z3MmFX-3QC1FZRkxBwXgxnOaFpR0rMLC_EV5Pm7qFsESnaWjUWt5Pg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "4_JaGKQksXo",
+          "title": "Reminds Me of You (2008 Remaster)",
+          "artists": "Van Morrison",
+          "album": "Back on Top (2008 Remaster)",
+          "duration": "5:43",
+          "thumbnail": "https://yt3.googleusercontent.com/ytePdh44sgwFSWdGfGFiOROT2KR3Birti96IBiVXGvlfd4gnIk-TM1128TIM2VbHBEJ735g0dHhmprq5=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7rPyTBSTCb8",
+          "title": "Avalon of the Heart",
+          "artists": "Van Morrison",
+          "album": "Enlightenment",
+          "duration": "4:51",
+          "thumbnail": "https://yt3.googleusercontent.com/qG7tAfZ0L5TEDXeL3qwCBo760I29B7RyamfRoRug29Z-AWJth0s8_HIXhffgJTI-xcQfAceoAeLVp9I=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "pbZf8GY1-Ag",
+          "title": "Into the Mystic",
+          "artists": "Van Morrison",
+          "album": "Moondance",
+          "duration": "3:26",
+          "thumbnail": "https://yt3.googleusercontent.com/Wv-mXS8DB3OfRapoDYlYoLroAjsas3O7BEk5Yr8CDDfJUlI3NzJ5zo8qahfee8C0nIjHyd2BELgQ_d3XXA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "XhG6pAY5Ugo",
+          "title": "Real Real Gone",
+          "artists": "Van Morrison",
+          "album": "Enlightenment",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/qG7tAfZ0L5TEDXeL3qwCBo760I29B7RyamfRoRug29Z-AWJth0s8_HIXhffgJTI-xcQfAceoAeLVp9I=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kWGQoBVgmnM",
+          "title": "Whenever God Shines His Light (feat. Cliff Richard)",
+          "artists": "Van Morrison",
+          "album": "Avalon Sunset",
+          "duration": "4:56",
+          "thumbnail": "https://yt3.googleusercontent.com/q80Kxx6kX7SH7NTh9DbaGStDa3yguMI4Uv26bJE8Euxh8Za8AwiTkDAA1ndU5HuZgK9V3NDt2lxEv83b=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kDxYuNM8V98",
+          "title": "Bright Side of the Road",
+          "artists": "Van Morrison",
+          "album": "Into the Music (Bonus Track Version)",
+          "duration": "3:47",
+          "thumbnail": "https://yt3.googleusercontent.com/xtrWIaYKODKGk3BFPTFaAZg4-cqVy4NioRDZinqeGSCmgWldmoNKkMy5l2Up6G0DL23CIDfEbmikFCjD=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "nEQmbFWnQeE",
+          "title": "Brown Eyed Girl",
+          "artists": "Van Morrison",
+          "album": "Blowin' Your Mind!",
+          "duration": "3:07",
+          "thumbnail": "https://yt3.googleusercontent.com/-jNYFo2fXh-1Bm2_xQuYvtdLXiDZmfpI6CO75pNClBJBR9vYe1fdZAu2BE27OlFurS8p2Bz7T2iNMAcD=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "b3yavlPXlsI",
+          "title": "These Are The Days",
+          "artists": "Van Morrison & Natalie Cole",
+          "album": "Duets: Re-Working The Catalogue",
+          "duration": "3:52",
+          "thumbnail": "https://yt3.googleusercontent.com/PDujbw6f7Ixip7RnqbwUX-d-gBA7iC7d1N4gNM_R_4nvEAFX0r8RDunvBx523cCkX7QlxkZPr9FY3Bf-=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "uPbQIj6alF4",
+          "title": "Wild Night",
+          "artists": "Van Morrison",
+          "album": "The Essential Van Morrison",
+          "duration": "3:35",
+          "thumbnail": "https://yt3.googleusercontent.com/ELzGkxNpNfv7bCOTaXF0VHva9y1FsbYZkOB5FLJEloUxHT6wFsJ6QPmHgFlvq9TlMV8o_6r2a7F6t-JQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "GuMT3BK1eio",
+          "title": "These Are the Days",
+          "artists": "Van Morrison",
+          "album": "Avalon Sunset",
+          "duration": "5:20",
+          "thumbnail": "https://yt3.googleusercontent.com/q80Kxx6kX7SH7NTh9DbaGStDa3yguMI4Uv26bJE8Euxh8Za8AwiTkDAA1ndU5HuZgK9V3NDt2lxEv83b=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "YWg4NzVoBec",
+          "title": "Tupelo Honey",
+          "artists": "Van Morrison",
+          "album": "The Essential Van Morrison",
+          "duration": "6:57",
+          "thumbnail": "https://yt3.googleusercontent.com/ELzGkxNpNfv7bCOTaXF0VHva9y1FsbYZkOB5FLJEloUxHT6wFsJ6QPmHgFlvq9TlMV8o_6r2a7F6t-JQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "UumgJhrMYoI",
+          "title": "Problems",
+          "artists": "Van Morrison",
+          "album": "Accentuate The Positive",
+          "duration": "4:38",
+          "thumbnail": "https://yt3.googleusercontent.com/BCeDd8bGwG5aWi4IhL4rg0yQtepSFtrOvgJA8VvO1nRFAbToNcGUSw9UQiHFw7dCdUWbsom8tziHXJx5=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "AYqJtqyeilE",
+          "title": "And It Stoned Me",
+          "artists": "Van Morrison",
+          "album": "Moondance",
+          "duration": "4:33",
+          "thumbnail": "https://yt3.googleusercontent.com/Wv-mXS8DB3OfRapoDYlYoLroAjsas3O7BEk5Yr8CDDfJUlI3NzJ5zo8qahfee8C0nIjHyd2BELgQ_d3XXA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "3UUWkr4FUlo",
+          "title": "Days Like This (Official Video)",
+          "artists": "Van Morrison",
+          "album": "",
+          "duration": "3:13",
+          "thumbnail": "https://i.ytimg.com/vi/3UUWkr4FUlo/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3n_OuoIAxHFjNhEupTFCqj9-25M7w"
         }
       ]
     },
     {
       "playlist": "DylanAll",
+      "name": "",
       "artists": [
         "Bob Dylan"
       ],
       "playlistId": "PLb1Pj_tMZHbkUFs0FjPOBDiFk7tEK-zdH",
-      "trackCount": 11,
+      "trackCount": 23,
       "thumbnail": "https://yt3.googleusercontent.com/gYDX_Q0X__Zk0PmPKzPbIWl2TIGsi_Er_4pmD-rueb7bgKkW9z840tUeKdPjB9uypUtNIyAjbVk=s1200",
       "tracks": [
         {
@@ -2056,11 +4206,108 @@
           "album": "Springtime in New York: The Bootleg Series, Vol. 16 / 1980-1985",
           "duration": "5:29",
           "thumbnail": "https://yt3.googleusercontent.com/GfH3tx-3h611aGzuh1yZP9mhHd_GXNUs6AX-4E5meQCCVakozv_VcNa6NRBUJZxbYY1CP6kTLzVe3YANJA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Ek7PXysMYV4",
+          "title": "Just Like Tom Thumb's Blues (Alternate Take)",
+          "artists": "Bob Dylan",
+          "album": "No Direction Home: Bootleg Volume 7 (Movie Soundtrack)",
+          "duration": "5:43",
+          "thumbnail": "https://yt3.googleusercontent.com/awy5RzvymhUvaSK4USiMz7bJW1yvLS5Q7BJ7MggL7RU8896GqRr_ZUGFVxKtaA3ZR5npY1RV_wjNj7o=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "HXPeA9ksYDE",
+          "title": "Brownsville Girl",
+          "artists": "Bob Dylan",
+          "album": "Knocked Out Loaded",
+          "duration": "11:04",
+          "thumbnail": "https://yt3.googleusercontent.com/otLUn4gFTEMP84ReUex1v8qvEpOWvdb5F_AtMKssDVq5dLjdsc3BxnXgOv41ZsjNLE7tXcLcr3Z_uJU=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "z4R5crZylQ0",
+          "title": "Knockin' On Heaven's Door",
+          "artists": "Bob Dylan",
+          "album": "Pat Garrett & Billy The Kid (Soundtrack From The Motion Picture)",
+          "duration": "2:30",
+          "thumbnail": "https://yt3.googleusercontent.com/Aojtc1oQ6mnKVK4yLSY7g6xQxRt7c8HDx6lTuPNl3lr6kguFN36ocymZ6SADwNyNXWEP9zSpQTyT7CE=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "AzGk7cpRbdE",
+          "title": "True Love Tends to Forget",
+          "artists": "Bob Dylan",
+          "album": "Street-Legal",
+          "duration": "4:16",
+          "thumbnail": "https://yt3.googleusercontent.com/QDL-8ONvp760-x6RiAtWnjAIh_GekNq3XePP1aw5LeazNsFijJrTb3xDcBdj7Zqll3RL3DwE-BsoEykK=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-PfDSQSWuGI",
+          "title": "Girl from the North Country",
+          "artists": "Bob Dylan",
+          "album": "Nashville Skyline",
+          "duration": "3:41",
+          "thumbnail": "https://yt3.googleusercontent.com/kVLsm-FO2UZFIARj3BLcuV-BOb_Nh18SGyKSQPQSqb83zPBpGrcrBHvVmjbIt0rfG5oq_ljk_GEwRSqI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Rpi_d8JTYvk",
+          "title": "Series of Dreams (Studio Outtake - 1989)",
+          "artists": "Bob Dylan",
+          "album": "The Bootleg Series Volumes 1-3    (Rare And Unreleased)  1961-1991",
+          "duration": "5:52",
+          "thumbnail": "https://yt3.googleusercontent.com/lxWMYzwSBG4LLPq-oyHoBmIsu0_toFJ-QDRerpytDUmSm_KI65gFS5zT31WVmZBRhTaGX1ijIxShtMT9tw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "A1AN8ydyugY",
+          "title": "Sweetheart Like You",
+          "artists": "Bob Dylan",
+          "album": "Infidels",
+          "duration": "4:34",
+          "thumbnail": "https://yt3.googleusercontent.com/p2XzOby4wpmI5u3zuO4Un-hgX3klF6_DpehGboDP6IHeAEBL1h7j77T88bWaCZ8cc4XvRMq_udjEu8Av=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "PDJhPGoYL4k",
+          "title": "The Times They Are A-Changin'",
+          "artists": "Bob Dylan",
+          "album": "The Times They Are A-Changin'",
+          "duration": "3:16",
+          "thumbnail": "https://yt3.googleusercontent.com/prHMgay3fXe5wICHQmv6mm2I_HmfZTPv4VrYC2YR20oljlpLkSvVdpJhPHC5NKoeQ7NW8yE9TPSciw1NRg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "JncbFS5ek74",
+          "title": "Girl from the North Country",
+          "artists": "Bob Dylan",
+          "album": "The Freewheelin' Bob Dylan",
+          "duration": "3:20",
+          "thumbnail": "https://yt3.googleusercontent.com/fGFzpmso362w36ndYkLaSwALZg9jIQbn21qkf75uIvrVf_v0kFDwSoZOtrbin2kHfDQvkCi9lKJ-O7k=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "m8tN2HgPH6I",
+          "title": "Mr. Tambourine Man",
+          "artists": "Bob Dylan",
+          "album": "Bringing It All Back Home",
+          "duration": "5:31",
+          "thumbnail": "https://yt3.googleusercontent.com/bZAlqn4uRbAEZkz5qnDlSwIyCH0zykkuc1A0YUpUReGxgedCvtC_G7jYIB65MVKzqr5yWir1C-0wWB8k=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "BNj1qgdLN6M",
+          "title": "It Ain't Me, Babe",
+          "artists": "Bob Dylan",
+          "album": "Bob Dylan's Greatest Hits",
+          "duration": "3:35",
+          "thumbnail": "https://yt3.googleusercontent.com/olPm_ztDY_PbcMz462itkiYLjO5qXaWQyfdZrYnWPi-o5t-T2Ds3_5DUybBiM7z3jjgR0Fc9mc-6MSG8Ew=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "_HgV51EGmd0",
+          "title": "Blowin' in the Wind",
+          "artists": "Bob Dylan",
+          "album": "The Joker, Vol. I: Early Years",
+          "duration": "2:49",
+          "thumbnail": "https://yt3.googleusercontent.com/orfc16Hnd0OrB_j6lRtYiLRv0cA5vl2V3X97x56s_2M1IyqztpxUQOPztvMGm05FEgFO8CWUSrpNJ3Ps=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "Soul Cleanse",
+      "name": "",
       "artists": [
         "O'Neil Beckford",
         "Lauren Daigle",
@@ -2323,11 +4570,12 @@
     },
     {
       "playlist": "PianoMan",
+      "name": "",
       "artists": [
         "Billy Joel"
       ],
       "playlistId": "PLb1Pj_tMZHbmxikY7cJfU_MkZq5tf-SjX",
-      "trackCount": 20,
+      "trackCount": 29,
       "thumbnail": "https://yt3.googleusercontent.com/zZcr4PkSGocBPObvEZtk7CIjNm4sbn1hrUWmKbt2vyPamxKU_J9ragqkB-Mu4dgW3A74MKbUS8Y=s1200",
       "tracks": [
         {
@@ -2489,16 +4737,89 @@
           "album": "Glass Houses",
           "duration": "3:01",
           "thumbnail": "https://yt3.googleusercontent.com/_6r3NyYNNOxMHWD5z_LA2_hR7C1JqQL-mk_iect3-QsNDbmVKTwYxXlXC_DeoxPxcLZUhcMYfpqLo-5F=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "LUIgDKxQ-3c",
+          "title": "Say Goodbye to Hollywood (Official Video)",
+          "artists": "Billy Joel",
+          "album": "",
+          "duration": "4:24",
+          "thumbnail": "https://i.ytimg.com/vi/LUIgDKxQ-3c/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3nhChrZEQrwZO94IPRmyVv4XG8DdA"
+        },
+        {
+          "videoId": "sbwaERx5-GI",
+          "title": "My Life (Live at Madison Square Garden, New York, NY - 2006)",
+          "artists": "Billy Joel",
+          "album": "12 Gardens Live",
+          "duration": "5:00",
+          "thumbnail": "https://yt3.googleusercontent.com/EuKp0UQfoFXUVPGWsRa1pw-75u2hHd6nncxvJ-lM0phB_jBpwsgnec-gjyx0yKG0EJRvzYcANwkr-9uc=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "4CGuwpljTTA",
+          "title": "A Matter of Trust",
+          "artists": "Billy Joel",
+          "album": "The Bridge",
+          "duration": "4:09",
+          "thumbnail": "https://yt3.googleusercontent.com/OZlkW8Gjde7mGRKjAI825XPf2GooWshdGhOO8IHdqkLnO8DuXKERfLNnk9GhSnVBZjdHq0ydioVPVCs=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Tka4DQGx7zc",
+          "title": "My Life (Live from Long Island)",
+          "artists": "Billy Joel",
+          "album": "",
+          "duration": "4:18",
+          "thumbnail": "https://i.ytimg.com/vi/Tka4DQGx7zc/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3nw6qu_jh6yuGT-ZL2uftFfUXgTWA"
+        },
+        {
+          "videoId": "Pm6hEU90G3A",
+          "title": "My Life (Live From The River Of Dreams Tour)",
+          "artists": "Billy Joel",
+          "album": "",
+          "duration": "5:59",
+          "thumbnail": "https://i.ytimg.com/vi/Pm6hEU90G3A/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3m75KmsQy4VccRz9DGM-zQ1qK3FFA"
+        },
+        {
+          "videoId": "gis_-yH3Nt8",
+          "title": "You May Be Right (from A Matter of Trust - The Bridge to Russia)",
+          "artists": "Billy Joel",
+          "album": "",
+          "duration": "4:53",
+          "thumbnail": "https://i.ytimg.com/vi/gis_-yH3Nt8/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kTg8DVoLLu9Wc0uOMAHidXOMtM4w"
+        },
+        {
+          "videoId": "Jo9t5XK0FhA",
+          "title": "You May Be Right (Official Video)",
+          "artists": "Billy Joel",
+          "album": "",
+          "duration": "2:54",
+          "thumbnail": "https://i.ytimg.com/vi/Jo9t5XK0FhA/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3n2LGKvqE_R-pHZuZy6PZZLW9Hz2g"
+        },
+        {
+          "videoId": "dhqH4QpSgBI",
+          "title": "We Didn't Start the Fire",
+          "artists": "Billy Joel",
+          "album": "Greatest Hits Vol. III",
+          "duration": "4:49",
+          "thumbnail": "https://yt3.googleusercontent.com/-QCUUe77dzZBTuKlWNnb3a621K9_LB8Y5LgIRRAav0AI2a8ppxP4lJZAa7m3y7Eo-_JiSW1gpXAJS8F2=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "55q6jrfBDdk",
+          "title": "We Didn't Start the Fire",
+          "artists": "Billy Joel",
+          "album": "Storm Front",
+          "duration": "4:48",
+          "thumbnail": "https://yt3.googleusercontent.com/LCjgY8lySk9ShsN1V7vCcM79ETgKTQ1VJuuEb7EYAm6RUJqk49qzMJrBYocwEJUOjlfS5qLIz4aIRLQMWQ=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "JohnElton",
+      "name": "",
       "artists": [
         "Elton John"
       ],
       "playlistId": "PLb1Pj_tMZHbmIw95UAYIRvxZVii-CCdK1",
-      "trackCount": 7,
+      "trackCount": 9,
       "thumbnail": "https://yt3.googleusercontent.com/3-72b1df7N3EIFZZBI5K_7K2_AbTAT_tALrFK5gFFNf3FFCscDgngaZ-Fx3I4aNfIa1Qs8mVWP4=s1200",
       "tracks": [
         {
@@ -2556,17 +4877,34 @@
           "album": "Don't Shoot Me I'm Only The Piano Player",
           "duration": "3:56",
           "thumbnail": "https://yt3.googleusercontent.com/V8Khfyjkub54cnHwl7rKMaW-4mgJyO4c0v2Tlj4WPVxp0B6D9w5lNUxfcBckdWDHbMB991Japb2GokNe=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "0MxT31Nqysw",
+          "title": "Country Comfort",
+          "artists": "Elton John",
+          "album": "Tumbleweed Connection",
+          "duration": "5:07",
+          "thumbnail": "https://yt3.googleusercontent.com/vYECPqYKllQkhENHMr5ckSJsb87Ux3mau3BKLjhKIRdy_Fycfj3YZrQpdsj-4UCyFgaRzAsjWF_9oq43=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "bZnFi_5tcDk",
+          "title": "Crocodile Rock (Live)",
+          "artists": "Elton John",
+          "album": "One Night Only",
+          "duration": "4:14",
+          "thumbnail": "https://yt3.googleusercontent.com/StKWAOXL7znwnpZlcHFIDZXAaLNP549Gdypsdt6ehHAhMKX6SZ64ojhScDphEGT14EJbHw6DzMzqTZel=w120-h120-s-l90-rj"
         }
       ]
     },
     {
       "playlist": "Fogerty",
+      "name": "",
       "artists": [
         "John Fogerty"
       ],
       "playlistId": "PLb1Pj_tMZHbk4iDq8O58Bj_WhhXm7uoG_",
-      "trackCount": 6,
-      "thumbnail": "https://yt3.googleusercontent.com/FzUq-tw3p5w3YmMxgVNLAjvIPRn0UJRPe6JImInQRmTAFqcafgDL8tZR4fsLaL1z7wigD7l8UKM=s1200",
+      "trackCount": 7,
+      "thumbnail": "https://yt3.googleusercontent.com/FvawoNagyfGgc3zsSa10k1iNsC2LN8qVySOnmGrb-XjZ1FL9yTMGvKN8Cx0XYbjAXz1bh8wwZDk=s1200",
       "tracks": [
         {
           "videoId": "yFMKb0AQPas",
@@ -2615,17 +4953,26 @@
           "album": "Legacy: the Creedence Clearwater Revival years (John's Version)",
           "duration": "2:40",
           "thumbnail": "https://yt3.googleusercontent.com/oroq1XF9Krq3Oyu29ooDBQDlM50pnORPicYCcWudh2mmQJDSG9UHM2HDD-LvG2HU0INTdh5zkeZZ4xc=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "hn-AgaI6zDQ",
+          "title": "Rockin' All Over The World (Live 1997)",
+          "artists": "John Fogerty",
+          "album": "The Long Road Home - The Ultimate John Fogerty / Creedence Collection",
+          "duration": "2:59",
+          "thumbnail": "https://yt3.googleusercontent.com/VpUiWpJhS-co-Y26N71Ya7Oi-7BzCQmTkJwCkCACmfK5Xgkl4TlI6r45-u19uS64Kynq_mZWJkgwwL8=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "Cohen Tunes",
+      "name": "",
       "artists": [
         "Leonard Cohen"
       ],
       "playlistId": "PLb1Pj_tMZHblonhnvACbZNtmgx4otPI2C",
-      "trackCount": 3,
-      "thumbnail": "https://yt3.googleusercontent.com/PF6SW_gQfm0UxU4S_pBAnIbbntqcO7vrLRZSoS68_eIbtzfyeZ1jejZThgwjtYdWwlbc9OiSDYg=s1200",
+      "trackCount": 5,
+      "thumbnail": "https://yt3.googleusercontent.com/ru3ElpQw4CpoDgsljNYx_23ZEjbFIBjOE5ZzCPSsOuoJlKedIlywNnPkYZiuTkBT-zB17C7aDg=s1200",
       "tracks": [
         {
           "videoId": "7071X1a_w58",
@@ -2650,17 +4997,34 @@
           "album": "I'm Your Man",
           "duration": "5:35",
           "thumbnail": "https://yt3.googleusercontent.com/gpP8qP72b07pnBx0tYpD_I3o08Up-133ElXq9zwo6D8CbodY-jQGh4e5oObetGF8AWDwBeWeLHOlOws=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "QmVjL_xes6c",
+          "title": "Who by Fire",
+          "artists": "Leonard Cohen",
+          "album": "New Skin For The Old Ceremony",
+          "duration": "2:34",
+          "thumbnail": "https://yt3.googleusercontent.com/NP7PIHNiKCvlCBOYIzOuE2vGQJ-0i0-gDfJyQgRUb9DzBq78tE5lLqfY47yk7troHB5VH78dXqFndkti=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Q60wxayHW9c",
+          "title": "First We Take Manhattan",
+          "artists": "Leonard Cohen",
+          "album": "I'm Your Man",
+          "duration": "6:01",
+          "thumbnail": "https://yt3.googleusercontent.com/gpP8qP72b07pnBx0tYpD_I3o08Up-133ElXq9zwo6D8CbodY-jQGh4e5oObetGF8AWDwBeWeLHOlOws=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "ThistleLeaveAMark",
+      "name": "",
       "artists": [
         "Jake Thistle"
       ],
       "playlistId": "PLb1Pj_tMZHbnKswTCPPvP6zIgng1iwRj2",
-      "trackCount": 7,
-      "thumbnail": "https://yt3.googleusercontent.com/ZZQwHy6tr6iuQ7wdlYbm1loKkkoSVl89SujPSZd9BhVZNSyGxa0exEUV6hLznL0Lw7cM3kIn0G29w60e=w544-h544-l90-rj",
+      "trackCount": 9,
+      "thumbnail": "https://yt3.googleusercontent.com/ZT37SF29vbpwSOLMu0rU0jdQyBbz8ozVs4E9M6t1SRz2qeXaJSTG4dfFKNKV0VWhnph_-sYuuw=s1200",
       "tracks": [
         {
           "videoId": "aWc4clS9emo",
@@ -2717,18 +5081,35 @@
           "album": "The Half Left Out",
           "duration": "2:53",
           "thumbnail": "https://yt3.googleusercontent.com/ZZQwHy6tr6iuQ7wdlYbm1loKkkoSVl89SujPSZd9BhVZNSyGxa0exEUV6hLznL0Lw7cM3kIn0G29w60e=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ier9Dqng8qA",
+          "title": "Jake Thistle -- Your Bright Baby Blues (Jackson Browne cover)",
+          "artists": "Jake Thistle",
+          "album": "",
+          "duration": "5:58",
+          "thumbnail": "https://i.ytimg.com/vi/ier9Dqng8qA/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lLHKZUqNVQTuutM9zL32EOIHPO2A"
+        },
+        {
+          "videoId": "hjaKJ7_ofzs",
+          "title": "Happy birthday, Warren Zevon!",
+          "artists": "Jake Thistle",
+          "album": "",
+          "duration": "1:29",
+          "thumbnail": "https://i.ytimg.com/vi/hjaKJ7_ofzs/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3nOhuyTjvOMls5JZ2IMQq0ey5agMQ"
         }
       ]
     },
     {
       "playlist": "SegerSays",
+      "name": "",
       "artists": [
         "Bob Seger",
         "Bob Seger & The Silver Bullet Band",
         "The Bob Seger System"
       ],
       "playlistId": "PLb1Pj_tMZHbkD5PvhlS-ZsH4NNkMhDJVe",
-      "trackCount": 30,
+      "trackCount": 41,
       "thumbnail": "https://yt3.googleusercontent.com/U3fEi1Q--qNJ1oNSgw78A6z0hegoDDr2yoz6rRGEXqME-YqxJya2LaqellTKCI_9gSdEZvw2i3w=s1200",
       "tracks": [
         {
@@ -2970,16 +5351,105 @@
           "album": "Night Moves",
           "duration": "4:37",
           "thumbnail": "https://yt3.googleusercontent.com/PUFdaYyvymNf8oN-EBokh21-p_zEnFRfqI_4NntCPhWVEeTzABBwfmphpQLFrGmA8GYF58QLmHKk8Zfd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-sRNu3dFiwA",
+          "title": "Feel Like A Number (Live/Remastered)",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Nine Tonight (Live/Remastered)",
+          "duration": "4:11",
+          "thumbnail": "https://yt3.googleusercontent.com/gJncWca7OcXeOdcn9jieptU4mRsdGC98tZHH8uCDHdUIl2kBAGDakvCe2dtqcaoNiq8byCsQO7Rbmvz-=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-moyyd-Sjn8",
+          "title": "Detroit Made",
+          "artists": "Bob Seger",
+          "album": "Detroit Made",
+          "duration": "3:47",
+          "thumbnail": "https://yt3.googleusercontent.com/vxmaZrrngdEUCTpc9vEHe18CEnknBNlwwUg1XKWPSXKdwYst51fgsYECQE6tWqeGKp-5xIw0-tYawO2b=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "13HyiMOK7cc",
+          "title": "Manhattan",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Greatest Hits 2",
+          "duration": "5:23",
+          "thumbnail": "https://yt3.googleusercontent.com/OX-dN1e3qT6k4TqawcvyrlLJqaJD3Sbe2atYp9eogvCoeijMrTKooDtuMmzBZqbDoQdv5R7BanM_jA8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "h2hel2M5frs",
+          "title": "No Man's Land",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Against The Wind",
+          "duration": "3:44",
+          "thumbnail": "https://yt3.googleusercontent.com/R_VcdH6HjUT_q0zkNNOZuxagyBASZSskTTDR5Y5_RYrP5OvIiJUTwU9dIMYNRH7STzFwOFsQ1nP6Ep0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "MsS3Q4PXIIM",
+          "title": "Betty Lou's Gettin' Out Tonight (Live/Remastered)",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Nine Tonight (Live/Remastered)",
+          "duration": "3:00",
+          "thumbnail": "https://yt3.googleusercontent.com/gJncWca7OcXeOdcn9jieptU4mRsdGC98tZHH8uCDHdUIl2kBAGDakvCe2dtqcaoNiq8byCsQO7Rbmvz-=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "WkHDZ5NJ5Aw",
+          "title": "Shakedown",
+          "artists": "Bob Seger",
+          "album": "Greatest Hits 2",
+          "duration": "4:02",
+          "thumbnail": "https://yt3.googleusercontent.com/OX-dN1e3qT6k4TqawcvyrlLJqaJD3Sbe2atYp9eogvCoeijMrTKooDtuMmzBZqbDoQdv5R7BanM_jA8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "G9UE8R-ZL90",
+          "title": "Tryin' To Live My Life Without You (Live/Remastered)",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Nine Tonight (Live/Remastered)",
+          "duration": "4:01",
+          "thumbnail": "https://yt3.googleusercontent.com/gJncWca7OcXeOdcn9jieptU4mRsdGC98tZHH8uCDHdUIl2kBAGDakvCe2dtqcaoNiq8byCsQO7Rbmvz-=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "27k0iaN2uOs",
+          "title": "Night Moves",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Greatest Hits",
+          "duration": "5:25",
+          "thumbnail": "https://yt3.googleusercontent.com/UJBD0KaI5BWdOq3KJqP0yjGaocRf__yQciDI2Z5f9vrRRP_mXRI2M1ZkcFisQyvD_jWwstBpb3_wlrRS=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "w9V_2-Pbz4Q",
+          "title": "Roll Me Away",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Greatest Hits",
+          "duration": "4:41",
+          "thumbnail": "https://yt3.googleusercontent.com/UJBD0KaI5BWdOq3KJqP0yjGaocRf__yQciDI2Z5f9vrRRP_mXRI2M1ZkcFisQyvD_jWwstBpb3_wlrRS=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kkCmQ6GKdUU",
+          "title": "The Fire Inside",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "The Fire Inside",
+          "duration": "5:57",
+          "thumbnail": "https://yt3.googleusercontent.com/1nmpvYlx1Nr-DwTBVLDkfFI-3yVcEpWS_sSB-G4zP_fBRQRTqrhrsm8x-DC2gnJTDmlJJ9TZO7c3uReg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "OBy-yi-xY5c",
+          "title": "Shinin' Brightly",
+          "artists": "Bob Seger & The Silver Bullet Band",
+          "album": "Against The Wind",
+          "duration": "4:28",
+          "thumbnail": "https://yt3.googleusercontent.com/R_VcdH6HjUT_q0zkNNOZuxagyBASZSskTTDR5Y5_RYrP5OvIiJUTwU9dIMYNRH7STzFwOFsQ1nP6Ep0=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "Kishore",
+      "name": "",
       "artists": [
         "Kishore Kumar"
       ],
       "playlistId": "PLb1Pj_tMZHbkHMU0S4qQnVmEcIkrRua5S",
-      "trackCount": 87,
+      "trackCount": 95,
       "thumbnail": "https://yt3.googleusercontent.com/n7Sgk4WSviKcajmmDpWZ-AaKZjDZNUztNoJTjEeuRvhQC5OC87ozJp9ZFRUgDFscGm67LtPGa2U=s1200",
       "tracks": [
         {
@@ -3677,17 +6147,82 @@
           "album": "Moments With Lata",
           "duration": "5:55",
           "thumbnail": "https://yt3.googleusercontent.com/xhSuXEaj3lLVV0GCGB0tEwDm1PFpcItFZ_G4-t_sY2ryoBGXmnutwWrf_z8tSEKtjnOmp4QFAf-trsg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "RhtuzwySF8c",
+          "title": "Likha Hai Teri Ankhon Mein",
+          "artists": "Lata Mangeshkar, Kishore Kumar",
+          "album": "Teen Devian",
+          "duration": "4:13",
+          "thumbnail": "https://yt3.googleusercontent.com/JCkgwfd-Rdf9TwKsMDjr5V0idItgqqVmvpcmDv7912SL20uBUtpy0cjgJ-n5b3Q5soV7yNl_8vf2VCr0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "o3-ixXEtXfI",
+          "title": "Saagar Kinare (From \"Saagar\")",
+          "artists": "Lata Mangeshkar, Kishore Kumar, R. D. Burman",
+          "album": "Saagar (Original Motion Picture Soundtrack)",
+          "duration": "4:19",
+          "thumbnail": "https://yt3.googleusercontent.com/2rbGP_dwLF0_rpNwAXOWhf_6PhhkyoL63tsS7zPOMz9sgQFwH3Xsju5GUgUPJq7OSYXiMuT8hm6zVl-sDQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "AdlAKLAdYaw",
+          "title": "Jahan Mil Jayen Chaar Yaar",
+          "artists": "Amitabh Bachchan, Kishore Kumar",
+          "album": "Uber Cool - Bappi Lahiri",
+          "duration": "6:37",
+          "thumbnail": "https://yt3.googleusercontent.com/zbSYPRzwW7z2iPgdGZaAjh7dHetkIcVDBI20YzHw7uo1vmek4LDML6igpxQH7CO2qccmsMACb9BfHkX78A=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NwT1s5K28_Q",
+          "title": "Mujhe Naulakha Mangawa De Re",
+          "artists": "Asha Bhosle, Kishore Kumar",
+          "album": "Sharaabi",
+          "duration": "10:50",
+          "thumbnail": "https://yt3.googleusercontent.com/dRnZsk9KByr_l-1huE7lLi8KxD6p9_qS4h2Qd2Ymp14m0nG1JUQqleU1Iu2aMvECEN9U10CC1EerIKk=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "LHZABy0ERZU",
+          "title": "My Name Is Anthony Gonsalves (From \"Amar Akbar Anthony\")",
+          "artists": "Kishore Kumar, Amitabh Bachchan",
+          "album": "Amar Akbar Anthony (Original Motion Picture Soundtrack)",
+          "duration": "5:33",
+          "thumbnail": "https://yt3.googleusercontent.com/WAw6FbA6fdWhGA_J7-eGtZRCE_2XWgfeWR117VU8TgMdJIKImNYwwz3Pn8v3ObU192s863TfrTyph3cBPg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "pdnHmLG9CCk",
+          "title": "Salame - Ishq Meri Jaan",
+          "artists": "Lata Mangeshkar, Kishore Kumar",
+          "album": "Mujra Hits",
+          "duration": "5:51",
+          "thumbnail": "https://yt3.googleusercontent.com/s1sBH0aAybG0tcfhEdMfy6SkiVkLZiy6fNJIoRfI1LMoeL09_A5bYpENLxm3ojylVyv4RO0bWOUW4qnk=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "PqHnV645TuM",
+          "title": "Chahiye Thoda Pyar",
+          "artists": "Kishore Kumar",
+          "album": "Meri Awaaz Suno - Kishore Kumar",
+          "duration": "5:26",
+          "thumbnail": "https://yt3.googleusercontent.com/r99cBbVris8JKN2W_gQu6CfuRga4-A1d0tqSFi1q-kl4d8RKcM41cbEN1YPQJOb2J9KxUPRJxCA41uY=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Z2P0afn4A9M",
+          "title": "Paisa O Paisa",
+          "artists": "Kishore Kumar",
+          "album": "Forever Kishore Kumar - Dance",
+          "duration": "5:08",
+          "thumbnail": "https://yt3.googleusercontent.com/1tVXDpfpo8WIwF49XkhhEdgbkL5S0E1y6HpVTIsZ03wqFmvoj9fGah9SWOhNcB3VGlT7hCVBuIzFfraG6g=w120-h120-l90-rj"
         }
       ]
     },
     {
       "playlist": "Rafi",
+      "name": "",
       "artists": [
         "Mohammed Rafi",
         "Mohd Rafi"
       ],
       "playlistId": "PLb1Pj_tMZHbkvg3Nw0JdkHr72pCmS3BTQ",
-      "trackCount": 79,
+      "trackCount": 82,
       "thumbnail": "https://yt3.googleusercontent.com/BulAiv77dfCDun6kE5dah4veNYFuTDfxjBQysrE7bSeeuO0JK2yc97MQkgz4u1iFQUSz-2Np6Zo=s1200",
       "tracks": [
         {
@@ -4321,6 +6856,1010 @@
           "album": "Dostana (Original Motion Picture Soundtrack)",
           "duration": "4:53",
           "thumbnail": "https://yt3.googleusercontent.com/M9UmdukTdMv34QhhueJ2QyOTz36iZkJIJLJJi9zIk5MDZxAy1oERI5bsp6Pcp3w7rhpiVJY1g3IK8k_7=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "VCwq2uVL3_s",
+          "title": "Mile Na Phool To Kanton Se Dosti",
+          "artists": "Mohammed Rafi, Chorus",
+          "album": "Anokhi Raat",
+          "duration": "3:23",
+          "thumbnail": "https://yt3.googleusercontent.com/5TzTbQjjAKIlY5e1gEdas3yfjBhvj_phRExviuTHRRi22vvZHUClTqemDMIFn5KZaVNDj5EKxInq7usAwg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "EkiWV4tZkeg",
+          "title": "Diwana Hua Badal Revival Film - Kashmir Ki Kali",
+          "artists": "Asha Bhosle, Mohammed Rafi",
+          "album": "Revival Vol.10 Betaab Dil Ki Tamanna",
+          "duration": "4:55",
+          "thumbnail": "https://yt3.googleusercontent.com/_QAArFHNRGOUhzu5kAUC71F6bVskxUpkcX15ChKg3PpH5tZmZKZLLYBbbc4CNx5xbaFzzLaRudUaVADI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "nm7Im-f-QzA",
+          "title": "Aaj Ki Raat Mere Dil Ki Salami Lele",
+          "artists": "Mohammed Rafi",
+          "album": "King Of Romance - Dilip Kumar",
+          "duration": "5:33",
+          "thumbnail": "https://yt3.googleusercontent.com/sPiwBu-ksGlILpJGXYJSXQRW2VMyVzdW2H4_lkYbWtCq7oOIamtKyi0yw_GmZCSSFEzejISzd4DAips=w120-h120-l90-rj"
+        }
+      ]
+    },
+    {
+      "playlist": "LinManuel",
+      "name": "",
+      "artists": [
+        "Lin-Manuel Miranda"
+      ],
+      "playlistId": "PLb1Pj_tMZHbnM2ciVq9MaDKqjIWx2onmf",
+      "trackCount": 16,
+      "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w544-h544-l90-rj",
+      "tracks": [
+        {
+          "videoId": "bMAoOGnw9qQ",
+          "title": "It's Quiet Uptown",
+          "artists": "Renée Elise Goldsberry, Lin-Manuel Miranda, Phillipa Soo, Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "4:31",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kK9c41WgNpc",
+          "title": "That Would Be Enough",
+          "artists": "Phillipa Soo, Lin-Manuel Miranda",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "2:59",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Yr-mO1o1uHk",
+          "title": "Your Obedient Servant",
+          "artists": "Leslie Odom Jr., Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "2:31",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "_jWVKYjy7E8",
+          "title": "Cabinet Battle #2",
+          "artists": "Christopher Jackson, Daveed Diggs, Lin-Manuel Miranda, Okieriete Onaodowan",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "2:23",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7ZfzuJ8oVpE",
+          "title": "Hurricane",
+          "artists": "Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "2:24",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "pEqnXNsAFL8",
+          "title": "One Last Time",
+          "artists": "Christopher Jackson, Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "4:57",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-nmqQlW-sMo",
+          "title": "History Has Its Eyes on You",
+          "artists": "Christopher Jackson, Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "1:38",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "a0k0FJrY4a8",
+          "title": "Burn",
+          "artists": "Lin-Manuel Miranda",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "3:46",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "DPgE7PNzXag",
+          "title": "Non-Stop",
+          "artists": "Leslie Odom Jr., Lin-Manuel Miranda, Renée Elise Goldsberry, Phillipa Soo",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "6:26",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "0JR0ApUALOQ",
+          "title": "Right Hand Man",
+          "artists": "Lin-Manuel Miranda, Leslie Odom Jr., Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "5:22",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7sB8ITujc3w",
+          "title": "Say No to This",
+          "artists": "Jasmine Cephas-Jones, Leslie Odom Jr., Lin-Manuel Miranda, Sydney James Harcourt",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "4:03",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "IRImIezjxRg",
+          "title": "Farmer Refuted",
+          "artists": "Thayne Jasperson, Lin-Manuel Miranda, Original Broadway Cast of Hamilton",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "1:53",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "VhinPd5RRJw",
+          "title": "Alexander Hamilton",
+          "artists": "Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "3:57",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "WySzEXKUSZw",
+          "title": "The Room Where It Happens",
+          "artists": "Leslie Odom Jr., Lin-Manuel Miranda, Daveed Diggs, Okieriete Onaodowan",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "5:19",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Ic7NqP_YGlg",
+          "title": "My Shot",
+          "artists": "Lin-Manuel Miranda, Daveed Diggs, Okieriete Onaodowan, Leslie Odom Jr.",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "5:34",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "LOUf8Z0RQic",
+          "title": "Aaron Burr, Sir",
+          "artists": "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan",
+          "album": "Hamilton (Original Broadway Cast Recording)",
+          "duration": "2:37",
+          "thumbnail": "https://yt3.googleusercontent.com/IxfuppIaBOSBcV5broTurFnnCa5mm15jhmAJ4zywxIWnBBNShUPfRvno3mR2zhLQQjSXLZQIF-tnTMcd=w120-h120-l90-rj"
+        }
+      ]
+    },
+    {
+      "playlist": "rockMisc",
+      "name": "Misc. Rock.",
+      "artists": [
+        "Queen",
+        "The Beatles",
+        "Eagles",
+        "The Eagles",
+        "Bon Jovi",
+        "The Traveling Wilburys",
+        "Journey",
+        "George Harrison",
+        "Don McLean",
+        "John Denver",
+        "Neil Diamond",
+        "Linda Ronstadt",
+        "Emmylou Harris",
+        "George Thorogood",
+        "Juice Newton",
+        "Starship",
+        "Bee Gees",
+        "John Lennon",
+        "Boney M.",
+        "Paul Simon",
+        "Simon & Garfunkel",
+        "John Mellencamp",
+        "Dexys Midnight Runners",
+        "Steve Miller Band",
+        "Gregg Allman",
+        "Billy Squier",
+        "Tom Petty",
+        "Tom Petty and the Heartbreakers",
+        "Tom Petty & The Heartbreakers"
+      ],
+      "playlistId": "PLb1Pj_tMZHbmUzS8WPUvcLpAo25Wb2Rnc",
+      "trackCount": 100,
+      "thumbnail": "https://yt3.googleusercontent.com/rWCMkq8qFFWp_sNR4WPrhACRxtlldYe7gB-A90HtVxI86Z5WlRY925idHY5U5A_M0mnZ25_Usas=s1200",
+      "tracks": [
+        {
+          "videoId": "ido6NrjGi2o",
+          "title": "Take The Money And Run",
+          "artists": "Steve Miller Band",
+          "album": "Fly Like An Eagle",
+          "duration": "2:51",
+          "thumbnail": "https://yt3.googleusercontent.com/sKeoQK4K5eobWuJpn6O3Z9GmsEl9kUo9fcgg4warQsb0oa8FnXrcO1so9fgrH05sU-_c11gKyRN6Koje=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "2Kx2PbA8bCI",
+          "title": "Watching The Wheels",
+          "artists": "John Lennon",
+          "album": "Double Fantasy",
+          "duration": "4:00",
+          "thumbnail": "https://yt3.googleusercontent.com/NOlE2MFK6QlPbJhMdg8CxdPWST149wYCqkgV1-QZQn2FDLsDuvlszoepiWUOYhYivkssKRfmsLEWFw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "Z0xuFICONtE",
+          "title": "Instant Karma! (We All Shine On) (Ultimate Mix)",
+          "artists": "John Lennon, Yoko Ono",
+          "album": "Plastic Ono Band (The Ultimate Collection)",
+          "duration": "3:21",
+          "thumbnail": "https://yt3.googleusercontent.com/8iDbmU1Oh-3dHAos36ZUzPCayC1iJifuu0fzgj1U8-41MKB6uyIYCq-X89X5kKAhN8V6C0dYaA8u-4Fo=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ZwVBHGuj7Qo",
+          "title": "For a Dancer",
+          "artists": "Linda Ronstadt, Emmylou Harris",
+          "album": "Western Wall: The Tuscon Sessions",
+          "duration": "4:44",
+          "thumbnail": "https://yt3.googleusercontent.com/dKI2ydTZnlKX_OeTj7ZxtE8iRUAXyHsZg1BqoDhv0HUnU9qBULUTwTUKKMDm2j8eoLuKyP1_DbxLObk=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "NRgo-e8BZmo",
+          "title": "Move It On Over",
+          "artists": "George Thorogood & The Destroyers",
+          "album": "The Baddest Of George Thorogood And The Destroyers",
+          "duration": "4:19",
+          "thumbnail": "https://yt3.googleusercontent.com/jV_bMrlkJawbCoq8OwYT1q2UAuc3oD5acya2DafuD9A2PVnhM4PEc3X0vAUqVrlnhogPZuJIY9NZIb3IRw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "sTbOlt4PwEA",
+          "title": "Play Me",
+          "artists": "Neil Diamond",
+          "album": "Moods",
+          "duration": "3:53",
+          "thumbnail": "https://yt3.googleusercontent.com/_kes9MT0IWbrZdorQe36UF5WCtYY-vPFWCGO4SNmb5xKc8jbSKAZvd8sE5dwNKU3bw6UMIZ6MtaW3Ov3RQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "O7rTPXFDt6c",
+          "title": "Love's Been A Little Bit Hard On Me",
+          "artists": "Juice Newton",
+          "album": "Quiet Lies",
+          "duration": "3:15",
+          "thumbnail": "https://yt3.googleusercontent.com/fkfLETz71UJG9WL8TLVkRON2I1YsgfPBSFRd9ftoaHtJ6XXOWag8vV5NPa8Ft-i8RrrKVDMRzKt0KKx08g=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "5Z0dxsFmX7c",
+          "title": "Rasputin",
+          "artists": "Boney M.",
+          "album": "Nightflight to Venus",
+          "duration": "5:52",
+          "thumbnail": "https://yt3.googleusercontent.com/QYCKdYb-q1OmjBjH3w-HhtA9--j8JtkIUfrE3G4-5tBmQKFr0gEgMaeiCkJ5Xh19IAX1fThIYhiFHPQ=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "8KciRaANKmo",
+          "title": "Bad To The Bone",
+          "artists": "George Thorogood & The Destroyers",
+          "album": "BAD TO THE BONE",
+          "duration": "4:53",
+          "thumbnail": "https://yt3.googleusercontent.com/kWCojvHVV5SF0JXcK9VobUqouuuhqHrGfmSljRk4iqX8Xyn6VR5G20GlsLhHcHuFDSCBBFL6yjhvBlbd=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kNm5NuCzUnw",
+          "title": "Learn To Be Still",
+          "artists": "Eagles",
+          "album": "Hell Freezes Over (Remaster 2018)",
+          "duration": "4:29",
+          "thumbnail": "https://yt3.googleusercontent.com/gXLdxsO9sgUY6n8SIR0_jXKJ0G05ogBoVc1mV1t3po_5Rxu1ImUoXoBieAJSNgFOFWrVRDoQvkHs-3hF7w=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "trnmbEp5tgA",
+          "title": "Any Road",
+          "artists": "George Harrison",
+          "album": "Brainwashed",
+          "duration": "3:52",
+          "thumbnail": "https://yt3.googleusercontent.com/FB50vRIIRVwLd-2S04LR2yoHxz_JbSHmBM3h99HPDw1g9AAQw9VGNZomrYmyWjV22iPFwMyfI1X97rm5=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "CczcMarUoVk",
+          "title": "Don't Stop Me Now",
+          "artists": "Queen",
+          "album": "Jazz",
+          "duration": "3:30",
+          "thumbnail": "https://yt3.googleusercontent.com/1OCPTD9Vomtm5Hqt3d0-naampTDQVUix7EgeCWX0rHKRrD4_z70cZ-65Pn3pWWs6ME1F-lxK4ELlfhgy=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "hBp4dgE7Bho",
+          "title": "Don't Stop Me Now (...Revisited)",
+          "artists": "Queen",
+          "album": "Bohemian Rhapsody (The Original Soundtrack)",
+          "duration": "3:38",
+          "thumbnail": "https://yt3.googleusercontent.com/jRsNoO2SWEPNj9YpAAK_TpUx4izOiAl1XUBWwFDSNosxGj7c8SfsRYtL0n_5QOsGEEhjLG_01Pp-T9g=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "rUdbbC3Beo4",
+          "title": "Wasted Time",
+          "artists": "Eagles",
+          "album": "Legacy",
+          "duration": "4:57",
+          "thumbnail": "https://yt3.googleusercontent.com/s8QFRo91FYOkY2M1967AtulxiQpHXC7pEjWtsGzCQ4ZN25wnvhasHO0S4e_MWm04-HVfmBRvy8jmbq2-ZA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "yJD8ABf5jbY",
+          "title": "Already Gone",
+          "artists": "Eagles",
+          "album": "On the Border",
+          "duration": "4:16",
+          "thumbnail": "https://yt3.googleusercontent.com/oqYAb5NkEjuRbuQn-TxV2M7Fv9HaYC_S2ffAgxS9rvx9kieZyL3aJp6c20udtR-R-pBeXDaPNcwAMY0O=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "bFVLEQe8h3U",
+          "title": "Take It Easy (Live)",
+          "artists": "Eagles",
+          "album": "Beneath The Halo Moon",
+          "duration": "7:08",
+          "thumbnail": "https://yt3.googleusercontent.com/_E5YYni8eRcYb5e53WgT8WqsiQtfjRi9T7gciLjHIqSw3L3l_hoJ7Yh7lg_J_8wEVFCgyAPP-5dxEjU=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "l0S1acZg6-8",
+          "title": "These Days (Live)",
+          "artists": "Jackson Browne, Gregg Allman",
+          "album": "All My Friends: Celebrating The Songs & Voice Of Gregg Allman",
+          "duration": "4:56",
+          "thumbnail": "https://yt3.googleusercontent.com/vZojc8KCbtE9zziSuIyE_IPdL2XbAkyU73Rbg-Hw3aaPa5elgWkyQQU75JdgA4kwA_PqpNdM8qE0Dfo2=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "tYTgtsCm0DA",
+          "title": "The Joker",
+          "artists": "Steve Miller Band",
+          "album": "The Joker",
+          "duration": "4:25",
+          "thumbnail": "https://yt3.googleusercontent.com/jW858ikKoreDj363b6yek0AeB2Objf7-k4kjOsGpUGoDw5zL7_tAy0w5xDLmKoRfqP1kHOX3seL5n0_B=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "xtKRkAhY7cg",
+          "title": "My Kinda Lover",
+          "artists": "Billy Squier",
+          "album": "Don't Say No",
+          "duration": "3:33",
+          "thumbnail": "https://yt3.googleusercontent.com/FBp7JqVSMUhUIKI-Av8Rc_Z1gRF2b7daUap8qMDEdjvrSjVi36AqUrNYj-iiLhmCP892AtaMloS_1Fwb=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "OMbfT3Wppjo",
+          "title": "You Can Call Me Al",
+          "artists": "Paul Simon",
+          "album": "Graceland (25th Anniversary Deluxe Edition)",
+          "duration": "4:40",
+          "thumbnail": "https://yt3.googleusercontent.com/91p--tja7LYWgAZ_-B4pyoavixXSTk_7TvTgsEvH1t4dCgN--64fnMQqZntYSRC1JG2K7feuKqOirmu0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "uCyOyw008Nw",
+          "title": "Hollow Man",
+          "artists": "Bon Jovi, Bruce Springsteen",
+          "album": "Red, White and Jersey / Hollow Man (with Bruce Springsteen)",
+          "duration": "4:54",
+          "thumbnail": "https://yt3.googleusercontent.com/yAF7izuzPhxk4czv826aEEGgLcLOI-XgMIkyejor92BcgUliVgwpsT-0SgYlZq6zmLqIyqTziX38fCA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kAvwl-W68aw",
+          "title": "The Best of My Love",
+          "artists": "Eagles",
+          "album": "On the Border",
+          "duration": "4:35",
+          "thumbnail": "https://yt3.googleusercontent.com/oqYAb5NkEjuRbuQn-TxV2M7Fv9HaYC_S2ffAgxS9rvx9kieZyL3aJp6c20udtR-R-pBeXDaPNcwAMY0O=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "SwkOq_je_iQ",
+          "title": "Desperado",
+          "artists": "Eagles",
+          "album": "Desperado",
+          "duration": "3:34",
+          "thumbnail": "https://yt3.googleusercontent.com/qn1_UhnMGardz2Ln2KH27Yq9_UbA55gvBZPNeE9OV3PDsRd_ooTg0slsc242rgMQr72ltXswXvwm5NaS_Q=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "6JhVo2zS8hU",
+          "title": "Rasputin",
+          "artists": "Boney M.",
+          "album": "The Magic Of Boney M.",
+          "duration": "4:27",
+          "thumbnail": "https://yt3.googleusercontent.com/HYy2yFzpBgPA6hd-M1KLPjwi7Obtbje6WUD8KTG3Pp5YdAeLlQ3fZXMRD-tCPbVZl1qXnM_KvlBex1pZ=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "mzLLSXBnQhU",
+          "title": "No More Cloudy Days",
+          "artists": "Eagles",
+          "album": "Long Road out of Eden",
+          "duration": "4:04",
+          "thumbnail": "https://yt3.googleusercontent.com/Vu3mMXqINFci6ZOXnrBwvPwumu4CoNRkaV_AOriqs_NGTUtdwIs9PUT8VcnUOw6bn831tl06SMv7oVVy=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "6aO1mXBDASA",
+          "title": "When You Love a Woman",
+          "artists": "Journey",
+          "album": "Trial By Fire",
+          "duration": "4:07",
+          "thumbnail": "https://yt3.googleusercontent.com/PgYumOnh2y76ceG4AtwF49m6rEFwkSBF5qFH9D5bo3bGOt3_D20576pcAPFcShl3vJ_CnMKxtdXpBe2KEw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "X3CnwNh_wLw",
+          "title": "Separate Ways",
+          "artists": "Journey",
+          "album": "Rock Classics",
+          "duration": "5:25",
+          "thumbnail": "https://yt3.googleusercontent.com/amALGOlkL2Qm9mqxFhfkOyuEEPQSA7ko9z3RWmljdYpsYX5pl7gTEo3GrRys28Cn0YcD7ukQgFKwtwjk=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "7bX76VR6oQE",
+          "title": "Don't Stop Believin' (2024 Remaster)",
+          "artists": "Journey",
+          "album": "Greatest Hits (2024 Remaster)",
+          "duration": "4:11",
+          "thumbnail": "https://yt3.googleusercontent.com/HZIfkmRG0Lm75u7OqgeQH8mufZ1Iza3DmXpe5sZ3oED7MtUedkGYpuVMBImeJnAQFJSQuX6EoW78rGJu=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "_S5CQQPXxL4",
+          "title": "I Drink Alone",
+          "artists": "George Thorogood & The Destroyers",
+          "album": "Maverick",
+          "duration": "4:36",
+          "thumbnail": "https://yt3.googleusercontent.com/K_jIn0fcDeeQ6P92CleGTWSALF2gIjv7QtBl9pdZVNn2b_AIMT8ANMyWstktDEIYCE9fyX1V3-U5EsixyQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "nI33SNkIsMw",
+          "title": "My Kinda Lover",
+          "artists": "Billy Squier",
+          "album": "Don't Say No",
+          "duration": "3:34",
+          "thumbnail": "https://yt3.googleusercontent.com/yYbZm8zM0w3cBAeIBAgOhZW8BvNWb0SjOeWrHxAJpwmzDqXffUzrXuXifYE6lKML9cEk9Bzq_xsrXO66=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "8FksfyWbX10",
+          "title": "Take It Easy",
+          "artists": "Eagles",
+          "album": "Eagles",
+          "duration": "3:33",
+          "thumbnail": "https://yt3.googleusercontent.com/vBadQEz21QlP_Ay2nnA652BdSGXY4zAu4WvDheJVLIEFLumlfOyaE3L4e4d8w7DCXGUM_nmHEypEiDM=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kAAtvu3gW90",
+          "title": "Stand By Me (Ultimate Mix)",
+          "artists": "John Lennon",
+          "album": "GIMME SOME TRUTH. (Deluxe)",
+          "duration": "3:32",
+          "thumbnail": "https://yt3.googleusercontent.com/PM0GAJWGVc70TZcqX0vMZ-Ufhq3mKSGRbU_5gfXCjcBHFOd1X1GLSgj-HXgYtKvCQzu22IdrGunRufQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "n-0lRkuNyj0",
+          "title": "Peaceful Easy Feeling",
+          "artists": "Eagles",
+          "album": "Eagles",
+          "duration": "4:18",
+          "thumbnail": "https://yt3.googleusercontent.com/q5QB0z4ZIDKVfiuQX8Qtg4i7IYCtKnNmWpRFy5Gdh1gzbzysPvuKx6Wg28K1pbGnvznZlkN12O1cwqlH=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "new-tk8mFSg",
+          "title": "In My Dreams",
+          "artists": "Emmylou Harris",
+          "album": "White Shoes",
+          "duration": "3:18",
+          "thumbnail": "https://yt3.googleusercontent.com/DvO4bBzoX74500GnD5omDSgv5hTGhUxWgG9dQXpmQeOnsLYpm53bC9uYqso1UcusiLaDwPZJN6ZvH9Eg=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "-eqJGVl0Pr0",
+          "title": "The Sound of Silence (Acoustic Version)",
+          "artists": "Simon & Garfunkel",
+          "album": "Wednesday Morning, 3 A.M.",
+          "duration": "3:06",
+          "thumbnail": "https://yt3.googleusercontent.com/XG2Dc1T1t6UbMXRN0YoNBESnSTISFpnNl9e_bYCI3a7OwkFISftWsr48yqx-2TcthFPyyUQGoBzHgNw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FD1YrbkC_nM",
+          "title": "We Weren't Born To Follow",
+          "artists": "Bon Jovi",
+          "album": "The Circle",
+          "duration": "4:04",
+          "thumbnail": "https://yt3.googleusercontent.com/pQ4GxpnhrY9-OvpCAhl8oyTj6gk9XrwB51y8eqUo327h27daT3FUIX6Y0oLvIGbvsvwyDwFC3F43sW9-=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "jY5PrygEjV8",
+          "title": "Too Daze Gone",
+          "artists": "Billy Squier",
+          "album": "Don't Say No",
+          "duration": "4:05",
+          "thumbnail": "https://yt3.googleusercontent.com/yYbZm8zM0w3cBAeIBAgOhZW8BvNWb0SjOeWrHxAJpwmzDqXffUzrXuXifYE6lKML9cEk9Bzq_xsrXO66=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "fXMcn3Oupug",
+          "title": "These Days",
+          "artists": "Gregg Allman",
+          "album": "Laid Back",
+          "duration": "3:58",
+          "thumbnail": "https://yt3.googleusercontent.com/zQmb-I2_I8uCJcYlN5id--plYt5fN25yVEh-TNXFXd7CHjFhjBVZpLG65coKYV0cGAqen2hWpu4yor0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "vBJCesNT9TM",
+          "title": "Pink Houses",
+          "artists": "John Mellencamp",
+          "album": "Uh-HUH!",
+          "duration": "4:44",
+          "thumbnail": "https://yt3.googleusercontent.com/J8KuBJEBpBkkK2f-tWdm8gx_p3xwB7-2zkevis_zS7AMlZManABjS_Nl2Y1TeU4pk_iDPbWEEw5N0rQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "bSnlKl_PoQU",
+          "title": "Bohemian Rhapsody",
+          "artists": "Queen",
+          "album": "A Night At The Opera (Deluxe Edition 2011 Remaster)",
+          "duration": "5:55",
+          "thumbnail": "https://yt3.googleusercontent.com/9CrMB2k2WFBUGXQXlaFfwP8e5_Q8FiUqQ8ljMGWm22VyLmvLZEqBMPUNjf6FNZrmMDUBTlEsFxk88_kOCQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ZqFjGxF72sM",
+          "title": "All My Friends",
+          "artists": "Gregg Allman",
+          "album": "Laid Back",
+          "duration": "4:34",
+          "thumbnail": "https://yt3.googleusercontent.com/zQmb-I2_I8uCJcYlN5id--plYt5fN25yVEh-TNXFXd7CHjFhjBVZpLG65coKYV0cGAqen2hWpu4yor0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "DdiFZw6jMjs",
+          "title": "The Waiting",
+          "artists": "Tom Petty And The Heartbreakers",
+          "album": "Hard Promises",
+          "duration": "3:59",
+          "thumbnail": "https://yt3.googleusercontent.com/03O4oX_fNqtAoyzg-nv8NhAQrmW3NAwHw0FAtWYbeTN1zRuiONKnUFu9MCvgq8fKAf-_mBv9E8eebSc=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "_aoEIA38kTQ",
+          "title": "Walls (Circus)",
+          "artists": "Tom Petty & The Heartbreakers",
+          "album": "She's the One (Songs and Music from the Motion Picture)",
+          "duration": "4:26",
+          "thumbnail": "https://yt3.googleusercontent.com/0aZIQizww09ud8gzLkU3bJ9970muGx8PJz7sJ39G0mKKfvgn75bSl8_sFZu5cXMoX0LxwdFbzBlWEeBF=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "UHksHuZd_gw",
+          "title": "Walls (No. 3)",
+          "artists": "Tom Petty & The Heartbreakers",
+          "album": "She's the One (Songs and Music from the Motion Picture)",
+          "duration": "3:04",
+          "thumbnail": "https://yt3.googleusercontent.com/0aZIQizww09ud8gzLkU3bJ9970muGx8PJz7sJ39G0mKKfvgn75bSl8_sFZu5cXMoX0LxwdFbzBlWEeBF=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "SZ_I0KZvezw",
+          "title": "Nothing's Gonna Stop Us Now",
+          "artists": "Starship",
+          "album": "No Protection",
+          "duration": "4:31",
+          "thumbnail": "https://yt3.googleusercontent.com/U0lxzJAMq69GrleMbzYiRFCyIaCKb9wVJQ5wL0LWDWaWXDpwJCmbdeIgBl5gfUgLSh13dwaAq0H86VoW=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "UsdGgRL1xHc",
+          "title": "Separate Ways (Worlds Apart)  [2024 Remaster]",
+          "artists": "Journey",
+          "album": "Greatest Hits (2024 Remaster)",
+          "duration": "5:27",
+          "thumbnail": "https://yt3.googleusercontent.com/HZIfkmRG0Lm75u7OqgeQH8mufZ1Iza3DmXpe5sZ3oED7MtUedkGYpuVMBImeJnAQFJSQuX6EoW78rGJu=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "K75S1zrhbY4",
+          "title": "Limitless",
+          "artists": "Bon Jovi",
+          "album": "2020",
+          "duration": "3:42",
+          "thumbnail": "https://yt3.googleusercontent.com/bCKOEUEI7O11FKddqjHMrPiWMUdu71C7WrsrpJxFnmxPsw7OqLsX0Xiq5RFV6ZV11du98ZbAUQ2VGeQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "gr8jSYC03gQ",
+          "title": "Rivers of Babylon",
+          "artists": "Boney M.",
+          "album": "Gold - 20 Super Hits (International)",
+          "duration": "4:18",
+          "thumbnail": "https://yt3.googleusercontent.com/72GdUb9WKiTgyHW-aLneVDW6iEnRIYZBIQSvLqBGY4yXf6BW8Du5SbntmWaCuwW4CFbDpaCT99DXZR3F5g=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "22tvkAu8Q2k",
+          "title": "Forever In Blue Jeans",
+          "artists": "Neil Diamond",
+          "album": "You Don't Bring Me Flowers",
+          "duration": "3:38",
+          "thumbnail": "https://yt3.googleusercontent.com/LHiABt5FN9uKeUdNCqVdAc963-gZipRXz2bey5Z60Y_mMDp5MnvDg0E6jugsy34_m3qmUYSgIg4eZ7OYmg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "IDCFX5NShlE",
+          "title": "Never Say Goodbye",
+          "artists": "Bon Jovi",
+          "album": "Slippery When Wet",
+          "duration": "4:49",
+          "thumbnail": "https://yt3.googleusercontent.com/SqcnRq7G6BLl1gYS34sMMx-ilwFSDpSO8oG0FTBabMsNyfSNSdw1P2djS_FqC93Nlruj3RoLO-6u9zOJ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "68YYO2eqVcg",
+          "title": "Legendary",
+          "artists": "Bon Jovi",
+          "album": "Forever",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/m57y7LHOO0Fza1pLKvLTJvInW62MbL6jyamMwcVLRI3aPZdD-Ekf5MxHm2LV-gS2rpogHL33itSADSl5=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "A_VKQe74LZ0",
+          "title": "Legendary",
+          "artists": "Bon Jovi",
+          "album": "Legendary",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/wet9KWKNozSPc8W7GulpRYUgHrRgekPR11wyxdDrlXKHsp4S5IDP8aT--1gUTL-uYN8tXVprpE-0GvQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "CqFFqw4iNsc",
+          "title": "Last Night",
+          "artists": "The Traveling Wilburys",
+          "album": "The Traveling Wilburys, Vol. 1",
+          "duration": "3:52",
+          "thumbnail": "https://yt3.googleusercontent.com/8stobxAXtGxzCgqoHF3WY-FDeHoXdoE3syj-cgG1bItn1B6NN_sBcry_kCNnj0VDLdHxfiLJpxkefPvb=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "UVsJ11phnL0",
+          "title": "Do What You Can",
+          "artists": "Bon Jovi",
+          "album": "2020",
+          "duration": "4:20",
+          "thumbnail": "https://yt3.googleusercontent.com/bCKOEUEI7O11FKddqjHMrPiWMUdu71C7WrsrpJxFnmxPsw7OqLsX0Xiq5RFV6ZV11du98ZbAUQ2VGeQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-FYfNoPfkew",
+          "title": "Get A Haircut",
+          "artists": "George Thorogood & The Destroyers",
+          "album": "Haircut",
+          "duration": "4:13",
+          "thumbnail": "https://yt3.googleusercontent.com/Mtg9V82wCdxH6_eNud7FyCdidOGDM2vCLlDDS7yt0cA7-FBHjALTQvO_sWuWvCT6v_wBJCoaSgorvkHB=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "JVUCBsywI10",
+          "title": "Authority Song",
+          "artists": "John Mellencamp",
+          "album": "Uh-HUH!",
+          "duration": "3:50",
+          "thumbnail": "https://yt3.googleusercontent.com/J8KuBJEBpBkkK2f-tWdm8gx_p3xwB7-2zkevis_zS7AMlZManABjS_Nl2Y1TeU4pk_iDPbWEEw5N0rQ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "G3MCMhC8FuQ",
+          "title": "Tweeter And The Monkey Man",
+          "artists": "The Traveling Wilburys",
+          "album": "The Traveling Wilburys, Vol. 1",
+          "duration": "5:28",
+          "thumbnail": "https://yt3.googleusercontent.com/8stobxAXtGxzCgqoHF3WY-FDeHoXdoE3syj-cgG1bItn1B6NN_sBcry_kCNnj0VDLdHxfiLJpxkefPvb=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "TpQQlJOQszA",
+          "title": "Annie's Song",
+          "artists": "John Denver",
+          "album": "Back Home Again",
+          "duration": "3:01",
+          "thumbnail": "https://yt3.googleusercontent.com/ja6_QChqpi1Br4rveNHhO4DFNutGTsx5YAuQ7ZcRWk2AzdAqSYONTSjF3SHRlyIT7U35UEDVptEDqwhB=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "lQuln0tbgDA",
+          "title": "Got My Mind Set on You",
+          "artists": "George Harrison",
+          "album": "Cloud Nine",
+          "duration": "3:55",
+          "thumbnail": "https://yt3.googleusercontent.com/7axD7pUIjdR6VLOcX5FlUwh8WFSJsxnnKkoLZF3CnBb0AL_3psdzrWrN2NDZhn2mFbst3rgrxGA2jRM=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "fEpFf2towVU",
+          "title": "Any Way You Want It",
+          "artists": "Journey",
+          "album": "Departure",
+          "duration": "3:22",
+          "thumbnail": "https://yt3.googleusercontent.com/fhzkLoocDMsihnQz_Ezag-mRfB3CKONpY0g4nFLqNSZg2tfq9MDWFwVZIQDS9nqdmyVfkMhvcU8dmJR_=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "HfZXD1Ck2eI",
+          "title": "I Need A Lover",
+          "artists": "John Mellencamp",
+          "album": "A Biography",
+          "duration": "3:31",
+          "thumbnail": "https://yt3.googleusercontent.com/9Ncua1UTi9Rzy8kck2ul35F4n9A_BZpZuna4eb7-13IIBRTRqeRzvQyVC_J4T797HNEIMZMGTMwe2gug=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "zPJsR5udJvc",
+          "title": "Inside Out",
+          "artists": "The Traveling Wilburys",
+          "album": "The Traveling Wilburys, Vol. 3",
+          "duration": "3:36",
+          "thumbnail": "https://yt3.googleusercontent.com/bDnP1iS7Ylo9RqWh_d3vNFaNkKtqs-8KDUp5ot1YIgDvLIoJopDT39UBSn_BsnRzC8hhBTs2-TSzQK8K=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "W8MVaLXhWIA",
+          "title": "End Of The Line",
+          "artists": "The Traveling Wilburys",
+          "album": "The Traveling Wilburys, Vol. 1",
+          "duration": "3:30",
+          "thumbnail": "https://yt3.googleusercontent.com/8stobxAXtGxzCgqoHF3WY-FDeHoXdoE3syj-cgG1bItn1B6NN_sBcry_kCNnj0VDLdHxfiLJpxkefPvb=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "F-0hM51a5Uk",
+          "title": "Handle With Care",
+          "artists": "The Traveling Wilburys",
+          "album": "The Traveling Wilburys, Vol. 1",
+          "duration": "3:20",
+          "thumbnail": "https://yt3.googleusercontent.com/8stobxAXtGxzCgqoHF3WY-FDeHoXdoE3syj-cgG1bItn1B6NN_sBcry_kCNnj0VDLdHxfiLJpxkefPvb=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-h3gXKArWyw",
+          "title": "Kings Highway",
+          "artists": "Tom Petty And The Heartbreakers",
+          "album": "Into The Great Wide Open",
+          "duration": "3:07",
+          "thumbnail": "https://yt3.googleusercontent.com/7Xz9pmq6Z8Cc1kkuufS_T1KepMPRXwFLqTL1QXNKgdiM6XOgOpVYIpbkAtKCiViiWkqFZM0oW37gwQAZ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "kLDVTfQGDe4",
+          "title": "Any Way You Want It (2024 Remaster)",
+          "artists": "Journey",
+          "album": "Greatest Hits (2024 Remaster)",
+          "duration": "3:24",
+          "thumbnail": "https://yt3.googleusercontent.com/HZIfkmRG0Lm75u7OqgeQH8mufZ1Iza3DmXpe5sZ3oED7MtUedkGYpuVMBImeJnAQFJSQuX6EoW78rGJu=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "6wHBsMoHFWs",
+          "title": "My Sweet Lord",
+          "artists": "George Harrison",
+          "album": "All Things Must Pass",
+          "duration": "4:42",
+          "thumbnail": "https://yt3.googleusercontent.com/9-VVPSqHkjgIfrYIlxGjvbGfgrhQvk-_u1h3LwMmq61_lR440K9WPaJs7t06JECV1-U-ufma10qKPmvdYA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "PrH3OQRgfVc",
+          "title": "Long Long Time",
+          "artists": "Linda Ronstadt",
+          "album": "Silk Purse",
+          "duration": "4:24",
+          "thumbnail": "https://yt3.googleusercontent.com/b4UaO60sBFcg_q6SUTQEKPO3uBsLHb6T7H8MghBmCFOOrfeoQL_8TzfAisWxlLRTRLybvNQlDLs8wCOP=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "jwikdkqYw6o",
+          "title": "How Deep Is Your Love",
+          "artists": "Bee Gees",
+          "album": "Saturday Night Fever (The Original Movie Soundtrack Deluxe Edition)",
+          "duration": "4:04",
+          "thumbnail": "https://yt3.googleusercontent.com/nRm8jUPho__8czIAEReJ7HDI8DdcDf8906d5EytASk-6VrXF4lQ-CY_CnDI8yMp4Ffkp6-TahJGyls2h=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "vCVUW10LmFs",
+          "title": "Faithfully (2023 Remaster)",
+          "artists": "Journey",
+          "album": "Frontiers (2023 Remaster)",
+          "duration": "4:27",
+          "thumbnail": "https://yt3.googleusercontent.com/Tmq82xajG33DCIODJpB131O-z_Ki19C3hAzFXrzULm1y1rzx3I-ccWk0AFn7ZxZ2pV-38EKPMDnvB3UAWA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "FiPqUjLMuA8",
+          "title": "Desperado (Live at Rod Laver Arena, Melbourne, Australia, 11/15/04)",
+          "artists": "Eagles",
+          "album": "",
+          "duration": "3:53",
+          "thumbnail": "https://i.ytimg.com/vi/FiPqUjLMuA8/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3kpv-rXtxgrLVOAKAEEoo8SgQLBsw"
+        },
+        {
+          "videoId": "pSdAWfKiuYY",
+          "title": "Wasted Days",
+          "artists": "John Mellencamp, Bruce Springsteen",
+          "album": "Strictly A One-Eyed Jack",
+          "duration": "4:32",
+          "thumbnail": "https://yt3.googleusercontent.com/HUbaXiUMpTuEn0wrtvyp8sWtyxvD1NX_UZt5671l6VYKqOs17hYuFpkXDH0VBotJhI4P-bDG9phkdwfI=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "YBdyc1WDlBQ",
+          "title": "Livin' On A Prayer",
+          "artists": "Bon Jovi",
+          "album": "Slippery When Wet",
+          "duration": "4:10",
+          "thumbnail": "https://yt3.googleusercontent.com/SqcnRq7G6BLl1gYS34sMMx-ilwFSDpSO8oG0FTBabMsNyfSNSdw1P2djS_FqC93Nlruj3RoLO-6u9zOJ=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "sKzvEThmqxE",
+          "title": "What Is Life",
+          "artists": "George Harrison",
+          "album": "All Things Must Pass",
+          "duration": "4:25",
+          "thumbnail": "https://yt3.googleusercontent.com/9-VVPSqHkjgIfrYIlxGjvbGfgrhQvk-_u1h3LwMmq61_lR440K9WPaJs7t06JECV1-U-ufma10qKPmvdYA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "NqZfDBGqUU8",
+          "title": "It's Just the Rain",
+          "artists": "Journey",
+          "album": "Trial By Fire",
+          "duration": "5:20",
+          "thumbnail": "https://yt3.googleusercontent.com/PgYumOnh2y76ceG4AtwF49m6rEFwkSBF5qFH9D5bo3bGOt3_D20576pcAPFcShl3vJ_CnMKxtdXpBe2KEw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "-rGDzbV75EI",
+          "title": "Slip Slidin' Away",
+          "artists": "Paul Simon",
+          "album": "The Essential Paul Simon",
+          "duration": "4:46",
+          "thumbnail": "https://yt3.googleusercontent.com/k28qUSjynXc7h9bDBXxABGUQ4EC1Fl_IA2GEJCENVBSSglWwScM1tj5TLO37U9rWXNflLihXmUS17RU-=w120-h120-s-l90-rj"
+        },
+        {
+          "videoId": "8rMAm4Q4nTY",
+          "title": "And I Love You So",
+          "artists": "Don McLean",
+          "album": "Tapestry",
+          "duration": "4:17",
+          "thumbnail": "https://yt3.googleusercontent.com/G72xkbSq-zpHSWS_pUKAYRNeXXBzd7x5e3ZKOaeD7sbGylim89gplQ-FcMr6vCBmR4Gg53NP_l8z9biB=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "z2qoihbzc3E",
+          "title": "Stayin Alive",
+          "artists": "Bee Gees",
+          "album": "The Ultimate Bee Gees",
+          "duration": "4:44",
+          "thumbnail": "https://yt3.googleusercontent.com/oB_Qkdo3-SX6vLVS1hyCKw87WNA9UbU7-BtFSPl3BYjeWY9KRmbOvulllXbp6tAMwF22QRnye1ITT092KA=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "PXkaQVJXMiM",
+          "title": "The Price You Pay",
+          "artists": "Emmylou Harris",
+          "album": "Cimarron",
+          "duration": "4:39",
+          "thumbnail": "https://yt3.googleusercontent.com/wJhmSdRAFLXcGN62lotdSEtILO8AzHf5FcDyHVjd1nAYb7XH2HfmiMWOaVrMeWvQeELFyDhUPxnSfROf9w=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "TI9NjQK_xm8",
+          "title": "Castles in the Air",
+          "artists": "Don McLean",
+          "album": "Believers",
+          "duration": "3:43",
+          "thumbnail": "https://yt3.googleusercontent.com/ol3Mn1w6IIuxu_hbOO9L0cQxhISvK8RYQQsyPD8j-kNwm8tnc-4Yirl3rRLvOsl-Y-OI5PCCaUVteyYV=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "tiBu92u3f_0",
+          "title": "The Girl from Yesterday (Live)",
+          "artists": "The Eagles",
+          "album": "MTV Unplugged, Second and Alternate Night, Warner Bros. Studios, Burbank, Ca. April 28, 1994 (Doxy Collection, Remastered, Live)",
+          "duration": "5:45",
+          "thumbnail": "https://yt3.googleusercontent.com/wXZbJbPbDbTkkTKpiWFeiODjKofpwQQWfN169Bni4AsC_gccDvjlgG-2CcTyzRWLBuRDioOLI8E6bwy2Eg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "KQ-8KpYHE5Q",
+          "title": "Castles In The Air",
+          "artists": "Don McLean",
+          "album": "The Best Of Don McLean",
+          "duration": "3:43",
+          "thumbnail": "https://yt3.googleusercontent.com/qmvheG1T3zbADDN8MlCVA834ibi57qZbLcNceTVuNMoDqzKX8rgPMpaVQICsjdA2anFbzkuxhY034KGV=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "s0ZZHNRHA2g",
+          "title": "Take It Easy (2008 Remaster)",
+          "artists": "Eagles",
+          "album": "Take It Easy / Get You in the Mood",
+          "duration": "3:28",
+          "thumbnail": "https://yt3.googleusercontent.com/tbze9-2gYMWR12r4Pr458tMtfleziXSsu6sJXGGCN7zTtoiTIZCseydOWEB0ZFxmluhL1KZoWhFkYdic=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "2L7R-XOittY",
+          "title": "Queen Of Hearts",
+          "artists": "Juice Newton",
+          "album": "Juice",
+          "duration": "3:26",
+          "thumbnail": "https://yt3.googleusercontent.com/N10r9esdY2Vy2ztk1E4uMGxFUvPWMmwBP0ag9ydiXio3UOYa_eP812Aq46mGI0SY6elU_vNeOpXcnHyg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "ner6lPFgTYc",
+          "title": "What Is Life (2020 Mix)",
+          "artists": "George Harrison",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "duration": "4:25",
+          "thumbnail": "https://yt3.googleusercontent.com/FRcpyG9wsHjJ6qTYwxN0jsXknzrWWUpytaBnjo5eaBKbagYNNZGnPgEA0e5ePUizBDltpYENTPPoB4P0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "32Oc2d_3yEk",
+          "title": "Take It Easy",
+          "artists": "Eagles",
+          "album": "Eagles",
+          "duration": "3:32",
+          "thumbnail": "https://yt3.googleusercontent.com/q5QB0z4ZIDKVfiuQX8Qtg4i7IYCtKnNmWpRFy5Gdh1gzbzysPvuKx6Wg28K1pbGnvznZlkN12O1cwqlH=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "2gKi8TWlpvo",
+          "title": "I Am...I Said (Single Version)",
+          "artists": "Neil Diamond",
+          "album": "Stones",
+          "duration": "3:34",
+          "thumbnail": "https://yt3.googleusercontent.com/nC5OGA4IJ9tJ9KT0-JRnoSyYgi35mHxNUAAVGJYqYGt3aNgPvRMQXlPz1q_LX9NvJ8dvSJ0ofd9IcMg=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "k9sf7C7D3nk",
+          "title": "Leaving, On a Jet Plane (\"Greatest Hits\" Version)",
+          "artists": "John Denver",
+          "album": "John Denver's Greatest Hits",
+          "duration": "4:06",
+          "thumbnail": "https://yt3.googleusercontent.com/InKQBeZIXJeC3jv3H-PmTEhphZlJWgN33Ic3oQl3kzgdiwwr_fAJZAX368aVkWYMC0-p7nq_tam_YGAq=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "MrfMRsFcp7A",
+          "title": "Tougher Than the Rest",
+          "artists": "Emmylou Harris",
+          "album": "Brand New Dance",
+          "duration": "5:02",
+          "thumbnail": "https://yt3.googleusercontent.com/4pVBbdHZ0SyTy8zSWqPMKQRU8l4s8tbZM81EPZCu35EkruKvPlHlWCLVkBu6P3DML7yCyxoJPq04YNU=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "W_dDNNEdIJg",
+          "title": "Stayin' Alive (From \"Saturday Night Fever\" Soundtrack)",
+          "artists": "Bee Gees",
+          "album": "Saturday Night Fever (The Original Movie Soundtrack)",
+          "duration": "4:45",
+          "thumbnail": "https://yt3.googleusercontent.com/Xq7Exaw8sR1LI3ZNOc7jRe1bLKIHgSps3mYVHEGanUgDFhlahPllZoW4bXh4u9_q2xKF6BETZg6Sgd4xNw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "XxLD75jBpA4",
+          "title": "Long May You Run (2008 Remaster)",
+          "artists": "Emmylou Harris",
+          "album": "Last Date",
+          "duration": "3:10",
+          "thumbnail": "https://yt3.googleusercontent.com/Tz7s5CNAgC-B-xgAezYc2xXj1imDum96yTC8IT3eb4ZUvbfVo77K9TkwI7iO468h8wzZrt50mDzOnzjX=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "6gGMGmYt9hQ",
+          "title": "I Am ... I Said",
+          "artists": "Neil Diamond",
+          "album": "Stones",
+          "duration": "3:35",
+          "thumbnail": "https://yt3.googleusercontent.com/3tK-5lY3BU1-8FWyYnKLT5iaOjxElvos7NZdrPk0VpvQLZlhAk2OU-k5C9YCdfN_ryPGPyGpcudN8cIt=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "yBg83_jHW4k",
+          "title": "The Sounds of Silence (Live at Central Park, New York, NY - September 19, 1981)",
+          "artists": "Simon & Garfunkel",
+          "album": "The Concert in Central Park (Live)",
+          "duration": "4:17",
+          "thumbnail": "https://yt3.googleusercontent.com/iEOiMbaElUMST5reECbGuhqqzITVmziN4LFHUSeUhQqFrExuaQ2uTYjJssLV9r9k0mlZgUmOuh-hYcM=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "enB-Thq9e4A",
+          "title": "Carmelita",
+          "artists": "Linda Ronstadt",
+          "album": "Simple Dreams",
+          "duration": "3:08",
+          "thumbnail": "https://yt3.googleusercontent.com/3VZWCACv3mPjpDmb_QkG9ueaeUpjd7OGm9ikq8d8sQuOWhi1bFw4aUzURCmeGv3sSZZY1QNFstSaurmEPw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "C1VUWDcp5Sg",
+          "title": "The Boxer",
+          "artists": "Simon & Garfunkel",
+          "album": "Bridge Over Troubled Water",
+          "duration": "5:09",
+          "thumbnail": "https://yt3.googleusercontent.com/aRoEPZaBuEWiV94BDqWdajwGZYhh65T2W0ltw5xZtuTwbx2VnyW7lvRKMd6T-CouqDBho909R7QZwNxO=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "6JUbFj0BIc4",
+          "title": "The Boxer (from The Concert in Central Park)",
+          "artists": "Simon & Garfunkel",
+          "album": "",
+          "duration": "5:17",
+          "thumbnail": "https://i.ytimg.com/vi/6JUbFj0BIc4/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3mLqGqf-08QZ4vaZsSushWcKWMlfQ"
+        },
+        {
+          "videoId": "th1vGHFm8WI",
+          "title": "My Sweet Lord (2020 Mix)",
+          "artists": "George Harrison",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "duration": "4:42",
+          "thumbnail": "https://yt3.googleusercontent.com/FRcpyG9wsHjJ6qTYwxN0jsXknzrWWUpytaBnjo5eaBKbagYNNZGnPgEA0e5ePUizBDltpYENTPPoB4P0=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "x8hUwP_5Qc4",
+          "title": "Somebody To Love",
+          "artists": "Queen",
+          "album": "A Day At The Races (Deluxe Edition 2011 Remaster)",
+          "duration": "4:57",
+          "thumbnail": "https://yt3.googleusercontent.com/iSp4bKNyFnhc63fM6J5DQLxJ35Jip-mnXfMx9nns1bbqCvRZoGQYWMtFRadASJo23NLHiA_ZcW-AoDB-qw=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "_J9NpHKrKMw",
+          "title": "Ob-La-Di, Ob-La-Da (Remastered 2009)",
+          "artists": "The Beatles",
+          "album": "The Beatles",
+          "duration": "3:09",
+          "thumbnail": "https://yt3.googleusercontent.com/8MFj-k2DNUXPKOw8BawKI291ty1Wh8V4M3J6fiq4itWkjw34ncAem60h80eMzsD2XjczahdZEF69CQ8=w120-h120-l90-rj"
+        },
+        {
+          "videoId": "bkApuQWCPdM",
+          "title": "Hey Jude (Remastered 2009)",
+          "artists": "The Beatles",
+          "album": "The Beatles 1967 - 1970",
+          "duration": "7:12",
+          "thumbnail": "https://yt3.googleusercontent.com/74ZlD_ClwO8pdKlooxk3BWjGe1NNGU2euQepXyaWilfxceXZj2Uxn4Uk4fOk2btprCSx1lFKH-QlvrbW=w120-h120-l90-rj"
         }
       ]
     }
