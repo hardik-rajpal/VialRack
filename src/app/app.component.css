@@ -1,23 +1,12 @@
-/* .main{
+.shell {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    margin:auto;
-    width: 80%;
-    min-height: 100%;
-} */
-.main{
-    position: relative;
-    height: auto !important;
-    min-height: 100%;
-    margin: auto;
-    width: 98%;
+    min-height: 100vh;
 }
-.content{
-    padding-bottom: 100px;
-}
-app-sitefooter{
-    position:absolute;
+
+.shell__content {
+    flex: 1 0 auto;
     width: 100%;
-    bottom: 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }

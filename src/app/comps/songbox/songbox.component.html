@@ -1,5 +1,9 @@
-<div class="main shadow bordered">
-    <h2>{{song.title}}</h2>
-    <iframe [src]="song.link|safe:'resourceUrl'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>{{song.text}}</p>
-</div>
+<article class="record">
+    <h3 class="record__title">{{ song.title }}</h3>
+    <div class="record__frame">
+        <iframe [src]="song.link | safe:'resourceUrl'" [title]="song.title" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <p class="record__text" *ngIf="song.text">{{ song.text }}</p>
+</article>

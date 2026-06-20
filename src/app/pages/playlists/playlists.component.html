@@ -1,0 +1,47 @@
+<section class="playlists">
+
+    <!-- ============ single playlist ============ -->
+    <ng-container *ngIf="current as p; else overview">
+        <a class="backlink" [routerLink]="[]" [queryParams]="{}">← All playlists</a>
+
+        <app-playlistbox [playlist]="p">
+            <div class="plhead">
+                <span class="plhead__sleeve" [ngStyle]="{'--cover': coverFor(selected || 0)}">
+                    <span class="plhead__initial">{{ label(p).charAt(0) }}</span>
+                </span>
+                <h1 class="plhead__name">{{ label(p) }}</h1>
+                <p class="plhead__artist">{{ artistLabel(p) }}</p>
+                <p class="plhead__count">{{ p.trackCount }} track{{ p.trackCount === 1 ? '' : 's' }}</p>
+                <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
+            </div>
+        </app-playlistbox>
+    </ng-container>
+
+    <!-- ============ overview grid ============ -->
+    <ng-template #overview>
+        <header class="playlists__head">
+            <h1 class="playlists__title">Playlists</h1>
+            <p class="playlists__sub">Artist mixes I keep on YouTube Music.</p>
+        </header>
+
+        <div class="grid" *ngIf="playlists.length; else empty">
+            <a class="pl" *ngFor="let p of playlists; index as i" [routerLink]="[]" [queryParams]="{ pl: i }"
+               [attr.aria-label]="label(p) + ' — ' + p.trackCount + ' tracks'">
+                <span class="pl__art">
+                    <span class="pl__disc" aria-hidden="true"></span>
+                    <span class="pl__sleeve" [ngStyle]="{'--cover': coverFor(i)}">
+                        <span class="pl__initial">{{ label(p).charAt(0) }}</span>
+                    </span>
+                </span>
+                <span class="pl__name">{{ label(p) }}</span>
+                <span class="pl__artist">{{ artistLabel(p) }}</span>
+                <span class="pl__count">{{ p.trackCount }} tracks</span>
+            </a>
+        </div>
+
+        <ng-template #empty>
+            <p class="playlists__empty">{{ loaded ? 'No playlists yet.' : 'Spinning up the turntable…' }}</p>
+        </ng-template>
+    </ng-template>
+
+</section>

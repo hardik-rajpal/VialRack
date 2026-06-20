@@ -1,0 +1,40 @@
+<div class="pbox">
+    <!-- left: the record (tile + name, projected by the host) and the player -->
+    <div class="pbox__left">
+        <ng-content></ng-content>
+
+        <div class="pbox__player" *ngIf="current as track">
+            <div class="pbox__frame">
+                <iframe [src]="embedUrl() | safe:'resourceUrl'" [title]="track.title" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <p class="pbox__now"><span>Now playing</span> {{ track.title }} · {{ track.artists }}</p>
+        </div>
+    </div>
+
+    <!-- right: searchable, scrollable track list capped to the viewport -->
+    <div class="pbox__right">
+        <div class="pbox__search">
+            <span class="pbox__search-icon" aria-hidden="true">⌕</span>
+            <input type="search" class="pbox__search-input" [(ngModel)]="query"
+                placeholder="Search songs and artists…" aria-label="Search songs and artists" />
+        </div>
+
+        <ol class="pbox__list" *ngIf="visibleTracks.length; else noMatch">
+            <li *ngFor="let row of visibleTracks" class="track" [class.is-playing]="row.index === selected"
+                (click)="select(row.index)" (keydown.enter)="select(row.index)" tabindex="0">
+                <span class="track__num" aria-hidden="true">{{ row.index === selected ? '♪' : row.index + 1 }}</span>
+                <span class="track__meta">
+                    <span class="track__title">{{ row.track.title }}</span>
+                    <span class="track__artist" *ngIf="row.track.artists">{{ row.track.artists }}</span>
+                </span>
+                <span class="track__note" *ngIf="captions[row.track.videoId]">{{ captions[row.track.videoId] }}</span>
+                <span class="track__dur">{{ row.track.duration }}</span>
+            </li>
+        </ol>
+        <ng-template #noMatch>
+            <p class="pbox__empty">Nothing matches “{{ query }}”.</p>
+        </ng-template>
+    </div>
+</div>

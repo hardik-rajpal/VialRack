@@ -11,8 +11,8 @@ export interface footerSpec{
 }
 export const headerData:headerSpec = {
     logo:'assets/top.jpg',
-    title:'MyVialRack',
-    subtitle:'No subtitle necessary'
+    title:'Shelved Life',
+    subtitle:'things I make & love, arranged shelf by shelf'
 }
 
 export const footerData:footerSpec = {

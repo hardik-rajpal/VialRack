@@ -1,154 +1,236 @@
-/* You can add global styles to this file, and also import other style files */
-html, body { height: 100%; margin: 0; padding: 0;}
+/* ============================================================
+   Marginalia — global tokens & base
+   A sunlit-study shelf: muted sage walls, honey-oak planks,
+   engraved brass plaques, handwritten notes in the margins.
+   ============================================================ */
+
+:root {
+    /* --- palette: sunlit study --- */
+    --wall:        #6E7D6A;   /* muted sage room */
+    --wall-deep:   #5C6A58;   /* recessed cabinet back */
+    --wall-light:  #7E8C78;
+    --oak:         #C9A36A;   /* honey oak plank face */
+    --oak-dark:    #A87E45;
+    --oak-light:   #E6C88C;   /* lit top edge of a plank */
+    --oak-shadow:  #6F5126;   /* under-plank shadow */
+    --brass:       #B98A34;
+    --brass-light: #E2BE6A;
+    --brass-dark:  #7E5C1F;
+    --ink:         #2A2420;   /* primary text */
+    --ink-soft:    #4C443B;
+    --paper:       #F4EEDF;   /* card / surface paper */
+    --paper-dim:   #E7DCC4;
+    --accent:      #4A2A0C;   /* links — dark walnut, high contrast on sage & paper */
+    --accent-warm: #8A3A12;   /* hover warmth */
+
+    /* legacy vars kept so untouched pages still resolve */
+    --primary:   var(--accent);
+    --secondary: var(--oak-dark);
+    --light:     var(--accent-warm);
+    --darkgray:  var(--ink-soft);
+
+    /* --- type --- */
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+    --font-note:    'Caveat', 'Comic Sans MS', cursive;
+
+    --step-0: 1rem;
+    --step-1: 1.2rem;
+    --step-2: 1.5rem;
+    --step-3: 2rem;
+    --step-4: clamp(2.4rem, 6vw, 3.6rem);
+
+    font-size: 18px;
+    font-family: var(--font-body);
+    letter-spacing: 0.1px;
+    color: var(--ink);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-size: 200px;
-    background-repeat: repeat;
-}
-:root{
-    --primary:#00356b;
-    --secondary:#286dc0;
-    --accent:#006ef5;
-    --light:#7eb3f5;
-    --mgvwidth:600px;
-    
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-family: "Source Sans Pro"; */
-    letter-spacing: 0.5px;
-    font-size: 19.5px;
-    /* line-height: 30px; */
-    font-family: "Red Hat Display";
-}
-button{
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/bgtile2.jpg');
-    border-radius: 5;
-    padding: 10px;
+    color: var(--ink);
+    background-color: var(--wall);
+    /* soft, CSS-only papered-wall texture + a warm light spilling from upper-left */
+    background-image:
+        radial-gradient(1200px 700px at 12% -8%, rgba(255, 246, 214, 0.55), rgba(255, 246, 214, 0) 60%),
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.025) 0 1px, transparent 1px 5px),
+        linear-gradient(180deg, var(--wall-light), var(--wall) 40%, var(--wall-deep));
+    background-attachment: fixed;
 }
 
-div.row{
-    display: flex;
-    flex-direction: row;
+h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0 0 0.4em;
 }
-.title{
-    text-align: center;
+
+p { line-height: 1.6; }
+
+a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.18s ease;
 }
-html,body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-.pointable{
+a:hover { color: var(--accent-warm); }
+
+button {
+    font-family: var(--font-body);
+    background: linear-gradient(180deg, var(--oak), var(--oak-dark));
+    color: var(--ink);
+    border: 1px solid var(--oak-shadow);
+    border-radius: 6px;
+    padding: 10px 14px;
     cursor: pointer;
 }
-a{
-    text-decoration: none;
-    color: var(--accent);
+
+input {
+    font-family: var(--font-body);
+    height: 34px;
+    border: 2px solid var(--oak-dark);
+    background: var(--paper);
+    padding: 5px 8px;
+    border-radius: 6px;
 }
-a:hover{
-    color: var(--light);
-}
-img.logo{
-    width: 150px;
-    max-height: 150px;
-}
-a.button{
-    border: 3px solid var(--secondary);
-    padding: 5px;
-    font-size: large;
-    border-radius: 5px;
-}
-input{
-    height: 30px;
-    border: 3px solid black;
-    padding: 5px;
-    border-radius: 5px;
-}
-.title{
-    font-size: x-large;
+
+/* engraved/hand-set heading used across pages */
+.title {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
     text-align: center;
 }
-.centercol{
-    align-items: center;
-    justify-items: center;
-}
-.col{
-    display: flex;
-    flex-direction: column;
-}
-.row{
-    display: flex;
-    flex-direction: row;
-}
-.rrow{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.fs-large{
-    font-size: 1.33rem;
-}
-.fs-x-large{
-    font-size: 1.66rem;
-}
-.fs-medium{
-    font-size: 1rem;
-}
-.fs-larger{
-    font-size: 1.5rem;
-}
-.fs-xx-large{
-    font-size: 2rem;
-}
-.student-img{
-    width: 250px;
-    height: 250px;
-}
-.person-img{
-    width: 200px;
-    height: 200px;
-}
-.shadow{
-    box-shadow: 3px 3px 5px 5px grey;
-}
-.bordered{
-    border: var(--darkgray) 2px solid;
+
+/* ---- retained layout utilities (used by other pages) ---- */
+.row  { display: flex; flex-direction: row; }
+.rrow { display: flex; flex-direction: row-reverse; }
+.col  { display: flex; flex-direction: column; }
+.centercol { align-items: center; justify-items: center; }
+.pointable { cursor: pointer; }
+
+.fs-medium  { font-size: var(--step-0); }
+.fs-large   { font-size: var(--step-1); }
+.fs-larger  { font-size: var(--step-2); }
+.fs-x-large { font-size: var(--step-2); }
+.fs-xx-large{ font-size: var(--step-3); }
+
+.student-img { width: 250px; height: 250px; }
+.person-img  { width: 200px; height: 200px; }
+
+.shadow   { box-shadow: 0 6px 18px rgba(40, 30, 12, 0.28); }
+.bordered {
+    border: 1px solid var(--oak-dark);
+    background: var(--paper);
     padding: 10px;
     padding-top: 5px;
     margin: 10px;
     border-radius: 10px;
-
 }
 
-hr.thick{
-    border: 0;
-    clear:both;
-    display:block;
-    width: 100%;               
-    background-color:var(--secondary);
-    height: 5px;
+img.logo { width: 92px; max-height: 92px; }
+
+a.button {
+    border: 1px solid var(--oak-dark);
+    padding: 8px 12px;
+    font-size: var(--step-1);
+    border-radius: 6px;
+    background: var(--paper);
 }
-hr.thin{
+
+hr.thick {
     border: 0;
-    clear:both;
-    display:block;
-    width: 100%;               
-    background-color:var(--light);
     height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--oak-dark), transparent);
 }
-.desktop{
-    display: none;
+hr.thin {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--oak), transparent);
 }
 
+/* responsive show/hide kept for legacy pages; the new shell avoids them */
+.desktop { display: none; }
+@media (min-width: 800px) {
+    .desktop { display: block; }
+    .mobile  { display: none; }
+}
 
+/* click-to-open book transition (overlay is built in JS, appended to <body>) */
+.book-open-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    perspective: 1600px;
+}
+.book-open-wrap {
+    position: fixed;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+.book-open-page {
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    background:
+        repeating-linear-gradient(0deg, transparent 0 11px, rgba(74, 42, 12, 0.06) 11px 12px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0) 16%),
+        var(--paper);
+    box-shadow: 0 18px 40px -12px rgba(28, 18, 6, 0.55);
+}
+.book-open-cover {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: left center;
+    backface-visibility: hidden;
+    border-radius: 3px 6px 6px 3px;
+    color: rgba(255, 252, 244, 0.9);
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.18)),
+        repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0 1px, transparent 1px 3px),
+        var(--cover);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 7px 0 6px -5px rgba(0, 0, 0, 0.55);
+}
+.book-open-initial {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 2.7rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
 
+/* while the records are tumbling in, keep the real shelf tiles hidden so the
+   finished state never flashes before the animation (cleared per-tile on land) */
+body.records-arriving .crate__bin .artist .artist__sleeve {
+    visibility: hidden;
+}
 
+/* covers spilling out of the record box on its way to the records page */
+.spill-rec {
+    position: fixed;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-shadow: 0 10px 18px -8px rgba(0, 0, 0, 0.55), inset 0 0 0 3px rgba(255, 255, 255, 0.1);
+    will-change: transform;
+}
 
-@media(min-width:800px){
-    .desktop{
-        display: block;
-    }
-    .mobile{
-        display: none;
-    }
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }

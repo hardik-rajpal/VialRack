@@ -1,3 +1,35 @@
-<a href="{{link}}" target="{{newTab?'_blank':'_self'}}">
-    <img class="link" src="{{src}}"/>
-</a>
+<div class="object" [ngStyle]="{'--i': index}">
+    <a *ngIf="isExternal" class="card" href="{{link}}" [target]="newTab ? '_blank' : '_self'"
+       rel="noopener noreferrer" [attr.aria-label]="label" [ngStyle]="{'--cover': cover}">
+        <ng-container *ngTemplateOutlet="art"></ng-container>
+    </a>
+    <a *ngIf="!isExternal" class="card" [href]="href" (click)="onCardClick($event)"
+       [attr.aria-label]="label" [ngStyle]="{'--cover': cover}">
+        <ng-container *ngTemplateOutlet="art"></ng-container>
+    </a>
+
+    <!-- the shelf this object rests on, with a brass plaque screwed to its face -->
+    <div class="ledge">
+        <app-plaque class="ledge__plaque" [label]="label" [plaqueType]="plaqueType"></app-plaque>
+    </div>
+
+    <span class="object__note" *ngIf="note">{{ note }}</span>
+</div>
+
+<ng-template #art>
+    <span class="card__cover" *ngIf="kind === 'book'">
+        <span class="book__inside" aria-hidden="true"></span>
+        <span class="book__face">
+            <span class="card__band"></span>
+            <span class="card__initial">{{ initial }}</span>
+            <span class="card__band"></span>
+        </span>
+    </span>
+
+    <span class="crate" *ngIf="kind === 'records'" aria-hidden="true">
+        <span class="rec rec--l"></span>
+        <span class="rec rec--r"></span>
+        <span class="rec rec--c"></span>
+        <span class="crate__box"></span>
+    </span>
+</ng-template>

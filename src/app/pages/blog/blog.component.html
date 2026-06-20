@@ -1,32 +1,28 @@
-<!-- <div class="main">
-    <div *ngIf="!dataLoaded">
-        Loading...
+<section class="writeups">
+    <header class="writeups__head">
+        <h1 class="writeups__title">Writeups</h1>
+        <p class="writeups__sub">
+            Mostly poems, posted on <a [href]="profile" target="_blank" rel="noopener noreferrer">Medium</a>.
+        </p>
+    </header>
+
+    <div class="clippings" *ngIf="stories.length; else state">
+        <a class="clip" *ngFor="let s of stories" [href]="s.link" target="_blank" rel="noopener noreferrer">
+            <span class="clip__photo" *ngIf="s.image">
+                <img [src]="s.image" alt="" loading="lazy">
+            </span>
+            <span class="clip__body">
+                <span class="clip__meta">{{ s.date }} · {{ s.readingMins }} min read</span>
+                <span class="clip__title">{{ s.title }}</span>
+                <span class="clip__snippet" *ngIf="s.snippet">{{ s.snippet }}</span>
+                <span class="clip__tags" *ngIf="s.tags.length">
+                    <span class="tag" *ngFor="let t of s.tags.slice(0, 3)">{{ t }}</span>
+                </span>
+            </span>
+        </a>
     </div>
-    <div *ngIf="dataLoaded">
-        <div class="bloglist" *ngIf="activePost==null">
-            <div class="searchbar">
-                <input placeholder="Search through titles..." />
-            <button>
-                Search
-            </button>
-            </div>
-            <div class="postbox">
-                <div *ngFor="let post of filteredBlogPosts" class="post" (click)="goToPost(post.docId)">
-                    <app-plaque [label]="post.title" [plaqueType]="2"></app-plaque>
-                </div>
-            </div>
-        </div>
-        <div *ngIf="activePost!=null" class="post">
-        </div>
-    </div>
-</div> -->
-<div class="link">
-    You must go to
-    <a href="https://drive.google.com/drive/folders/1oKO2LteQho8BY7bHiSwjNxT9F_rRuNhS?usp=drive_link">
-        this folder!
-    </a>
-    <br>
-    Or check 
-    <a href="https://medium.com/@hardikraj08">the medium page.
-    </a>
-</div>
+
+    <ng-template #state>
+        <p class="writeups__empty">{{ loaded ? 'No stories yet.' : 'Fetching the latest from Medium…' }}</p>
+    </ng-template>
+</section>

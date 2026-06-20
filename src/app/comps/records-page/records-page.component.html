@@ -1,0 +1,99 @@
+<section class="collection">
+
+    <!-- ============ single-artist view ============ -->
+    <ng-container *ngIf="currentArtist as artist; else overview">
+        <a class="backlink" [routerLink]="[]" [queryParams]="{}">← My record collection</a>
+
+        <ng-container *ngIf="artistPlaylists.length; else songsOnly">
+            <section class="record" *ngFor="let p of artistPlaylists">
+                <app-playlistbox [playlist]="p" [captions]="artistCaptions(artist)">
+                    <div class="record__id">
+                        <span class="record__sleeve" [ngStyle]="{'--cover': coverFor(selectedArtist || 0)}">
+                            <span class="record__initial">{{ artist.title.charAt(0) }}</span>
+                        </span>
+                        <h1 class="record__name">{{ artist.title }}</h1>
+                        <p class="record__sub" *ngIf="(p.name || p.playlist) && (p.name || p.playlist) !== artist.title">{{ p.name || p.playlist }}</p>
+                        <p class="record__blurb" *ngIf="artist.text">{{ artist.text }}</p>
+                        <p class="record__count">{{ p.trackCount }} track{{ p.trackCount === 1 ? '' : 's' }}</p>
+                        <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
+                    </div>
+                </app-playlistbox>
+            </section>
+        </ng-container>
+
+        <ng-template #songsOnly>
+            <header class="artisthead">
+                <span class="artisthead__sleeve" [ngStyle]="{'--cover': coverFor(selectedArtist || 0)}">
+                    <span class="artisthead__initial">{{ artist.title.charAt(0) }}</span>
+                </span>
+                <div class="artisthead__meta">
+                    <h1 class="artisthead__name">{{ artist.title }}</h1>
+                    <p class="artisthead__blurb" *ngIf="artist.text">{{ artist.text }}</p>
+                    <p class="artisthead__count" *ngIf="trackCount(artist)">{{ trackCount(artist) }} track{{ trackCount(artist) === 1 ? '' : 's' }}</p>
+                </div>
+            </header>
+            <div class="grid" *ngIf="artistSongs(artist).length">
+                <app-songbox *ngFor="let song of artistSongs(artist)" [song]="song"></app-songbox>
+            </div>
+        </ng-template>
+    </ng-container>
+
+    <!-- ============ collection overview ============ -->
+    <ng-template #overview>
+        <header class="collection__head">
+            <h1 class="collection__title">My record collection</h1>
+            <p class="collection__sub">A shelf of songs I keep coming back to.</p>
+        </header>
+
+        <ng-container *ngIf="loaded; else loading">
+            <!-- Artists: a crate of records -->
+            <section class="artists-section">
+                <div class="sectionhead">
+                    <h2 class="sectionhead__title">Artists</h2>
+                    <p class="crate__hint">flip through →</p>
+                </div>
+                <div class="crate">
+                    <div class="crate__bin">
+                        <a class="artist" *ngFor="let g of artists; index as i"
+                           [routerLink]="[]" [queryParams]="{ artist: i }"
+                           [ngStyle]="{'--i': i}"
+                           [attr.aria-label]="g.title + ' — ' + trackCount(g) + ' tracks'">
+                            <span class="artist__sleeve" [ngStyle]="{'--cover': coverFor(i)}">
+                                <span class="artist__initial" aria-hidden="true">{{ g.title.charAt(0) }}</span>
+                                <span class="artist__label">
+                                    <span class="artist__name">{{ g.title }}</span>
+                                    <span class="artist__count">{{ trackCount(g) }} track{{ trackCount(g) === 1 ? '' : 's' }}</span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="crate__front" aria-hidden="true"></div>
+                </div>
+            </section>
+
+            <!-- Top picks carousel -->
+            <section class="picks" *ngIf="topPicks.length">
+                <div class="sectionhead">
+                    <h2 class="sectionhead__title">Top picks</h2>
+                    <div class="picks__nav">
+                        <button type="button" class="iconbtn" (click)="scrollPicks(-1)" aria-label="Scroll left">‹</button>
+                        <button type="button" class="iconbtn" (click)="scrollPicks(1)" aria-label="Scroll right">›</button>
+                    </div>
+                </div>
+                <div class="picks__track" #pickTrack
+                     (pointerenter)="setPicksPaused(true)" (pointerleave)="setPicksPaused(false)"
+                     (focusin)="setPicksPaused(true)" (focusout)="setPicksPaused(false)"
+                     (touchstart)="setPicksPaused(true)">
+                    <div class="picks__item" *ngFor="let song of topPicks">
+                        <app-songbox [song]="song"></app-songbox>
+                    </div>
+                </div>
+            </section>
+        </ng-container>
+
+        <ng-template #loading>
+            <p class="collection__empty">Pulling records off the shelf…</p>
+        </ng-template>
+    </ng-template>
+
+</section>

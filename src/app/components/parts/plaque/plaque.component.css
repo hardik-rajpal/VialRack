@@ -1,26 +1,55 @@
-div.plaqueparts{
-    display: flex;
-    flex-direction: row;
+/* Engraved brass nameplate — all CSS, two screws, incised lettering. */
+.plaque {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 6px 22px;
+    border-radius: 4px;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0) 38%),
+        linear-gradient(165deg, var(--brass-light), var(--brass) 48%, var(--brass-dark));
+    border: 1px solid var(--brass-dark);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.55),
+        inset 0 -2px 3px rgba(70, 48, 8, 0.45),
+        0 2px 4px rgba(40, 28, 8, 0.35);
+}
 
+/* screws */
+.plaque::before,
+.plaque::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--brass-light), var(--brass-dark));
+    box-shadow: inset 0 0 0 1px rgba(70, 48, 8, 0.5);
 }
-.p1{
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/plaques/plaque1mid.png');
-    height: 50px;
+.plaque::before { left: 7px; }
+.plaque::after  { right: 7px; }
+
+.plaque__text {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.15;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #3C2C0C;
+    /* incised: dark above, a thread of light catching the lower lip */
+    text-shadow: 0 1px 0 rgba(255, 244, 206, 0.45);
 }
-.p2{
-    background-image: url('https://raw.githubusercontent.com/hardik-rajpal/VialRack/master/src/assets/plaques/plaque2mid.png');
-    height: 50px;
+
+.plaque--lg {
+    padding: 9px 30px;
+    border-radius: 5px;
 }
-div.plaque{
-    -moz-background-size:100% 100%;
-    -webkit-background-size:100% 100%;
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* background-color: blue; */
-}
-div.plaque>p{
-    margin: 0;
+.plaque--lg .plaque__text {
+    font-size: 1.15rem;
+    letter-spacing: 1.5px;
 }
