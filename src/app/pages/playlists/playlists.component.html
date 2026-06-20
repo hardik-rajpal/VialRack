@@ -4,19 +4,17 @@
     <ng-container *ngIf="current as p; else overview">
         <a class="backlink" [routerLink]="[]" [queryParams]="{}">← All playlists</a>
 
-        <header class="plhead">
-            <span class="plhead__sleeve" [ngStyle]="{'--cover': coverFor(selected || 0)}">
-                <span class="plhead__initial">{{ label(p).charAt(0) }}</span>
-            </span>
-            <div class="plhead__meta">
+        <app-playlistbox [playlist]="p">
+            <div class="plhead">
+                <span class="plhead__sleeve" [ngStyle]="{'--cover': coverFor(selected || 0)}">
+                    <span class="plhead__initial">{{ label(p).charAt(0) }}</span>
+                </span>
                 <h1 class="plhead__name">{{ label(p) }}</h1>
                 <p class="plhead__artist">{{ artistLabel(p) }}</p>
                 <p class="plhead__count">{{ p.trackCount }} track{{ p.trackCount === 1 ? '' : 's' }}</p>
                 <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
             </div>
-        </header>
-
-        <app-playlistbox [playlist]="p"></app-playlistbox>
+        </app-playlistbox>
     </ng-container>
 
     <!-- ============ overview grid ============ -->

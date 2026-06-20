@@ -188,6 +188,59 @@
     font-weight: 500;
 }
 
+/* the record's identity — left column: big sleeve tile, name, links */
+.record { margin-bottom: 36px; }
+.record__id {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.record__sleeve {
+    width: 100%;
+    max-width: 240px;
+    aspect-ratio: 1 / 1;
+    display: grid;
+    place-items: center;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.24)),
+        var(--cover);
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-shadow: 0 16px 30px -14px rgba(28, 18, 6, 0.6);
+}
+.record__initial {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1;
+    color: rgba(255, 252, 244, 0.92);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.record__name {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    margin: 0;
+}
+.record__sub {
+    margin: 0;
+    font-family: var(--font-note);
+    font-size: 1.2rem;
+    color: var(--ink-soft);
+}
+.record__blurb {
+    margin: 4px 0 0;
+    color: var(--ink-soft);
+    line-height: 1.5;
+}
+.record__count {
+    margin: 2px 0 0;
+    font-family: var(--font-note);
+    font-size: 1.1rem;
+    color: var(--ink-soft);
+}
+.record .ytmlink { margin-top: 8px; }
+
 .artisthead {
     display: flex;
     align-items: center;
