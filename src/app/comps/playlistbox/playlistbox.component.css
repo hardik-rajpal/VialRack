@@ -94,3 +94,19 @@
     font-size: 0.85rem;
     color: var(--ink-soft);
 }
+
+/* a caption I've left on a track, as a little sticky note */
+.track__note {
+    flex: 0 0 auto;
+    max-width: 18ch;
+    padding: 5px 9px 6px;
+    font-family: var(--font-note);
+    font-size: 0.98rem;
+    line-height: 1.05;
+    color: var(--ink);
+    text-align: center;
+    background: linear-gradient(180deg, #F4E7A4, #E9D27E);
+    border-radius: 1px;
+    box-shadow: 0 4px 8px -4px rgba(28, 18, 6, 0.5);
+    transform: rotate(-2deg);
+}

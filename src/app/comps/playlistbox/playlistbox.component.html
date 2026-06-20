@@ -16,6 +16,7 @@
                 <span class="track__title">{{ t.title }}</span>
                 <span class="track__artist" *ngIf="t.artists">{{ t.artists }}</span>
             </span>
+            <span class="track__note" *ngIf="captions[t.videoId]">{{ captions[t.videoId] }}</span>
             <span class="track__dur">{{ t.duration }}</span>
         </li>
     </ol>

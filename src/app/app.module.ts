@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { PlaceholderPageComponent } from './pages/placeholder-page/placeholder-page.component';
@@ -75,7 +74,6 @@ import { LiteraryWorksComponent } from './pages/literary-works/literary-works.co
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule

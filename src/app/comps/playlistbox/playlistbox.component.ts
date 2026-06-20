@@ -8,6 +8,8 @@ import { Playlist, PlaylistTrack, ytEmbedUrl, ytMusicPlaylistUrl } from 'src/dat
 })
 export class PlaylistboxComponent {
   @Input() playlist!: Playlist;
+  /** captions keyed by videoId — rendered as sticky notes on matching tracks */
+  @Input() captions: { [videoId: string]: string } = {};
   selected: number | null = null;
 
   select(index: number) {

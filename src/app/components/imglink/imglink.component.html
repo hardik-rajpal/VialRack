@@ -3,7 +3,7 @@
        rel="noopener noreferrer" [attr.aria-label]="label" [ngStyle]="{'--cover': cover}">
         <ng-container *ngTemplateOutlet="art"></ng-container>
     </a>
-    <a *ngIf="!isExternal" class="card" [routerLink]="[link]"
+    <a *ngIf="!isExternal" class="card" [href]="href" (click)="onCardClick($event)"
        [attr.aria-label]="label" [ngStyle]="{'--cover': cover}">
         <ng-container *ngTemplateOutlet="art"></ng-container>
     </a>

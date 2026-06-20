@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MediumService } from 'src/app/services/medium.service';
 
 interface ShelfItem {
   label: string;
@@ -25,4 +26,9 @@ export class HomeComponent {
       { label: 'Records', link: 'inpraiseof/songs', cover: '#B08A3C', note: 'give it a spin', kind: 'records' },
     ],
   ];
+
+  constructor(private medium: MediumService) {
+    // warm the writeups feed so opening that page is instant
+    this.medium.getFeed().subscribe({ error: () => {} });
+  }
 }

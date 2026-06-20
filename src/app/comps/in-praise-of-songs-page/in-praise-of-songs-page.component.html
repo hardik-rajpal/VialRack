@@ -15,17 +15,21 @@
             </div>
         </header>
 
-        <div class="grid" *ngIf="artistSongs(artist).length">
-            <app-songbox *ngFor="let song of artistSongs(artist)" [song]="song"></app-songbox>
-        </div>
+        <ng-container *ngIf="artistPlaylists.length; else songsOnly">
+            <section class="artist-playlists" *ngFor="let p of artistPlaylists">
+                <div class="sectionhead">
+                    <h2 class="sectionhead__title">{{ p.playlist }}</h2>
+                    <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
+                </div>
+                <app-playlistbox [playlist]="p" [captions]="artistCaptions(artist)"></app-playlistbox>
+            </section>
+        </ng-container>
 
-        <section class="artist-playlists" *ngFor="let p of artistPlaylists">
-            <div class="sectionhead">
-                <h2 class="sectionhead__title">{{ p.playlist }}</h2>
-                <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
+        <ng-template #songsOnly>
+            <div class="grid" *ngIf="artistSongs(artist).length">
+                <app-songbox *ngFor="let song of artistSongs(artist)" [song]="song"></app-songbox>
             </div>
-            <app-playlistbox [playlist]="p"></app-playlistbox>
-        </section>
+        </ng-template>
     </ng-container>
 
     <!-- ============ collection overview ============ -->
@@ -36,25 +40,6 @@
         </header>
 
         <ng-container *ngIf="loaded; else loading">
-            <!-- Top picks carousel -->
-            <section class="picks" *ngIf="topPicks.length">
-                <div class="sectionhead">
-                    <h2 class="sectionhead__title">Top picks</h2>
-                    <div class="picks__nav">
-                        <button type="button" class="iconbtn" (click)="scrollPicks(-1)" aria-label="Scroll left">‹</button>
-                        <button type="button" class="iconbtn" (click)="scrollPicks(1)" aria-label="Scroll right">›</button>
-                    </div>
-                </div>
-                <div class="picks__track" #pickTrack
-                     (pointerenter)="setPicksPaused(true)" (pointerleave)="setPicksPaused(false)"
-                     (focusin)="setPicksPaused(true)" (focusout)="setPicksPaused(false)"
-                     (touchstart)="setPicksPaused(true)">
-                    <div class="picks__item" *ngFor="let song of topPicks">
-                        <app-songbox [song]="song"></app-songbox>
-                    </div>
-                </div>
-            </section>
-
             <!-- Artists: a crate of records -->
             <section class="artists-section">
                 <div class="sectionhead">
@@ -77,6 +62,25 @@
                         </a>
                     </div>
                     <div class="crate__front" aria-hidden="true"></div>
+                </div>
+            </section>
+
+            <!-- Top picks carousel -->
+            <section class="picks" *ngIf="topPicks.length">
+                <div class="sectionhead">
+                    <h2 class="sectionhead__title">Top picks</h2>
+                    <div class="picks__nav">
+                        <button type="button" class="iconbtn" (click)="scrollPicks(-1)" aria-label="Scroll left">‹</button>
+                        <button type="button" class="iconbtn" (click)="scrollPicks(1)" aria-label="Scroll right">›</button>
+                    </div>
+                </div>
+                <div class="picks__track" #pickTrack
+                     (pointerenter)="setPicksPaused(true)" (pointerleave)="setPicksPaused(false)"
+                     (focusin)="setPicksPaused(true)" (focusout)="setPicksPaused(false)"
+                     (touchstart)="setPicksPaused(true)">
+                    <div class="picks__item" *ngFor="let song of topPicks">
+                        <app-songbox [song]="song"></app-songbox>
+                    </div>
                 </div>
             </section>
         </ng-container>

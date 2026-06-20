@@ -199,9 +199,29 @@ export class InPraiseOfSongsPageComponent implements OnDestroy {
     return artist.songs.map((i) => this.data!.songs[i]).filter(Boolean);
   }
 
-  /** tracks shown for an artist: songbox songs, or their playlist totals. */
+  /** an artist's track count = their playlist size (fall back to songbox songs). */
   trackCount(artist: ArtistEntry): number {
-    return artist.songs.length || artist.playlists.reduce((sum, p) => sum + p.trackCount, 0);
+    const inPlaylists = artist.playlists.reduce((sum, p) => sum + p.trackCount, 0);
+    return inPlaylists || artist.songs.length;
+  }
+
+  private videoId(link: string): string {
+    const m = link.match(/embed\/([^?&/]+)/);
+    return m ? m[1] : '';
+  }
+
+  /** captions I've written, keyed by videoId, for the current artist's songs */
+  artistCaptions(artist: ArtistEntry): { [videoId: string]: string } {
+    const out: { [videoId: string]: string } = {};
+    if (!this.data) return out;
+    for (const i of artist.songs) {
+      const song = this.data.songs[i];
+      if (song && song.text) {
+        const id = this.videoId(song.link);
+        if (id) out[id] = song.text;
+      }
+    }
+    return out;
   }
 
   coverFor(index: number): string {

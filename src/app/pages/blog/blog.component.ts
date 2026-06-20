@@ -20,7 +20,6 @@ export class BlogComponent {
   stories: MediumStory[] = [];
   loaded = false;
   profile = 'https://medium.com/@hardikraj08';
-  driveUrl = 'https://drive.google.com/drive/folders/1oKO2LteQho8BY7bHiSwjNxT9F_rRuNhS?usp=drive_link';
 
   constructor(private medium: MediumService) {
     this.medium.getFeed().subscribe((feed) => {
