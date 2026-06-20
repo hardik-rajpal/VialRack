@@ -216,6 +216,15 @@ hr.thin {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
+/* covers spilling out of the record box on its way to the records page */
+.spill-rec {
+    position: fixed;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-shadow: 0 10px 18px -8px rgba(0, 0, 0, 0.55), inset 0 0 0 3px rgba(255, 255, 255, 0.1);
+    will-change: transform;
+}
+
 @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
