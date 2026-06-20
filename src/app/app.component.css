@@ -10,3 +10,10 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* the pages slide within here during route transitions */
+.route-stage {
+    position: relative;
+    overflow-x: clip;        /* hide the page sliding off-screen, keep vertical flow */
+    min-height: 72vh;        /* keep the footer from leaping while both pages are absolute */
+}

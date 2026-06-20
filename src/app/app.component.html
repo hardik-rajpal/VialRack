@@ -1,7 +1,9 @@
 <div class="shell">
   <app-siteheader></app-siteheader>
   <main class="shell__content">
-    <router-outlet></router-outlet>
+    <div class="route-stage" [@routeSlide]="prepareRoute(outlet)" [@.disabled]="reduceMotion">
+      <router-outlet #outlet="outlet"></router-outlet>
+    </div>
   </main>
   <app-sitefooter></app-sitefooter>
 </div>

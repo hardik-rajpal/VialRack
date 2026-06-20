@@ -75,6 +75,7 @@ import { LiteraryWorksComponent } from './pages/literary-works/literary-works.co
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule
