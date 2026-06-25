@@ -44,15 +44,8 @@
             <a class="backlink" [routerLink]="[]" [queryParams]="{}">{{ content.backlink }}</a>
 
             <section class="record" *ngIf="currentAlbumPlaylist as pl; else albumNoTracks">
-                <app-playlistbox [playlist]="pl">
+                <app-playlistbox [playlist]="pl" [preselectFirst]="true">
                     <div class="record__id">
-                        <span class="record__sleeve" [ngStyle]="{'--cover': coverFor(selectedAlbum || 0)}">
-                            <img class="artist__art" *ngIf="album.cover; else albumInitial"
-                                 [src]="album.cover" [alt]="album.title + ' cover'" />
-                            <ng-template #albumInitial>
-                                <span class="record__initial">{{ album.title.charAt(0) }}</span>
-                            </ng-template>
-                        </span>
                         <h1 class="record__name">{{ album.title }}</h1>
                         <p class="record__sub">{{ album.artist }}</p>
                         <p class="record__blurb" *ngIf="album.note">{{ album.note }}</p>

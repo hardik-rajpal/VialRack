@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Playlist, PlaylistTrack, ytEmbedUrl, ytMusicPlaylistUrl } from 'src/data/playlists';
 
 @Component({
@@ -6,16 +6,29 @@ import { Playlist, PlaylistTrack, ytEmbedUrl, ytMusicPlaylistUrl } from 'src/dat
   templateUrl: './playlistbox.component.html',
   styleUrls: ['./playlistbox.component.css']
 })
-export class PlaylistboxComponent {
+export class PlaylistboxComponent implements OnChanges {
   @Input() playlist!: Playlist;
   /** captions keyed by videoId — rendered as sticky notes on matching tracks */
   @Input() captions: { [videoId: string]: string } = {};
+  /** load the first track's player up front (paused, ready to play) */
+  @Input() preselectFirst = false;
   selected: number | null = null;
+  /** whether the loaded track should autoplay (true once the visitor picks one) */
+  autoplay = false;
   /** live filter over track titles and artist names */
   query = '';
 
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['playlist']) {
+      this.query = '';
+      this.autoplay = false;
+      this.selected = this.preselectFirst && this.playlist?.tracks?.length ? 0 : null;
+    }
+  }
+
   select(index: number) {
     this.selected = index;
+    this.autoplay = true;
   }
 
   /** tracks matching the search, paired with their original index */
@@ -34,7 +47,7 @@ export class PlaylistboxComponent {
   }
 
   embedUrl(): string {
-    return this.current ? ytEmbedUrl(this.current.videoId, true) : '';
+    return this.current ? ytEmbedUrl(this.current.videoId, this.autoplay) : '';
   }
 
   get ytmUrl(): string {

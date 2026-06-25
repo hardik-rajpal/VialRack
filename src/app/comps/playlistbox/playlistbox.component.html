@@ -9,7 +9,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
-            <p class="pbox__now"><span>Now playing</span> {{ track.title }} · {{ track.artists }}</p>
+            <p class="pbox__now"><span>{{ autoplay ? 'Now playing' : 'Up first' }}</span> {{ track.title }} · {{ track.artists }}</p>
         </div>
     </div>
 
