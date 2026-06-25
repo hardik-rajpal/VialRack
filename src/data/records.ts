@@ -28,6 +28,7 @@ export interface Album {
   listId?: string;  // YouTube "OLAK5uy…" playlist id (the album's YTM link / fallback embed)
   note?: string;
   tracks?: PlaylistTrack[];   // the album's songs, for our own playable list
+  phrases?: string[];         // lines from the songs, shown as sticky notes
 }
 
 /** An artist on the shelf: songs (from songs.json) and/or playlists (from ytm.json). */

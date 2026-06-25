@@ -58,6 +58,10 @@
             <ng-template #albumNoTracks>
                 <p class="collection__empty">No track list for this one yet — open it in YouTube Music.</p>
             </ng-template>
+
+            <section class="albumnotes" *ngIf="album.phrases?.length">
+                <span class="albumnote" *ngFor="let phrase of album.phrases">{{ phrase }}</span>
+            </section>
         </ng-container>
     </ng-template>
 
