@@ -2,15 +2,7 @@ import { Component } from '@angular/core';
 import { MediumService } from 'src/app/services/medium.service';
 import { GitdbService } from 'src/app/services/gitdb.service';
 import { PlaylistsService } from 'src/app/services/playlists.service';
-
-interface ShelfItem {
-  label: string;
-  link: string;
-  cover: string;
-  note?: string;
-  plaqueType?: number;
-  kind?: 'book' | 'records';
-}
+import { homeContent, homeShelves } from 'src/data/shelves';
 
 @Component({
   selector: 'app-home',
@@ -18,16 +10,8 @@ interface ShelfItem {
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  shelves: ShelfItem[][] = [
-    [
-      { label: 'Quotes I Love', link: 'https://pin.it/tR6kmR6', cover: '#A8693E', note: 'borrowed, lovingly' },
-      { label: 'Collected Literary Works', link: 'literature', cover: '#5E7385', note: 'poems & such' },
-    ],
-    [
-      { label: 'Writeups', link: 'blog', cover: '#43403A', note: 'longer thoughts' },
-      { label: 'Records', link: 'records', cover: '#B08A3C', note: 'give it a spin', kind: 'records' },
-    ],
-  ];
+  shelves = homeShelves;
+  content = homeContent;
 
   constructor(
     private medium: MediumService,

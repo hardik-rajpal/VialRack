@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { songSpec } from '../records-page/records-page.component';
+import { songSpec } from 'src/data/records';
 
 @Component({
   selector: 'app-songbox',

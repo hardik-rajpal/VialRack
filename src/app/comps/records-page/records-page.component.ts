@@ -2,41 +2,8 @@ import { Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { GitdbService } from 'src/app/services/gitdb.service';
 import { PlaylistsService } from 'src/app/services/playlists.service';
-import { Playlist, ytMusicPlaylistUrl } from 'src/data/playlists';
-
-export interface songDataSpec {
-  carousel: number[];
-  groups: groupSpec[]; // each group = an artist: title => song ids
-  songs: songSpec[];
-}
-export interface groupSpec {
-  title: string;
-  text: string;
-  songs: number[];
-}
-export interface songSpec {
-  id: number;
-  link: string;
-  title: string;
-  text: string;
-}
-
-/** A liked album on the shelf — links straight out to wherever it lives. */
-export interface Album {
-  title: string;
-  artist: string;
-  link: string;
-  cover?: string;   // album-art URL
-  note?: string;
-}
-
-/** An artist on the shelf: songs (from songs.json) and/or playlists (from ytm.json). */
-export interface ArtistEntry {
-  title: string;
-  songs: number[];          // indexes into data.songs (may be empty)
-  text?: string;
-  playlists: Playlist[];
-}
+import { Playlist, ytMusicPlaylistUrl, sleeveColours } from 'src/data/playlists';
+import { Album, ArtistEntry, recordsContent, songDataSpec, songSpec } from 'src/data/records';
 
 @Component({
   selector: 'app-records-page',
@@ -53,8 +20,8 @@ export class RecordsPageComponent implements OnDestroy {
   /** index into artists, or null for the collection overview */
   selectedArtist: number | null = null;
 
-  /** album-sleeve colours, cycled by artist index */
-  private readonly covers = ['#6F7E5F', '#A8693E', '#5E7385', '#8C4A3C', '#B08A3C', '#4E5D6B', '#7A5A6B'];
+  /** page copy, kept in src/data so content lives outside the component */
+  content = recordsContent;
 
   /** auto-scroll for the Top picks carousel */
   private autoTimer: ReturnType<typeof setInterval> | null = null;
@@ -245,7 +212,7 @@ export class RecordsPageComponent implements OnDestroy {
   }
 
   coverFor(index: number): string {
-    return this.covers[index % this.covers.length];
+    return sleeveColours[index % sleeveColours.length];
   }
 
   /** href fallback for the artist tiles (so middle-click / no-JS still works) */

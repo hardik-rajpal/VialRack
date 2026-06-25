@@ -2,7 +2,7 @@
 
     <!-- ============ single-artist view ============ -->
     <ng-container *ngIf="currentArtist as artist; else overview">
-        <a class="backlink" [routerLink]="[]" [queryParams]="{}">← My record collection</a>
+        <a class="backlink" [routerLink]="[]" [queryParams]="{}">{{ content.backlink }}</a>
 
         <ng-container *ngIf="artistPlaylists.length; else songsOnly">
             <section class="record" *ngFor="let p of artistPlaylists">
@@ -15,7 +15,7 @@
                         <p class="record__sub" *ngIf="(p.name || p.playlist) && (p.name || p.playlist) !== artist.title">{{ p.name || p.playlist }}</p>
                         <p class="record__blurb" *ngIf="artist.text">{{ artist.text }}</p>
                         <p class="record__count">{{ p.trackCount }} track{{ p.trackCount === 1 ? '' : 's' }}</p>
-                        <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
+                        <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">{{ content.ytmLink }}</a>
                     </div>
                 </app-playlistbox>
             </section>
@@ -41,16 +41,16 @@
     <!-- ============ collection overview ============ -->
     <ng-template #overview>
         <header class="collection__head">
-            <h1 class="collection__title">My record collection</h1>
-            <p class="collection__sub">A shelf of songs I keep coming back to.</p>
+            <h1 class="collection__title">{{ content.title }}</h1>
+            <p class="collection__sub">{{ content.sub }}</p>
         </header>
 
         <ng-container *ngIf="loaded; else loading">
             <!-- Artists: a crate of records -->
             <section class="artists-section">
                 <div class="sectionhead">
-                    <h2 class="sectionhead__title">Artists</h2>
-                    <p class="crate__hint">flip through →</p>
+                    <h2 class="sectionhead__title">{{ content.sections.artists }}</h2>
+                    <p class="crate__hint">{{ content.crateHint }}</p>
                 </div>
                 <div class="crate">
                     <div class="crate__bin">
@@ -74,8 +74,8 @@
             <!-- Albums I like: a crate that links straight out -->
             <section class="albums-section" *ngIf="albums.length">
                 <div class="sectionhead">
-                    <h2 class="sectionhead__title">Albums I like</h2>
-                    <p class="crate__hint">flip through →</p>
+                    <h2 class="sectionhead__title">{{ content.sections.albums }}</h2>
+                    <p class="crate__hint">{{ content.crateHint }}</p>
                 </div>
                 <div class="crate">
                     <div class="crate__bin">
@@ -104,7 +104,7 @@
             <!-- Top picks carousel -->
             <section class="picks" *ngIf="topPicks.length">
                 <div class="sectionhead">
-                    <h2 class="sectionhead__title">Top picks</h2>
+                    <h2 class="sectionhead__title">{{ content.sections.topPicks }}</h2>
                     <div class="picks__nav">
                         <button type="button" class="iconbtn" (click)="scrollPicks(-1)" aria-label="Scroll left">‹</button>
                         <button type="button" class="iconbtn" (click)="scrollPicks(1)" aria-label="Scroll right">›</button>
@@ -122,7 +122,7 @@
         </ng-container>
 
         <ng-template #loading>
-            <p class="collection__empty">Pulling records off the shelf…</p>
+            <p class="collection__empty">{{ content.loading }}</p>
         </ng-template>
     </ng-template>
 

@@ -1,8 +1,8 @@
 <section class="study">
-    <p class="study__eyebrow">Pull something off the shelf.</p>
+    <p class="study__eyebrow">{{ content.eyebrow }}</p>
 
     <div class="study__cabinet">
-        <span class="tag">still under construction — mind the sawdust</span>
+        <span class="tag">{{ content.tag }}</span>
         <app-shelfstack>
             <app-shelf *ngFor="let shelf of shelves">
                 <app-imglink

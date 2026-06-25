@@ -2,7 +2,7 @@
 
     <!-- ============ single playlist ============ -->
     <ng-container *ngIf="current as p; else overview">
-        <a class="backlink" [routerLink]="[]" [queryParams]="{}">← All playlists</a>
+        <a class="backlink" [routerLink]="[]" [queryParams]="{}">{{ content.backlink }}</a>
 
         <app-playlistbox [playlist]="p">
             <div class="plhead">
@@ -12,7 +12,7 @@
                 <h1 class="plhead__name">{{ label(p) }}</h1>
                 <p class="plhead__artist">{{ artistLabel(p) }}</p>
                 <p class="plhead__count">{{ p.trackCount }} track{{ p.trackCount === 1 ? '' : 's' }}</p>
-                <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">Open in YouTube Music ↗</a>
+                <a class="ytmlink" [href]="ytmUrl(p)" target="_blank" rel="noopener noreferrer">{{ content.ytmLink }}</a>
             </div>
         </app-playlistbox>
     </ng-container>
@@ -20,8 +20,8 @@
     <!-- ============ overview grid ============ -->
     <ng-template #overview>
         <header class="playlists__head">
-            <h1 class="playlists__title">Playlists</h1>
-            <p class="playlists__sub">Artist mixes I keep on YouTube Music.</p>
+            <h1 class="playlists__title">{{ content.title }}</h1>
+            <p class="playlists__sub">{{ content.sub }}</p>
         </header>
 
         <div class="grid" *ngIf="playlists.length; else empty">
@@ -40,7 +40,7 @@
         </div>
 
         <ng-template #empty>
-            <p class="playlists__empty">{{ loaded ? 'No playlists yet.' : 'Spinning up the turntable…' }}</p>
+            <p class="playlists__empty">{{ loaded ? content.emptyLoaded : content.emptyLoading }}</p>
         </ng-template>
     </ng-template>
 
