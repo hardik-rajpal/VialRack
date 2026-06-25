@@ -6,6 +6,14 @@
 /out-tsc
 /bazel-out
 cssfiles.txt
+# Stale manual build output dumped at the repo root (CI builds dist/ fresh)
+/main.*.js
+/polyfills.*.js
+/runtime.*.js
+/styles.*.css
+/3rdpartylicenses.txt
+/index.html
+/404.html
 # Node
 /node_modules
 npm-debug.log
