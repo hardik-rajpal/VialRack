@@ -44,7 +44,7 @@
             <a class="backlink" [routerLink]="[]" [queryParams]="{}">{{ content.backlink }}</a>
 
             <section class="record" *ngIf="currentAlbumPlaylist as pl; else albumNoTracks">
-                <app-playlistbox [playlist]="pl" [preselectFirst]="true">
+                <app-playlistbox #albumBox [playlist]="pl" [preselectFirst]="true">
                     <div class="record__id">
                         <h1 class="record__name">{{ album.title }}</h1>
                         <p class="record__sub">{{ album.artist }}</p>
@@ -60,7 +60,13 @@
             </ng-template>
 
             <section class="albumnotes" *ngIf="album.phrases?.length">
-                <span class="albumnote" *ngFor="let phrase of album.phrases">{{ phrase }}</span>
+                <button type="button" class="albumnote" *ngFor="let phrase of album.phrases"
+                        [class.is-playable]="!!phraseTrack(phrase)"
+                        [disabled]="!phraseTrack(phrase)"
+                        (click)="playPhrase(phrase)">
+                    <span class="albumnote__text">{{ phrase.text }}</span>
+                    <span class="albumnote__song" *ngIf="phraseTrack(phrase) as t">♪ {{ t.title }}</span>
+                </button>
             </section>
         </ng-container>
     </ng-template>

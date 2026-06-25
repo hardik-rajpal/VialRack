@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, ElementRef, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Playlist, PlaylistTrack, ytEmbedUrl, ytMusicPlaylistUrl } from 'src/data/playlists';
 
 @Component({
@@ -26,9 +26,22 @@ export class PlaylistboxComponent implements OnChanges {
     }
   }
 
+  constructor(private host: ElementRef<HTMLElement>) {}
+
   select(index: number) {
     this.selected = index;
     this.autoplay = true;
+  }
+
+  /** play a track by its videoId (e.g. from a clicked phrase) and scroll to it */
+  playVideoId(videoId: string) {
+    const index = this.playlist.tracks.findIndex((t) => t.videoId === videoId);
+    if (index < 0) return;
+    this.select(index);
+    setTimeout(() =>
+      this.host.nativeElement.querySelector('.pbox__player')
+        ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    );
   }
 
   /** tracks matching the search, paired with their original index */

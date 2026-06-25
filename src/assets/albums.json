@@ -378,7 +378,24 @@
           "thumbnail": ""
         }
       ],
-      "phrases": []
+      "phrases": [
+        {
+          "text": "Where they know they will find me, with my maps and faith in the distance, moving farther on.",
+          "track": 3
+        },
+        {
+          "text": "They were cutting from stone some dreams of their own, but they listened to mine anyways.",
+          "track": 4
+        },
+        {
+          "text": "In the end, they traded their tired wings, for the resignation that living brings, and exchanged love's bright and fragile glow for the glitter and the rouge.",
+          "track": 8
+        },
+        {
+          "text": "While they scuffled for your weary smiles, I thought of all the empty miles and the years that I'd spent looking for your eyes.",
+          "track": 2
+        }
+      ]
     },
     {
       "title": "Lucky Town",

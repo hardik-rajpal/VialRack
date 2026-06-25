@@ -19,6 +19,12 @@ export interface songSpec {
   text: string;
 }
 
+/** A line from a song, pinned on the album page as a sticky note. */
+export interface AlbumPhrase {
+  text: string;
+  track?: number;   // 1-based track number on the album; plays that song on click
+}
+
 /** A liked album on the shelf — opens its own page with the embedded YTM list. */
 export interface Album {
   title: string;
@@ -28,7 +34,7 @@ export interface Album {
   listId?: string;  // YouTube "OLAK5uy…" playlist id (the album's YTM link / fallback embed)
   note?: string;
   tracks?: PlaylistTrack[];   // the album's songs, for our own playable list
-  phrases?: string[];         // lines from the songs, shown as sticky notes
+  phrases?: AlbumPhrase[];    // lines from the songs, shown as sticky notes
 }
 
 /** An artist on the shelf: songs (from songs.json) and/or playlists (from ytm.json). */

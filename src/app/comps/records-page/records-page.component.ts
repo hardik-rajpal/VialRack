@@ -2,8 +2,9 @@ import { Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { GitdbService } from 'src/app/services/gitdb.service';
 import { PlaylistsService } from 'src/app/services/playlists.service';
-import { Playlist, ytMusicPlaylistUrl, sleeveColours } from 'src/data/playlists';
-import { Album, ArtistEntry, recordsContent, songDataSpec, songSpec } from 'src/data/records';
+import { PlaylistboxComponent } from 'src/app/comps/playlistbox/playlistbox.component';
+import { Playlist, PlaylistTrack, ytMusicPlaylistUrl, sleeveColours } from 'src/data/playlists';
+import { Album, AlbumPhrase, ArtistEntry, recordsContent, songDataSpec, songSpec } from 'src/data/records';
 
 @Component({
   selector: 'app-records-page',
@@ -35,6 +36,7 @@ export class RecordsPageComponent implements OnDestroy {
   private playlistsLoaded = false;
 
   @ViewChild('pickTrack') pickTrack?: ElementRef<HTMLElement>;
+  @ViewChild('albumBox') albumBox?: PlaylistboxComponent;
 
   constructor(
     private gitdb: GitdbService,
@@ -207,6 +209,17 @@ export class RecordsPageComponent implements OnDestroy {
     };
     this.albumPlaylistCache = { idx: this.selectedAlbum!, pl };
     return pl;
+  }
+
+  /** the track a phrase came from (by its 1-based album track number) */
+  phraseTrack(phrase: AlbumPhrase): PlaylistTrack | undefined {
+    return phrase.track ? this.currentAlbum?.tracks?.[phrase.track - 1] : undefined;
+  }
+
+  /** clicking a phrase plays the song it came from in the album player */
+  playPhrase(phrase: AlbumPhrase) {
+    const track = this.phraseTrack(phrase);
+    if (track) this.albumBox?.playVideoId(track.videoId);
   }
 
   artistSongs(artist: ArtistEntry): songSpec[] {
