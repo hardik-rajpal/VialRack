@@ -1,4 +1,4 @@
-import { Playlist } from "./playlists";
+import { Playlist, PlaylistTrack } from "./playlists";
 
 // ---- data shapes for the record collection (songs.json + albums.json) ----
 
@@ -19,13 +19,15 @@ export interface songSpec {
   text: string;
 }
 
-/** A liked album on the shelf — links straight out to wherever it lives. */
+/** A liked album on the shelf — opens its own page with the embedded YTM list. */
 export interface Album {
   title: string;
   artist: string;
   link: string;
   cover?: string;   // album-art URL
+  listId?: string;  // YouTube "OLAK5uy…" playlist id (the album's YTM link / fallback embed)
   note?: string;
+  tracks?: PlaylistTrack[];   // the album's songs, for our own playable list
 }
 
 /** An artist on the shelf: songs (from songs.json) and/or playlists (from ytm.json). */

@@ -1,7 +1,7 @@
 <section class="collection">
 
     <!-- ============ single-artist view ============ -->
-    <ng-container *ngIf="currentArtist as artist; else overview">
+    <ng-container *ngIf="currentArtist as artist; else notArtist">
         <a class="backlink" [routerLink]="[]" [queryParams]="{}">{{ content.backlink }}</a>
 
         <ng-container *ngIf="artistPlaylists.length; else songsOnly">
@@ -37,6 +37,36 @@
             </div>
         </ng-template>
     </ng-container>
+
+    <!-- ============ single-album view ============ -->
+    <ng-template #notArtist>
+        <ng-container *ngIf="currentAlbum as album; else overview">
+            <a class="backlink" [routerLink]="[]" [queryParams]="{}">{{ content.backlink }}</a>
+
+            <section class="record" *ngIf="currentAlbumPlaylist as pl; else albumNoTracks">
+                <app-playlistbox [playlist]="pl">
+                    <div class="record__id">
+                        <span class="record__sleeve" [ngStyle]="{'--cover': coverFor(selectedAlbum || 0)}">
+                            <img class="artist__art" *ngIf="album.cover; else albumInitial"
+                                 [src]="album.cover" [alt]="album.title + ' cover'" />
+                            <ng-template #albumInitial>
+                                <span class="record__initial">{{ album.title.charAt(0) }}</span>
+                            </ng-template>
+                        </span>
+                        <h1 class="record__name">{{ album.title }}</h1>
+                        <p class="record__sub">{{ album.artist }}</p>
+                        <p class="record__blurb" *ngIf="album.note">{{ album.note }}</p>
+                        <p class="record__count">{{ pl.trackCount }} track{{ pl.trackCount === 1 ? '' : 's' }}</p>
+                        <a class="ytmlink" [href]="album.link" target="_blank" rel="noopener noreferrer">{{ content.ytmLink }}</a>
+                    </div>
+                </app-playlistbox>
+            </section>
+
+            <ng-template #albumNoTracks>
+                <p class="collection__empty">No track list for this one yet — open it in YouTube Music.</p>
+            </ng-template>
+        </ng-container>
+    </ng-template>
 
     <!-- ============ collection overview ============ -->
     <ng-template #overview>
@@ -80,8 +110,7 @@
                 <div class="crate">
                     <div class="crate__bin">
                         <a class="artist" *ngFor="let al of albums; index as i"
-                           [href]="al.link" target="_blank" rel="noopener noreferrer"
-                           (click)="openAlbum($event, al, i)"
+                           [href]="albumHref(i)" (click)="openAlbum($event, al, i)"
                            [ngStyle]="{'--i': i}"
                            [attr.aria-label]="al.title + ' by ' + al.artist">
                             <span class="artist__sleeve" [ngStyle]="{'--cover': coverFor(i)}">

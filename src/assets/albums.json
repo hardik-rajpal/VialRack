@@ -5,49 +5,662 @@
       "artist": "Bruce Springsteen",
       "link": "https://music.youtube.com/browse/MPREb_GGamGtGrkxZ",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/72/68/327268ba-b9dd-b322-2a16-bdd0212df48c/074643865326.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_lmNLfFyYSZQ8Zu9pB9pjQNOfalhR-XwVo",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "EPhWR4d3FJQ",
+          "title": "Born in the U.S.A.",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "4:39",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "s3tqIk8TPWM",
+          "title": "Cover Me",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "3:29",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "1t5JvmqTx94",
+          "title": "Darlington County",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "4:46",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "5OEA9_Gtims",
+          "title": "Working on the Highway",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "3:12",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "2WPJT6VZxlo",
+          "title": "Downbound Train",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "3:38",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "lrpXArn3hII",
+          "title": "I'm On Fire",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "2:36",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "txKhQ9cbhgo",
+          "title": "No Surrender",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "4:00",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "iGR_Rk74tOk",
+          "title": "Bobby Jean",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "3:44",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "FDePd-mHOL4",
+          "title": "I'm Goin' Down",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "3:28",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "6vQpW9XRiyM",
+          "title": "Glory Days",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "4:20",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "129kuDCQtHs",
+          "title": "Dancing In the Dark",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "4:00",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "KrGi8ODOWR0",
+          "title": "My Hometown",
+          "artists": "Bruce Springsteen",
+          "album": "Born in the U.S.A.",
+          "duration": "4:35",
+          "thumbnail": ""
+        }
+      ]
     },
     {
       "title": "Tunnel of Love",
       "artist": "Bruce Springsteen",
       "link": "https://music.youtube.com/playlist?list=OLAK5uy_lERYzVUqyudQhSMCYRDwiTccQ3Z5CqO_o",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/42/60/bf42601d-baf5-8e50-0784-28bc65aa9b80/074644099928.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_lERYzVUqyudQhSMCYRDwiTccQ3Z5CqO_o",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "5iO8d8m0esY",
+          "title": "Ain't Got You",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "2:08",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "9XQX-zRVK-w",
+          "title": "Tougher Than the Rest",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "4:34",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "XlMDSTeb4_w",
+          "title": "All That Heaven Will Allow",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "2:39",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "mkFD8gmBWQc",
+          "title": "Spare Parts",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "3:39",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "QRHPkseMFnU",
+          "title": "Cautious Man",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "3:57",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "k2WDBy53x2k",
+          "title": "Walk Like a Man",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "3:37",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "M4K7XZGeHTE",
+          "title": "Tunnel of Love",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "5:10",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "119sq2IIoiA",
+          "title": "Two Faces",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "3:01",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "vQVs36wfyaY",
+          "title": "Brilliant Disguise",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "4:15",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "MkFQHScyti0",
+          "title": "One Step Up",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "4:22",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "yj53o9pkKRo",
+          "title": "When You're Alone",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "3:22",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "h5XgjPfL8KM",
+          "title": "Valentine's Day",
+          "artists": "Bruce Springsteen",
+          "album": "Tunnel of Love",
+          "duration": "5:13",
+          "thumbnail": ""
+        }
+      ]
     },
     {
       "title": "For Everyman",
       "artist": "Jackson Browne",
       "link": "https://music.youtube.com/browse/MPREb_me9zzf0LiXw",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/a6/13/7ba61333-b168-3b7b-0858-509934e6d4c9/603497822812.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_kBTKugQdR0xOYlwN-kwur07TvSpct9kMY",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "EWw9M_hPJbU",
+          "title": "Take It Easy",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:52",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "Vmlt_FHInZE",
+          "title": "Our Lady of the Well",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:40",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "zlruC0CS_gM",
+          "title": "Colors of the Sun",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "4:17",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "plcYAngidrM",
+          "title": "I Thought I Was a Child",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:45",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "bc81nqDXzVs",
+          "title": "These Days",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "4:47",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "zKVMR1uq0u0",
+          "title": "Red Neck Friend",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:59",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "5ySb_iS7cQw",
+          "title": "The Times You've Come",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:40",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "tzoH4ibAK0c",
+          "title": "Ready or Not",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:36",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "QE6RSe7xnbU",
+          "title": "Sing My Songs to Me",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "3:25",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "aQK5B7crCI4",
+          "title": "For Everyman",
+          "artists": "Jackson Browne",
+          "album": "For Everyman",
+          "duration": "6:13",
+          "thumbnail": ""
+        }
+      ]
     },
     {
       "title": "Late for the Sky",
       "artist": "Jackson Browne",
       "link": "https://music.youtube.com/browse/MPREb_ZaTyPRjDnix",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/24/b9/7d/24b97d71-9533-26fc-24f8-aca09e0706eb/dj.tzaofmft.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_na1s9zbzfDBllOKLUnhKPXj66-ou8juAI",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "n3SJz9jujEA",
+          "title": "Late for the Sky",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "5:42",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "k0vYnD6GGyU",
+          "title": "Fountain of Sorrow",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "6:53",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "6p7MLiJ1CsY",
+          "title": "Farther On",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "5:22",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "UW5_Wr9sWeY",
+          "title": "The Late Show",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "5:15",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "bN2BLHqkgSc",
+          "title": "The Road and the Sky",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "3:09",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "XnT_PbnpijE",
+          "title": "For a Dancer",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "4:47",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "6txdzsefEHU",
+          "title": "Walking Slow",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "3:56",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "bfF0x8e38Kg",
+          "title": "Before the Deluge",
+          "artists": "Jackson Browne",
+          "album": "Late for the Sky",
+          "duration": "6:22",
+          "thumbnail": ""
+        }
+      ]
     },
     {
       "title": "Lucky Town",
       "artist": "Bruce Springsteen",
       "link": "https://music.youtube.com/browse/MPREb_5UwCd63Ze59",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/4f/7f/3b4f7f6e-c5cd-0fb7-0e58-a7dc8b760c5b/074645300122.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_kklj-fI3LWp4CNV91MbMnWRQfFIssFWj8",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "SM3pM8HZ5fE",
+          "title": "Better Days",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:06",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "NMTrHfiOsmg",
+          "title": "Lucky Town",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "3:25",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "BExTE1vDhxs",
+          "title": "Local Hero",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:03",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "qKOjKKj_TPo",
+          "title": "If I Should Fall Behind",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "2:58",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "U4ALQoRaB9w",
+          "title": "Leap of Faith",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "3:23",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "kdZKratq6mw",
+          "title": "The Big Muddy",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:05",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "ni7oQq0ouUo",
+          "title": "Living Proof",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:45",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "LNBU4SkW4AM",
+          "title": "Book of Dreams",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:21",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "2t-81cQv5f8",
+          "title": "Souls of the Departed",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "4:17",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "TSq34PgSl-Q",
+          "title": "My Beautiful Reward",
+          "artists": "Bruce Springsteen",
+          "album": "Lucky Town",
+          "duration": "3:56",
+          "thumbnail": ""
+        }
+      ]
     },
     {
       "title": "Letter to You",
       "artist": "Bruce Springsteen",
       "link": "https://music.youtube.com/playlist?list=OLAK5uy_kFqDzre4qUItgZXfLuoxuOEpSM2arWKEM",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/8c/0c/7d8c0ce3-f1cf-26d3-cb30-a790baf3a026/886448711810.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_kFqDzre4qUItgZXfLuoxuOEpSM2arWKEM",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "s-RT3nxr3T4",
+          "title": "One Minute You're Here",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "2:58",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "AQyLEz0qy-g",
+          "title": "Letter To You",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "4:56",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "tTwpR6SCyRw",
+          "title": "Burnin' Train",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "4:04",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "A_BRCRkAkAE",
+          "title": "Janey Needs A Shooter",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "6:50",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "YE6l-_g814I",
+          "title": "Last Man Standing",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "4:06",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "Jb-m9SJKboE",
+          "title": "The Power Of Prayer",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "3:37",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "KzvnEvbL-qs",
+          "title": "House Of A Thousand Guitars",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "4:31",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "E_0pQTEhj8A",
+          "title": "Rainmaker",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "4:57",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "izbq7IUYja0",
+          "title": "If I Was The Priest",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "6:51",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "Lo5QNcFioZ4",
+          "title": "Ghosts",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "5:55",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "ib96-ytmLDg",
+          "title": "Song For Orphans",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "6:14",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "dJkaZ8hQM60",
+          "title": "I'll See You In My Dreams",
+          "artists": "Bruce Springsteen",
+          "album": "Letter to You",
+          "duration": "3:30",
+          "thumbnail": ""
+        }
+      ]
     },
     {
       "title": "I'm Alive",
       "artist": "Jackson Browne",
       "link": "https://music.youtube.com/browse/MPREb_sQpz6pvb9Xs",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/78/00/e8/mzi.bqpwmstr.jpg/600x600bb.jpg",
-      "note": ""
+      "listId": "OLAK5uy_nu3yPbslM-CzqTc4KkdX-8fegSxcj9_fs",
+      "note": "",
+      "tracks": [
+        {
+          "videoId": "VMxWcFt8wao",
+          "title": "I'm Alive",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "5:10",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "IF1YFZcnu2I",
+          "title": "My Problem Is You",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "4:41",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "PwhZvtDSVkk",
+          "title": "Everywhere I Go",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "4:38",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "Q4IsnBD0o98",
+          "title": "I'll Do Anything",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "4:33",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "b_EkqtPMr18",
+          "title": "Miles Away",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "3:53",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "JssxdjkAk6I",
+          "title": "Too Many Angels",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "6:05",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "bZZm99HUVjg",
+          "title": "Take This Rain",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "4:51",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "2ijXcSw3eRw",
+          "title": "Two of Me, Two of You",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "2:57",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "Ty1I6dtC2zc",
+          "title": "Sky Blue and Black",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "6:08",
+          "thumbnail": ""
+        },
+        {
+          "videoId": "fztz5v-C7jM",
+          "title": "All Good Things",
+          "artists": "Jackson Browne",
+          "album": "I'm Alive",
+          "duration": "4:28",
+          "thumbnail": ""
+        }
+      ]
     }
   ]
 }

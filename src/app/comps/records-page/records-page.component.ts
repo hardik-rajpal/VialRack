@@ -19,6 +19,8 @@ export class RecordsPageComponent implements OnDestroy {
   artists: ArtistEntry[] = [];
   /** index into artists, or null for the collection overview */
   selectedArtist: number | null = null;
+  /** index into albums, or null when not viewing an album */
+  selectedAlbum: number | null = null;
 
   /** page copy, kept in src/data so content lives outside the component */
   content = recordsContent;
@@ -56,6 +58,8 @@ export class RecordsPageComponent implements OnDestroy {
     this.route.queryParams.subscribe((params) => {
       const a = params['artist'];
       this.selectedArtist = a !== undefined && a !== '' && !isNaN(+a) ? +a : null;
+      const b = params['album'];
+      this.selectedAlbum = b !== undefined && b !== '' && !isNaN(+b) ? +b : null;
     });
 
     this.playlistsSvc.getAll().subscribe({
@@ -181,6 +185,30 @@ export class RecordsPageComponent implements OnDestroy {
     return this.selectedArtist !== null ? this.artists[this.selectedArtist] ?? null : null;
   }
 
+  get currentAlbum(): Album | null {
+    return this.selectedAlbum !== null ? this.albums[this.selectedAlbum] ?? null : null;
+  }
+
+  /** the current album as a Playlist so it renders through app-playlistbox,
+      memoised so the box keeps its search/selection across change detection */
+  private albumPlaylistCache: { idx: number; pl: Playlist } | null = null;
+  get currentAlbumPlaylist(): Playlist | null {
+    const album = this.currentAlbum;
+    if (!album || !album.tracks?.length) return null;
+    if (this.albumPlaylistCache?.idx === this.selectedAlbum) return this.albumPlaylistCache.pl;
+    const pl: Playlist = {
+      playlist: album.title,
+      name: album.title,
+      artists: [album.artist],
+      playlistId: album.listId || '',
+      trackCount: album.tracks.length,
+      thumbnail: album.cover || '',
+      tracks: album.tracks,
+    };
+    this.albumPlaylistCache = { idx: this.selectedAlbum!, pl };
+    return pl;
+  }
+
   artistSongs(artist: ArtistEntry): songSpec[] {
     if (!this.data) return [];
     return artist.songs.map((i) => this.data!.songs[i]).filter(Boolean);
@@ -215,9 +243,12 @@ export class RecordsPageComponent implements OnDestroy {
     return sleeveColours[index % sleeveColours.length];
   }
 
-  /** href fallback for the artist tiles (so middle-click / no-JS still works) */
+  /** href fallbacks for the tiles (so middle-click / no-JS still work) */
   artistHref(index: number): string {
     return '?artist=' + index;
+  }
+  albumHref(index: number): string {
+    return '?album=' + index;
   }
 
   /** an artist record cover: gatefold-open, then open the artist's page. */
@@ -233,17 +264,19 @@ export class RecordsPageComponent implements OnDestroy {
     });
   }
 
-  /** an album cover: gatefold-open, then open the album (same tab). */
+  /** an album cover: gatefold-open, then open the album's own page. */
   openAlbum(event: MouseEvent, album: Album, index: number) {
-    if (this.modifiedClick(event)) return;   // ctrl / middle click still opens a new tab
+    if (this.modifiedClick(event)) return;   // let the browser handle new-tab etc.
     event.preventDefault();
     const sleeve = this.sleeveFrom(event);
-    const go = () => { window.location.href = album.link; };
+    const go = () => this.router.navigate([], { relativeTo: this.route, queryParams: { album: index } });
     if (!sleeve || this.prefersReducedMotion()) { go(); return; }
     const cover = album.cover
       ? this.buildCover({ coverUrl: album.cover })
       : this.buildCover({ color: this.coverFor(index), initial: album.title.charAt(0) });
-    this.openSleeve(sleeve, cover, () => window.setTimeout(go, 80));
+    this.openSleeve(sleeve, cover, (overlay) => {
+      go().then(() => this.fadeRemove(overlay)).catch(() => overlay.remove());
+    });
   }
 
   private modifiedClick(e: MouseEvent): boolean {
