@@ -1,24 +1,22 @@
 <section class="lit">
     <header class="lit__head">
         <h1 class="lit__title">Collected Literary Works</h1>
-        <p class="lit__sub">Pieces worth dog-earing — by others, and a few of my own.</p>
+        <p class="lit__sub">Pieces worth dog-earing</p>
     </header>
 
-    <div class="lit__shelf" *ngIf="groups.length; else state">
-        <section class="author" *ngFor="let g of groups; index as gi">
-            <h2 class="author__name">{{ g.author }}</h2>
-            <div class="marks">
-                <a class="mark" *ngFor="let w of g.works; index as wi"
-                   [href]="w.link" target="_blank" rel="noopener noreferrer"
-                   [ngStyle]="{'--cover': coverFor(gi + wi)}">
-                    <span class="mark__main">
-                        <span class="mark__title">{{ w.title }}</span>
-                        <span class="mark__note" *ngIf="w.note">{{ w.note }}</span>
-                    </span>
-                    <span class="mark__host">{{ host(w.link) }} ↗</span>
-                </a>
-            </div>
-        </section>
+    <div class="rail" *ngIf="works.length; else state">
+        <div class="marks">
+            <a class="mark" *ngFor="let w of works; index as i"
+               [href]="w.link" target="_blank" rel="noopener noreferrer"
+               [ngStyle]="{'--cover': coverFor(i)}">
+                <span class="mark__main">
+                    <span class="mark__author">{{ author(w) }}</span>
+                    <span class="mark__title">{{ w.title }}</span>
+                    <span class="mark__note" *ngIf="w.note">{{ w.note }}</span>
+                </span>
+                <span class="mark__host">{{ host(w.link) }} ↗</span>
+            </a>
+        </div>
     </div>
 
     <ng-template #state>

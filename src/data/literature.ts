@@ -8,8 +8,3 @@ export interface LiteraryWork {
 export interface LiteratureFeed {
   works: LiteraryWork[];
 }
-
-export interface AuthorGroup {
-  author: string;
-  works: LiteraryWork[];
-}
