@@ -55,7 +55,7 @@
                 <div class="crate">
                     <div class="crate__bin">
                         <a class="artist" *ngFor="let g of artists; index as i"
-                           [routerLink]="[]" [queryParams]="{ artist: i }"
+                           [href]="artistHref(i)" (click)="openArtist($event, i, g)"
                            [ngStyle]="{'--i': i}"
                            [attr.aria-label]="g.title + ' — ' + trackCount(g) + ' tracks'">
                             <span class="artist__sleeve" [ngStyle]="{'--cover': coverFor(i)}">
@@ -63,6 +63,36 @@
                                 <span class="artist__label">
                                     <span class="artist__name">{{ g.title }}</span>
                                     <span class="artist__count">{{ trackCount(g) }} track{{ trackCount(g) === 1 ? '' : 's' }}</span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="crate__front" aria-hidden="true"></div>
+                </div>
+            </section>
+
+            <!-- Albums I like: a crate that links straight out -->
+            <section class="albums-section" *ngIf="albums.length">
+                <div class="sectionhead">
+                    <h2 class="sectionhead__title">Albums I like</h2>
+                    <p class="crate__hint">flip through →</p>
+                </div>
+                <div class="crate">
+                    <div class="crate__bin">
+                        <a class="artist" *ngFor="let al of albums; index as i"
+                           [href]="al.link" target="_blank" rel="noopener noreferrer"
+                           (click)="openAlbum($event, al, i)"
+                           [ngStyle]="{'--i': i}"
+                           [attr.aria-label]="al.title + ' by ' + al.artist">
+                            <span class="artist__sleeve" [ngStyle]="{'--cover': coverFor(i)}">
+                                <img class="artist__art" *ngIf="al.cover; else albumInitial"
+                                     [src]="al.cover" [alt]="al.title + ' cover'" loading="lazy" />
+                                <ng-template #albumInitial>
+                                    <span class="artist__initial" aria-hidden="true">{{ al.title.charAt(0) }}</span>
+                                </ng-template>
+                                <span class="artist__label">
+                                    <span class="artist__name">{{ al.title }}</span>
+                                    <span class="artist__count">{{ al.artist }}</span>
                                 </span>
                             </span>
                         </a>

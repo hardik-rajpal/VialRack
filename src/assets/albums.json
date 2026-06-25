@@ -1,0 +1,53 @@
+{
+  "albums": [
+    {
+      "title": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen",
+      "link": "https://music.youtube.com/browse/MPREb_GGamGtGrkxZ",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/72/68/327268ba-b9dd-b322-2a16-bdd0212df48c/074643865326.jpg/600x600bb.jpg",
+      "note": ""
+    },
+    {
+      "title": "Tunnel of Love",
+      "artist": "Bruce Springsteen",
+      "link": "https://music.youtube.com/playlist?list=OLAK5uy_lERYzVUqyudQhSMCYRDwiTccQ3Z5CqO_o",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/42/60/bf42601d-baf5-8e50-0784-28bc65aa9b80/074644099928.jpg/600x600bb.jpg",
+      "note": ""
+    },
+    {
+      "title": "For Everyman",
+      "artist": "Jackson Browne",
+      "link": "https://music.youtube.com/browse/MPREb_me9zzf0LiXw",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/a6/13/7ba61333-b168-3b7b-0858-509934e6d4c9/603497822812.jpg/600x600bb.jpg",
+      "note": ""
+    },
+    {
+      "title": "Late for the Sky",
+      "artist": "Jackson Browne",
+      "link": "https://music.youtube.com/browse/MPREb_ZaTyPRjDnix",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/24/b9/7d/24b97d71-9533-26fc-24f8-aca09e0706eb/dj.tzaofmft.jpg/600x600bb.jpg",
+      "note": ""
+    },
+    {
+      "title": "Lucky Town",
+      "artist": "Bruce Springsteen",
+      "link": "https://music.youtube.com/browse/MPREb_5UwCd63Ze59",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/4f/7f/3b4f7f6e-c5cd-0fb7-0e58-a7dc8b760c5b/074645300122.jpg/600x600bb.jpg",
+      "note": ""
+    },
+    {
+      "title": "Letter to You",
+      "artist": "Bruce Springsteen",
+      "link": "https://music.youtube.com/playlist?list=OLAK5uy_kFqDzre4qUItgZXfLuoxuOEpSM2arWKEM",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/8c/0c/7d8c0ce3-f1cf-26d3-cb30-a790baf3a026/886448711810.jpg/600x600bb.jpg",
+      "note": ""
+    },
+    {
+      "title": "I'm Alive",
+      "artist": "Jackson Browne",
+      "link": "https://music.youtube.com/browse/MPREb_sQpz6pvb9Xs",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/78/00/e8/mzi.bqpwmstr.jpg/600x600bb.jpg",
+      "note": ""
+    }
+  ]
+}

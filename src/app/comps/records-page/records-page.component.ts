@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { GitdbService } from 'src/app/services/gitdb.service';
 import { PlaylistsService } from 'src/app/services/playlists.service';
 import { Playlist, ytMusicPlaylistUrl } from 'src/data/playlists';
@@ -21,6 +21,15 @@ export interface songSpec {
   text: string;
 }
 
+/** A liked album on the shelf — links straight out to wherever it lives. */
+export interface Album {
+  title: string;
+  artist: string;
+  link: string;
+  cover?: string;   // album-art URL
+  note?: string;
+}
+
 /** An artist on the shelf: songs (from songs.json) and/or playlists (from ytm.json). */
 export interface ArtistEntry {
   title: string;
@@ -37,6 +46,8 @@ export interface ArtistEntry {
 export class RecordsPageComponent implements OnDestroy {
   data: songDataSpec | null = null;
   topPicks: songSpec[] = [];
+  /** albums I like, loaded from assets/albums.json */
+  albums: Album[] = [];
   /** every artist with songs and/or a playlist */
   artists: ArtistEntry[] = [];
   /** index into artists, or null for the collection overview */
@@ -59,7 +70,8 @@ export class RecordsPageComponent implements OnDestroy {
   constructor(
     private gitdb: GitdbService,
     private route: ActivatedRoute,
-    private playlistsSvc: PlaylistsService
+    private playlistsSvc: PlaylistsService,
+    private router: Router
   ) {}
 
   get loaded(): boolean {
@@ -89,6 +101,13 @@ export class RecordsPageComponent implements OnDestroy {
         this.playlistsLoaded = true;
         this.buildArtists();
       },
+    });
+
+    this.gitdb.getAlbums().subscribe({
+      next: (data: any) => {
+        this.albums = (data?.albums ?? []) as Album[];
+      },
+      error: () => {},
     });
 
     this.gitdb.getVialRackSongs().subscribe({
@@ -227,6 +246,124 @@ export class RecordsPageComponent implements OnDestroy {
 
   coverFor(index: number): string {
     return this.covers[index % this.covers.length];
+  }
+
+  /** href fallback for the artist tiles (so middle-click / no-JS still works) */
+  artistHref(index: number): string {
+    return '?artist=' + index;
+  }
+
+  /** an artist record cover: gatefold-open, then open the artist's page. */
+  openArtist(event: MouseEvent, index: number, artist: ArtistEntry) {
+    if (this.modifiedClick(event)) return;   // let the browser handle new-tab etc.
+    event.preventDefault();
+    const sleeve = this.sleeveFrom(event);
+    const go = () => this.router.navigate([], { relativeTo: this.route, queryParams: { artist: index } });
+    if (!sleeve || this.prefersReducedMotion()) { go(); return; }
+    const cover = this.buildCover({ color: this.coverFor(index), initial: artist.title.charAt(0) });
+    this.openSleeve(sleeve, cover, (overlay) => {
+      go().then(() => this.fadeRemove(overlay)).catch(() => overlay.remove());
+    });
+  }
+
+  /** an album cover: gatefold-open, then open the album (same tab). */
+  openAlbum(event: MouseEvent, album: Album, index: number) {
+    if (this.modifiedClick(event)) return;   // ctrl / middle click still opens a new tab
+    event.preventDefault();
+    const sleeve = this.sleeveFrom(event);
+    const go = () => { window.location.href = album.link; };
+    if (!sleeve || this.prefersReducedMotion()) { go(); return; }
+    const cover = album.cover
+      ? this.buildCover({ coverUrl: album.cover })
+      : this.buildCover({ color: this.coverFor(index), initial: album.title.charAt(0) });
+    this.openSleeve(sleeve, cover, () => window.setTimeout(go, 80));
+  }
+
+  private modifiedClick(e: MouseEvent): boolean {
+    return e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey;
+  }
+
+  private sleeveFrom(event: MouseEvent): HTMLElement | null {
+    const host = event.currentTarget as HTMLElement | null;
+    return host?.querySelector('.artist__sleeve') as HTMLElement | null;
+  }
+
+  /** the swinging front cover — either album art or a coloured sleeve + initial */
+  private buildCover(opts: { coverUrl?: string; color?: string; initial?: string }): HTMLElement {
+    const el = document.createElement('div');
+    el.className = 'album-open-cover';
+    if (opts.color) el.style.setProperty('--cover', opts.color);
+    if (opts.coverUrl) {
+      const img = document.createElement('img');
+      img.src = opts.coverUrl;
+      img.alt = '';
+      el.appendChild(img);
+    } else if (opts.initial) {
+      const span = document.createElement('span');
+      span.className = 'album-open-initial';
+      span.textContent = opts.initial;
+      el.appendChild(span);
+    }
+    return el;
+  }
+
+  /** Build the open-into overlay over a sleeve: the cover swings open on its
+      spine to reveal a spinning vinyl, then the sleeve grows to fill the screen.
+      onPeak fires once it's full-screen (caller navigates / opens from there). */
+  private openSleeve(sleeveEl: HTMLElement, coverEl: HTMLElement, onPeak: (overlay: HTMLElement) => void) {
+    const rect = sleeveEl.getBoundingClientRect();
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+
+    const overlay = document.createElement('div');
+    overlay.className = 'book-open-overlay';
+
+    const wrap = document.createElement('div');
+    wrap.className = 'album-open-wrap';
+    wrap.style.left = rect.left + 'px';
+    wrap.style.top = rect.top + 'px';
+    wrap.style.width = rect.width + 'px';
+    wrap.style.height = rect.height + 'px';
+
+    const inner = document.createElement('div');
+    inner.className = 'album-open-inner';
+    const disc = document.createElement('div');
+    disc.className = 'album-open-disc';
+    inner.appendChild(disc);
+
+    wrap.appendChild(inner);
+    wrap.appendChild(coverEl);
+    overlay.appendChild(wrap);
+    document.body.appendChild(overlay);
+
+    const scale = Math.max(vw / rect.width, vh / rect.height) * 1.08;
+    const dx = vw / 2 - (rect.left + rect.width / 2);
+    const dy = vh / 2 - (rect.top + rect.height / 2);
+
+    coverEl.animate(
+      [{ transform: 'rotateY(0deg)' }, { transform: 'rotateY(-118deg)' }],
+      { duration: 520, easing: 'cubic-bezier(0.4, 0.05, 0.2, 1)', fill: 'forwards' }
+    );
+    disc.animate(
+      [{ transform: 'rotate(0deg) scale(0.96)' }, { transform: 'rotate(150deg) scale(1)' }],
+      { duration: 820, easing: 'cubic-bezier(0.3, 0.5, 0.3, 1)', fill: 'forwards' }
+    );
+    const grow = wrap.animate(
+      [
+        { transform: 'translate(0px, 0px) scale(1)' },
+        { transform: `translate(${dx}px, ${dy}px) scale(${scale})` },
+      ],
+      { duration: 700, delay: 140, easing: 'cubic-bezier(0.5, 0, 0.2, 1)', fill: 'forwards' }
+    );
+    grow.onfinish = () => onPeak(overlay);
+  }
+
+  private fadeRemove(overlay: HTMLElement) {
+    const fade = overlay.animate(
+      [{ opacity: 1 }, { opacity: 0 }],
+      { duration: 320, easing: 'ease', fill: 'forwards' }
+    );
+    fade.onfinish = () => overlay.remove();
   }
 
   get artistPlaylists(): Playlist[] {
